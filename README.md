@@ -1,8 +1,3 @@
 #readme file
 
-This is my personal website
-
-## contrib
-* something
-* something else
-* something else
+These are some of my coding projects from college and on my own
