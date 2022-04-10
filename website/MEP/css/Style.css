@@ -1,0 +1,58 @@
+#body {
+  overflow: hidden; /* Hide scrollbars */
+}
+
+#bg {
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+
+	/* Preserve aspect ratio */
+	min-width: 100%;
+	min-height: 100%;
+}
+
+#selected {
+	color: DodgerBlue; 
+}
+
+.navbar-custom {
+	font-family: roboto, sans-serif;
+	font-weight: bold;
+	font-size: 1em;
+	opacity: 80%; 
+}
+
+#bottom{
+	position: absolute;
+	bottom: -100px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	height: auto;
+	padding-top: 20px;
+	opacity: 80%; 
+}
+
+h1 {
+	font-family: Georgia, sans-serif;
+	font-size: 2em;
+	/* padding-bottom: 1px; */
+}
+
+p {
+	padding-left: 18%;
+	padding-right: 18%;
+	font-family: georgia, sans-serif;
+	font-size: .9em;
+	width: 100%;
+}
+
+#logo{
+	font-family: freestyle script, sans-serif;
+	/* font-family: segoe print, sans-serif; */
+	 color: DodgerBlue; 
+	font-weight: bold;
+	font-size: 2.5em;
+	
+}

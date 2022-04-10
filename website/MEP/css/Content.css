@@ -1,0 +1,214 @@
+#html { 
+  background: url(../images/background-home.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+#body {
+  overflow: hidden; /* Hide scrollbars */
+  /* background-color: #999999; too dark? */
+  /* background-color: #C1C1C1; too light?*/
+  
+  margin:0%;
+  width:100%;
+  height:100%;
+  background: url(../images/backgrounds/pets.jpg) no-repeat top center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+  /* background-color: #B2B2B2; */
+}
+
+#bg {
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+
+	/* Preserve aspect ratio */
+	min-width: 100%;
+	min-height: 100%;
+	
+}
+
+#selected {
+	color: DodgerBlue;
+}
+
+.navbar-custom {
+	font-family: roboto, sans-serif;
+	font-weight: Bold;
+	font-size: 1em;
+	opacity: 80%; 
+	/* background: #515151 !important; */
+	background: #E0E0E0 !important;
+}
+
+#bottom{
+	position: absolute;
+	bottom: -70px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	height: auto;
+	padding-top: 20px;
+	opacity: 80%; 
+}
+
+h1 {
+	font-family: Georgia, sans-serif;
+	font-size: 2em;
+}
+
+p {
+	padding-left: 18%;
+	padding-right: 18%;
+	font-family: georgia, sans-serif;
+	font-size: .9em;
+	width: 100%;
+}
+
+#logo{
+	font-family: freestyle script, sans-serif;
+	/* font-family: segoe print, sans-serif; */
+	color: DodgerBlue; 
+	font-weight: bold;
+	font-size: 2.5em;
+}
+
+/* for 2nd nav/bcmbs */
+.fixed-top-2 {
+    margin-top: 140px;
+}
+
+.custom-nav-pad {
+    padding-top: 105px;
+}
+
+.breadcrumb-custom{
+	font-family: Georgia, sans-serif;
+	color: #5B5B5B;
+	display: block;
+	height: 140px;
+	opacity:80%;
+}
+
+.breadcrumb-font{
+	font-size: 2.5em;
+}
+
+.circ-icon{
+	width:150px;
+	position: relative;
+	float:right;
+	top:-113px;
+	z-index:3;
+	padding: 20px;
+}
+
+.content
+{
+    position:absolute;
+    left:0%;
+    top:0%;
+    margin:0%;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    display:block;
+    z-index:2;
+}
+
+.bg
+{
+    position:fixed;
+    top:0%;
+    left:0%;
+    height:100%;
+    width:100%;
+    margin:0%;
+    z-index:0;
+	
+}
+
+.pet
+{
+    display:block;
+    background:url(../images/backgrounds/pets.jpg) no-repeat top center fixed;
+    background-size:cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+}
+
+.family
+{
+    display:block;
+    background:url(../images/backgrounds/families.jpg) no-repeat top center fixed;
+    background-size:cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+}
+
+.wedding
+{
+    display:block;
+    background:url(../images/backgrounds/weddings.jpg) no-repeat top center fixed;
+    background-size:cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+}
+
+.children
+{
+    display:block;
+    background:url(../images/backgrounds/children.jpg) no-repeat top center fixed;
+    background-size:cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+}
+
+.business
+{
+    display:block;
+    background:url(../images/backgrounds/business.jpg) no-repeat top center fixed;
+    background-size:cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+}
+
+.hide{display:none;}
+
+.center{
+	display:block;
+    background-size:cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+}
+
+
+
+
+
+
+
