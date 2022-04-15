@@ -19,7 +19,7 @@ theme = "hugo-initio"
     author = "Sergey Pozhilov (GetTemplate.com)"
 
     showSubheader = true
-    showServices = true
+    showProjects = true
     showRecentWorks = true
     showDownloads = true
     showClients = true

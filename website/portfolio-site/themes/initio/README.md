@@ -46,7 +46,7 @@ You can show or hide each home page section from the `config.toml`:
 
 ```toml
 showSubheader = true
-showServices = true
+showProjects = true
 showRecentWorks = true
 showDownloads = true
 showClients = true

@@ -1,5 +1,5 @@
-[home_services]
-    other = "Services"
+[home_projects]
+    other = "Projects"
 
 [home_recentworks]
     other = "Recent works"

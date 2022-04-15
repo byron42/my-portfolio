@@ -10,7 +10,7 @@
         {{ range .Site.Sections }}
             {{ range .Sections.ByWeight }}
                 {{ $stype := .Type}}
-                {{ if (or (and (eq $stype "service") (.Site.Params.showServices))
+                {{ if (or (and (eq $stype "project") (.Site.Params.showProjects))
                           (and (eq $stype "recentwork") (.Site.Params.showRecentWorks))
                           (and (eq $stype "download") (.Site.Params.showDownloads))
                           (and (eq $stype "client") (.Site.Params.showClients))
@@ -20,8 +20,8 @@
                        <h2 class="section-title">
                          <span>{{.Title}}</span>
                        </h2>
-                     {{ if eq $stype "service" }}
-                       {{ partial "home/services.html" . }}
+                     {{ if eq $stype "project" }}
+                       {{ partial "home/projects.html" . }}
 
                      {{ else if eq $stype "recentwork" }}
                        {{ partial "home/recentworks.html" . }}
