@@ -11,7 +11,9 @@
         </div>
 
         <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
-            <a class="navbar-brand logo" href="#">Brian Efflandt</a>
+            <a class="navbar-brand" href="/"><img class='img logo-nav -{{ .Site.Params.logoclass | default "LOGO"}} ' src="{{ .Site.BaseURL }}{{ .Site.Params.logo }}" alt="" style=""></a>
+            <!-- <a href="#" class="pull-left"><img src="../static/images/head-icon.png">BE</a>  -->
+            
             <ul class="nav navbar-nav">
             {{ range .Site.Menus.main }}
                 {{ if .HasChildren }}

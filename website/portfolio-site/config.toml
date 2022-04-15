@@ -4,17 +4,20 @@ title = "Initio - Free, multipurpose html5 template by GetTemplate"
 theme = "initio"
 
 [params]
-    name = "Anthony Russel"
-    description = "A mystery person"
-    email = "anthony.russel42@example.com"
+    logo = "images/head-icon.png"
+    logoclass = "LOGO"
+
+    name = "Brian Efflandt"
+    description = "Application Developer"
+    email = "efflandt.brian@gmail.com"
     phone = "+234 23 9873237"
     address = "234 Hidden Pond Road, Ashland City, TN 37015"
     year = 2017
-    avatar = "images/guy.jpg"
+    avatar = "images/head-icon.png"
     avatarclass = "circle"
     background = ""
     banner = "images/coding-bg.jpg"
-    favicon = "images/gt_favicon.png"
+    favicon = "images/head-icon2.png"
     DateForm = "January 2, 2006"
     author = "Sergey Pozhilov (GetTemplate.com)"
 
