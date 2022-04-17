@@ -21,11 +21,14 @@ theme = "initio"
     DateForm = "January 2, 2006"
     author = "Sergey Pozhilov (GetTemplate.com)"
 
+    button_bg = "images/button_bg.png"
+    button_bgclass = "BUTTON"
+
     showSubheader = true
     showProjects = true
     showRecentWorks = true
-    showDownloads = true
-    showClients = true
+    showDownloads = false
+    showClients = false
 
     showFooterContact = false
     showFooterFollowMe = true
@@ -55,21 +58,21 @@ theme = "initio"
 	title = "facebook"
 	url = "https://www.facebook.com/nickname"
     icon = "fab fa-facebook-square"
-    footer = true
+    footer = false
     sharethis = true
     network = "facebook"
 [[params.social]]
 	title = "twitter"
 	url = "https://twitter.com/nickname"
     icon = "fab fa-twitter-square"
-    footer = true
+    footer = false
     sharethis = true
     network = "twitter"
 [[params.social]]
 	title = "instagram"
 	url = "https://www.instagram.com/nickname"
     icon = "fab fa-instagram"
-    footer = true
+    footer = false
     sharethis = false
     network = ""
 [[params.social]]
@@ -77,13 +80,13 @@ theme = "initio"
 	url = "https://plus.google.com/+nickname"
     icon = "fab fa-google-plus-square"
     footer = false
-    sharethis = true
+    sharethis = false
     network = "googleplus"
 [[params.social]]
 	title = "linkedin"
 	url = "https://www.linkedin.com/in/nickname"
     icon = "fab fa-linkedin"
-    footer = false
+    footer = true
     sharethis = true
     network = "linkedin"
 [[params.social]]
@@ -95,15 +98,15 @@ theme = "initio"
     network = "tumblr"
 [[params.social]]
 	title = "github"
-	url = "https://github.com/nickname"
+	url = "https://github.com/byron42/my-portfolio"
     icon = "fab fa-github"
     footer = true
-    sharethis = false
+    sharethis = true
     network = ""
 [[params.social]]
 	title = "email"
-	url = "mailto:some.email@somewhere.com"
+	url = "mailto:efflandt.brian@gmail.com"
     icon = "fas fa-envelope-square"
-    footer = false
+    footer = true
     sharethis = true
     network = "email"

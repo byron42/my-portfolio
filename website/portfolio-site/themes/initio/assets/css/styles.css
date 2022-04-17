@@ -118,7 +118,6 @@ body {
 }
 .logo-nav {
   border-radius: 50%;
-  border-radius: 50px;
   border-width: 3px;
   border-style: solid;
   border-color: rgba(95, 95, 97, 1);
@@ -545,6 +544,19 @@ img {
   color: #000000;
   background: none;
 }
+
+
+
+.button-project {
+  border-radius: 50%;
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgba(95, 95, 97, 1);
+  float:left;
+  opacity: 0.85;
+  width: 200px;
+  height: 200px;
+}
 /*********************************************************************
 
 
@@ -809,6 +821,7 @@ footer.entry-meta .meta-in {
   padding: 30px 0 0 0;
   font-size: 12px;
   color: #999;
+  width: 100%;
 }
 #footer a {
   color: #ccc;
@@ -822,6 +835,7 @@ footer.entry-meta .meta-in {
   text-transform: uppercase;
   color: #ccc;
   margin: 0 0 20px;
+  padding-left: 0;
 }
 #footer h2.widget-title{
   color: #ccc;
@@ -848,6 +862,24 @@ footer.entry-meta .meta-in {
   padding: 15px 0;
   margin: 0 10px 0 0;
 }
+
+.container-flex{
+  width: 100%;
+  display: flex;
+}
+
+/* for what I want in the footer */
+.name {
+  font-size: 36px;
+  /* font-size: 2.25rem; */
+  font-size: 1.45rem;
+  vertical-align: center;
+  font-weight: 500;
+}
+.footer-padding{
+  padding-left:60px
+}
+
 /* Max page width
 /////////////////////////////////////////////////////////////////////*/
 @media (min-width: 1200px) {

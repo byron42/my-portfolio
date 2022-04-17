@@ -63,34 +63,25 @@
 </footer>
 -->
 <footer id="footer">
-	<div class="container">
-		<div class="row">
+	<div class="container-fluid">
+		<div class="row footer-padding">
 
-			<div class="col-md-6 widget">
-				<div class="widget-body">
-					<h2 class="widget-title">Brian Efflandt</h2>
-				</div>
+			<div class="col-xs-6 text-right">
+				<p class="name">© Brian Efflandt</p>
 			</div>
 
-			<div class="col-md-6 widget text-right ">
-				<div class="widget-body ">
-					{{ if .Site.Params.showFooterFollowMe }}
-					<div class="col-md-12 widget">
-						<h3 class="widget-title "></h3>
-						<div class="widget-body">
-							<p class="follow-me-icons ">
-								{{ range .Site.Params.social }}
-												{{ if .footer }}
-													<a href="{{ .url }}" target="_blank"><i class="{{ .icon }} fa-1x"></i></a>
-												{{ end }}
-								{{ end }}
-							</p>
-						</div>
-					</div>
-					{{ end }}
-				</div>
+			{{ if .Site.Params.showFooterFollowMe }}
+			<div class="col-xs-6 text-left">
+					<p class="follow-me-icons name">
+						{{ range .Site.Params.social }}
+										{{ if .footer }}
+											<a href="{{ .url }}" target="_blank"><i class="{{ .icon }} fa-1x"></i></a>
+										{{ end }}
+						{{ end }}
+					</p>
 			</div>
-
+			{{ end }}
+			
 		</div> <!-- /row of widgets -->
 	</div>
 </footer>
