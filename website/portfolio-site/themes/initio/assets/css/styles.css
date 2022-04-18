@@ -34,7 +34,7 @@ body {
   position: sticky;
   top: 0;
   left: 0;
-  background-color: rgba(255, 255, 255, .85);
+  background-color: rgba(255, 255, 255, 0.85);
 }
 .navbar-collapse {
   -webkit-border-radius: 0;
@@ -78,7 +78,7 @@ body {
   color: #333333;
   font-weight: 300;
 }
-.navbar-default .navbar-nav > li > a:hover{
+.navbar-default .navbar-nav > li > a:hover {
   color: #333333;
   font-weight: 500;
 }
@@ -122,10 +122,10 @@ body {
   border-style: solid;
   border-color: rgba(95, 95, 97, 1);
   width: 50px;
-  float:left;
+  float: left;
   opacity: 0.85;
 }
-.toggle-fix{
+.toggle-fix {
   margin-top: 17px;
   margin-bottom: 20px;
   width: 45px;
@@ -251,7 +251,7 @@ a:hover {
   background-color: #f4f4f4;
   background-position: top center;
   background-size: cover;
-  color: #7C7C7C;
+  color: #7c7c7c;
   padding: 30px 0 35px 0;
 }
 
@@ -266,7 +266,7 @@ a:hover {
 }
 
 #head img.img-circle {
-  border-radius: 50%
+  border-radius: 50%;
 }
 /**********************************************************************************/
 
@@ -292,14 +292,14 @@ a:hover {
   font-size: 14px;
   font-size: 0.875rem;
   line-height: 1.2em;
-  color: #7C7C7C;
+  color: #7c7c7c;
   margin: 5px 0 0;
 }
 #head .tagline b {
   font-weight: normal;
 }
 #head .tagline a {
-  color: #5E5E5E;
+  color: #5e5e5e;
 }
 .home #head {
   padding: 90px 0;
@@ -313,7 +313,6 @@ a:hover {
   font-size: 1rem;
   margin: 15px 0 0;
 }
-
 
 /*********************************************************************
 
@@ -364,7 +363,7 @@ img {
 }
 .btn-action {
   font-weight: bold;
-  background: transparent!important;
+  background: transparent !important;
   border: 1px solid #333;
   text-shadow: none;
 }
@@ -547,16 +546,75 @@ img {
 
 
 
+
+
+
+
+/* ******************************************************************************************************* */
+/* **************************************** PROJECT BUTTON *********************************************** */
+/* ******************************************************************************************************* */
+
 .button-project {
   border-radius: 50%;
-  border-width: 3px;
+  /* border-width: 6px; */
   border-style: solid;
-  border-color: rgba(95, 95, 97, 1);
-  float:left;
+  /* border-color: rgba(201, 201, 201, 0); */
+  float: left;
   opacity: 0.85;
-  width: 200px;
-  height: 200px;
+  width: 140px;
+  height: 140px;
+  margin-bottom: 5px;
 }
+.project-title {
+  font-size: 30px;
+  font-size: 1.375rem;
+  color: rgba(95, 95, 97, 1);
+  font-weight: 300;
+  padding-top: 25px;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5); /* 50% black coming from the top */
+}
+.col-centered {
+  float: none;
+  /* margin-left: 5; */
+  /* margin-right: 5; */
+  display: inline;
+  flex-wrap: nowrap;
+}
+
+/* -------------------------------------------------------- ZOOM -----------*/
+.zoom {
+  transition: transform .2s; /* Animation */
+  width: 140px;
+  height: 140px;
+}
+.zoom:hover {
+  transform: scale(1.07); 
+}
+/* -------------------------------------------------------------------------*/
+
+
+/* --------------------------------- for vert and hor centering of grid ----*/
+.flex-center {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.flex {
+  display: flex;
+}
+.flex-horizontal-center {
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+/* ------------------------------------------------------------------------ */
+/* ******************************************************************************************************* */
+/* **************************************** PROJECT BUTTON *********************************************** */
+/* ******************************************************************************************************* */
+
+
+
 /*********************************************************************
 
 
@@ -593,7 +651,7 @@ img {
   content: "";
   position: absolute;
   height: 4px;
-  top: .53em;
+  top: 0.53em;
   width: 400%;
   border-bottom: 1px solid #ccc;
   border-top: 1px solid #ccc;
@@ -837,7 +895,7 @@ footer.entry-meta .meta-in {
   margin: 0 0 20px;
   padding-left: 0;
 }
-#footer h2.widget-title{
+#footer h2.widget-title {
   color: #ccc;
 }
 #underfooter {
@@ -863,7 +921,7 @@ footer.entry-meta .meta-in {
   margin: 0 10px 0 0;
 }
 
-.container-flex{
+.container-flex {
   width: 100%;
   display: flex;
 }
@@ -876,8 +934,8 @@ footer.entry-meta .meta-in {
   vertical-align: center;
   font-weight: 500;
 }
-.footer-padding{
-  padding-left:60px
+.footer-padding {
+  padding-left: 60px;
 }
 
 /* Max page width
@@ -895,13 +953,14 @@ footer.entry-meta .meta-in {
 
 **********************************************************************/
 .st-custom-button[data-network] {
-   background-color: #fff;
-   display: inline-block;
-   padding: 0px 5px 20px 5px;
-   cursor: pointer;
-   font-weight: bold;
-   color: #666666;
-   &:hover, &:focus {
-      color: #004488;
-   }
+  background-color: #fff;
+  display: inline-block;
+  padding: 0px 5px 20px 5px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #666666;
+  &:hover,
+  &:focus {
+    color: #004488;
+  }
 }

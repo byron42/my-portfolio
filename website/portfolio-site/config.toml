@@ -26,7 +26,7 @@ theme = "initio"
 
     showSubheader = true
     showProjects = true
-    showRecentWorks = true
+    showRecentWorks = true  
     showDownloads = false
     showClients = false
 
