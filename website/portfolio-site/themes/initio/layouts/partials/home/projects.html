@@ -1,38 +1,12 @@
-<div class="container-fluid">
+<div class="container">
 
-  <!-- <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-3  flex-center ">
-        One of three columns
-      </div>
-      <div class="col-sm-3  flex-center">
-        One of three columns
-      </div>
-      <div class="col-sm-3  flex-center">
-        One of three columns
-      </div>
-      <div class="col-sm-3 flex-center">
-        One of three columns
-      </div>
-    </div>
-  </div> -->
-
-  <div class="row ">
-      {{ range where .Data.Pages "Section" .Section }}
-        <div class="col-xs-6 col-md-3 flex flex-center flex-horizontal-center">
-          <!-- <h3 class="text-center">{{ .Title }}</h3> -->
-          <button class='img button-project zoom -{{ .Site.Params.button_bgclass | default "BUTTON"}} ' src="{{ .Site.BaseURL }}{{ .Site.Params.button_bg }}" alt="" onclick="window.location.href='/';" >
-            <p class="project-title">{{ .Title }}</p>
-          </button>
-          <!-- <p>{{ .Title }}</p> -->
-          <!-- <p class="text-center"><a href="{{ .Permalink }}" class="btn btn-action">Read more</a></p> -->
-        
-        
-          <!-- <img class='img button-project -{{ .Site.Params.button_bgclass | default "BUTTON"}} ' src="{{ .Site.BaseURL }}{{ .Site.Params.button_bg }}" alt="" > -->
-        
-        
-        
-        </div>
-      {{ end }}
+  <div class="project-flex flex2 ">
+    {{ range .Site.Menus.projects }}     
+    <button class="project-button zoom"  onclick="window.location.href='{{ .URL }}'">
+       {{ .Name }}
+        <!-- <a href="{{ .URL }}">{{ .Name }}</a> -->
+    </button>
+    {{ end}}
   </div>
+
 </div>

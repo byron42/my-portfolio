@@ -44,6 +44,49 @@ theme = "initio"
     url = "/post/"
     weight = 5
 
+
+
+
+
+
+[[menu.projects]]
+    name = "WEBSITES"
+    url = "home/projects/websites/"
+    weight = 2
+[[menu.projects]]
+    name = "{ JS }"
+    url = "home/projects/javascript/"
+    weight = 1
+[[menu.projects]]
+    name = "JAVA"
+    url = "home/projects/java/"
+    weight = 3
+[[menu.projects]]
+    name = "C#"
+    url = "/"
+    weight = 4
+
+
+[[menu.projects]]
+    name = "GO"
+    url = "/"
+    weight = 5
+[[menu.projects]]
+    name = "ACCESS"
+    url = "/"
+    weight = 6
+[[menu.projects]]
+    name = "PHP"
+    url = "/"
+    weight = 7
+[[menu.projects]]
+    name = "ELSE"
+    url = "/"
+    weight = 8
+
+
+
+
 [params.disqus]
     site = "hugo-initio-site.disqus.com"
 
