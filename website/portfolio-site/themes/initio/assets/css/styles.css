@@ -367,13 +367,19 @@ img {
   border: 1px solid #333;
   text-shadow: none;
 }
+
+
 .btn-action:hover,
 .btn-action:focus,
 .btn-action:active,
 .btn-action.active {
   color: #bd1550;
   border-color: #bd1550;
+  transform: scale(1.07) !important;                                                               /* maybe I like it? */
 }
+
+
+
 .btn-lg {
   padding: 15px 60px;
   font-size: 12px;
@@ -603,13 +609,9 @@ media@ only screen and (max-width: 768px) {
   margin-bottom: 10px;
   margin-top: 20px;
 }
-
-
-
 .project-flex {
   display: flex;
   flex-wrap: wrap;
-  
 }
 .flex2 {
   justify-content: space-around;
@@ -621,7 +623,75 @@ media@ only screen and (max-width: 768px) {
 /* ------------------------------------------------------------------------ */
 
 /* ******************************************************************************************************* */
-/* **************************************** PROJECT BUTTON *********************************************** */
+
+
+/* *********************************************************************************************************/
+/* ********************************************************************** CONTENT COMPONENTS ***************/
+/* *********************************************************************************************************/
+.flex-content {
+  display: flex;
+  text-align: center;
+  /* height: 600px; */
+  /* background-color: #7d7d7d; */
+  /* color: #000000; */
+  /* font-weight: bold; */
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.flex-items {
+  background-color: rgba(149, 147, 147, 0.248);
+  width: auto !important;
+  max-width: 550px;
+  height: auto !important;
+  margin: 40px 20px 80px 20px ;
+  text-align: center;
+  border-radius: 8px;
+  border-style: solid;
+  /* border-color: rgb(143, 143, 143); */
+  border-color: rgb(183, 183, 183);
+}
+.content-button {
+  margin-top: -80px;
+  border-radius: 8px !important;
+  border-style: solid;
+  color: rgba(86, 85, 85, 0.7);
+  border-color: rgba(86, 85, 85, 0.7);
+  border-width: 1.4px;
+}
+
+.content-title {
+  width: auto;
+  height: auto;
+  margin: 25px 0 -20px;
+  text-align: center;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  flex-wrap: wrap;
+}
+
+.shadow {
+  box-shadow: 0 6px 6px -1px rgba(0,0,0,0.7); 
+  }
+.container-content {
+  /* max-width: 1080px; */
+  width: 90%;
+  margin-left: 5%;
+  height: 100%;
+  align-content: center;
+}
+.content-image {
+  width: 600px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: rgb(86, 85, 85, 0.5);
+}
+
+
+/* ******************************************************************************************************* */
+/* ********************************************************************** CONTENT COMPONENTS ***************/
 /* ******************************************************************************************************* */
 
 
@@ -692,6 +762,12 @@ media@ only screen and (max-width: 768px) {
 }
 .entry-content {
   margin: 0 0 60px 0;
+}
+.entry-content-new {
+  vertical-align: center;
+  position:relative;  top: 15px;
+  text-align: left;
+  margin-right: 20px
 }
 .entry-content h2 {
   line-height: 1.2;
@@ -949,10 +1025,15 @@ footer.entry-meta .meta-in {
   padding-left: 60px;
 }
 
+
+
+
+
 /* Max page width
 /////////////////////////////////////////////////////////////////////*/
 @media (min-width: 1200px) {
   .container {
+    /* max-width: 1080px; */
     max-width: 1080px;
   }
 }
@@ -975,7 +1056,6 @@ footer.entry-meta .meta-in {
     color: #004488;
   }
 }
-
 
 /*::::::::::::::::::::::::::::::::: FLEX TEMPLATE ::::::::::::::::::::::::::
 
@@ -1004,5 +1084,6 @@ footer.entry-meta .meta-in {
 }
 
 ::::::::::::::::::::::::::::::::: FLEX TEMPLATE ::::::::::::::::::::::::::*/
+
 
 

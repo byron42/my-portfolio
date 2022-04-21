@@ -1,38 +1,45 @@
 {{ define "main" }}
 <main id="main">
-
-	<div class="container">
-		<div class="row topspace">
-			<div class="col-sm-8 col-sm-offset-2">
-
-        {{ range .Paginator.Pages }}
-				<article class="post">
-					<header class="entry-header">
-						<div class="entry-meta">
-               <span class="posted-on">
-                  <time class="entry-date published" datetime="{{ .Date.Format .Site.Params.DateForm }}">
-                  {{- .Date.Format "January 2, 2006" -}}
-                  </time>
-               </span>
-						</div>
-						<h1 class="entry-title">
-						  <a href="{{ .Permalink }}" rel="bookmark">{{ .Title }}</a>
-						</h1>
-					</header>
-					<div class="entry-content">
-						{{ .Content }}
-					</div>
-				</article>
-        {{ end }}
-			</div>
+	<div class="container-content" >
+		
+		<!-- section title -->
+		<div class="row section featured topspace">
+			<h2 class="section-title">
+			  <span>{{.Type}}</span>
+			</h2>
 		</div>
 
-		<center class="">
+		<div class="flex-content flex2 " >
+			{{ range .Paginator.Pages }}
+			<div >
+				<!-- title -->
+				<h1 class="content-title">
+					{{ .Title }}
+				</h1>
+				
+				<!-- img/desc -->
+				<div class="flex-items">  
+					<img class="content-image shadow" src="{{ .Params.image }}">
+					<div class="entry-content-new" >
+						{{ .Content }}
+					</div>
+				</div>
+
+				<!-- buttons -->
+				<div class="flex flex2" >
+					<p class="text-center" style="border-radius: 20px !important;"><a href="{{ .Params.code_url }}" target="blank" class="btn btn-action content-button">VEIW CODE</a></p>
+					<p class="text-center"><a href="{{ .Params.repo_url }}" target="blank" class="btn btn-action content-button">VEIW REPO</a></p>
+				</div>
+			</div>
+			{{ end }}
+		</div>
+
+		<!-- <center class="">
 			<ul class="pagination">
         {{ template "_internal/pagination.html" . }}
 			</ul>
-		</center>
-	</div>	<!-- /container -->
+		</center> -->
 
+	</div>	<!-- /container -->
 </main>
 {{ end }}
