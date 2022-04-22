@@ -1,0 +1,30 @@
+C:\Users\Byron\source\repos\midterm\Rock, Paper, Scissors\Rock, Paper, Scissors\bin\Debug\Rock, Paper, Scissors.exe.config
+C:\Users\Byron\source\repos\midterm\Rock, Paper, Scissors\Rock, Paper, Scissors\bin\Debug\Rock, Paper, Scissors.exe
+C:\Users\Byron\source\repos\midterm\Rock, Paper, Scissors\Rock, Paper, Scissors\bin\Debug\Rock, Paper, Scissors.pdb
+C:\Users\Byron\source\repos\midterm\Rock, Paper, Scissors\Rock, Paper, Scissors\obj\Debug\Rock, Paper, Scissors.csprojAssemblyReference.cache
+C:\Users\Byron\source\repos\midterm\Rock, Paper, Scissors\Rock, Paper, Scissors\obj\Debug\Rock__Paper__Scissors.Form1.resources
+C:\Users\Byron\source\repos\midterm\Rock, Paper, Scissors\Rock, Paper, Scissors\obj\Debug\Rock__Paper__Scissors.Properties.Resources.resources
+C:\Users\Byron\source\repos\midterm\Rock, Paper, Scissors\Rock, Paper, Scissors\obj\Debug\Rock, Paper, Scissors.csproj.GenerateResource.cache
+C:\Users\Byron\source\repos\midterm\Rock, Paper, Scissors\Rock, Paper, Scissors\obj\Debug\Rock, Paper, Scissors.csproj.CoreCompileInputs.cache
+C:\Users\Byron\source\repos\midterm\Rock, Paper, Scissors\Rock, Paper, Scissors\obj\Debug\Rock, Paper, Scissors.exe
+C:\Users\Byron\source\repos\midterm\Rock, Paper, Scissors\Rock, Paper, Scissors\obj\Debug\Rock, Paper, Scissors.pdb
+C:\Users\jujy4\OneDrive\Desktop\BHC STUFF\Past Courses\spring 2019\CS-101\MIDTERM\Programming Problem 10\Rock, Paper, Scissors\bin\Debug\Rock, Paper, Scissors.exe.config
+C:\Users\jujy4\OneDrive\Desktop\BHC STUFF\Past Courses\spring 2019\CS-101\MIDTERM\Programming Problem 10\Rock, Paper, Scissors\bin\Debug\Rock, Paper, Scissors.exe
+C:\Users\jujy4\OneDrive\Desktop\BHC STUFF\Past Courses\spring 2019\CS-101\MIDTERM\Programming Problem 10\Rock, Paper, Scissors\bin\Debug\Rock, Paper, Scissors.pdb
+C:\Users\jujy4\OneDrive\Desktop\BHC STUFF\Past Courses\spring 2019\CS-101\MIDTERM\Programming Problem 10\Rock, Paper, Scissors\obj\Debug\Rock, Paper, Scissors.csproj.AssemblyReference.cache
+C:\Users\jujy4\OneDrive\Desktop\BHC STUFF\Past Courses\spring 2019\CS-101\MIDTERM\Programming Problem 10\Rock, Paper, Scissors\obj\Debug\Rock__Paper__Scissors.Form1.resources
+C:\Users\jujy4\OneDrive\Desktop\BHC STUFF\Past Courses\spring 2019\CS-101\MIDTERM\Programming Problem 10\Rock, Paper, Scissors\obj\Debug\Rock__Paper__Scissors.Properties.Resources.resources
+C:\Users\jujy4\OneDrive\Desktop\BHC STUFF\Past Courses\spring 2019\CS-101\MIDTERM\Programming Problem 10\Rock, Paper, Scissors\obj\Debug\Rock, Paper, Scissors.csproj.GenerateResource.cache
+C:\Users\jujy4\OneDrive\Desktop\BHC STUFF\Past Courses\spring 2019\CS-101\MIDTERM\Programming Problem 10\Rock, Paper, Scissors\obj\Debug\Rock, Paper, Scissors.csproj.CoreCompileInputs.cache
+C:\Users\jujy4\OneDrive\Desktop\BHC STUFF\Past Courses\spring 2019\CS-101\MIDTERM\Programming Problem 10\Rock, Paper, Scissors\obj\Debug\Rock, Paper, Scissors.exe
+C:\Users\jujy4\OneDrive\Desktop\BHC STUFF\Past Courses\spring 2019\CS-101\MIDTERM\Programming Problem 10\Rock, Paper, Scissors\obj\Debug\Rock, Paper, Scissors.pdb
+C:\Users\byron\Desktop\BHC STUFF\PORTFOLIO\C# (VS)\Rock, Paper, Scissors\Rock, Paper, Scissors\bin\Debug\Rock, Paper, Scissors.exe.config
+C:\Users\byron\Desktop\BHC STUFF\PORTFOLIO\C# (VS)\Rock, Paper, Scissors\Rock, Paper, Scissors\bin\Debug\Rock, Paper, Scissors.exe
+C:\Users\byron\Desktop\BHC STUFF\PORTFOLIO\C# (VS)\Rock, Paper, Scissors\Rock, Paper, Scissors\bin\Debug\Rock, Paper, Scissors.pdb
+C:\Users\byron\Desktop\BHC STUFF\PORTFOLIO\C# (VS)\Rock, Paper, Scissors\Rock, Paper, Scissors\obj\Debug\Rock, Paper, Scissors.csproj.AssemblyReference.cache
+C:\Users\byron\Desktop\BHC STUFF\PORTFOLIO\C# (VS)\Rock, Paper, Scissors\Rock, Paper, Scissors\obj\Debug\Rock__Paper__Scissors.Form1.resources
+C:\Users\byron\Desktop\BHC STUFF\PORTFOLIO\C# (VS)\Rock, Paper, Scissors\Rock, Paper, Scissors\obj\Debug\Rock__Paper__Scissors.Properties.Resources.resources
+C:\Users\byron\Desktop\BHC STUFF\PORTFOLIO\C# (VS)\Rock, Paper, Scissors\Rock, Paper, Scissors\obj\Debug\Rock, Paper, Scissors.csproj.GenerateResource.cache
+C:\Users\byron\Desktop\BHC STUFF\PORTFOLIO\C# (VS)\Rock, Paper, Scissors\Rock, Paper, Scissors\obj\Debug\Rock, Paper, Scissors.csproj.CoreCompileInputs.cache
+C:\Users\byron\Desktop\BHC STUFF\PORTFOLIO\C# (VS)\Rock, Paper, Scissors\Rock, Paper, Scissors\obj\Debug\Rock, Paper, Scissors.exe
+C:\Users\byron\Desktop\BHC STUFF\PORTFOLIO\C# (VS)\Rock, Paper, Scissors\Rock, Paper, Scissors\obj\Debug\Rock, Paper, Scissors.pdb

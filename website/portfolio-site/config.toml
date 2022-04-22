@@ -13,7 +13,7 @@ theme = "initio"
     phone = "+234 23 9873237"
     address = "234 Hidden Pond Road, Ashland City, TN 37015"
     year = 2017
-    avatar = "images/head-icon.png"
+    avatar = "images/profile_header6.jpg"
     avatarclass = "circle"
     background = ""
     banner = "images/coding-bg.jpg"
@@ -63,7 +63,7 @@ theme = "initio"
     weight = 3
 [[menu.projects]]
     name = "C#"
-    url = "/"
+    url = "home/projects/c_sharp/"
     weight = 4
 
 
