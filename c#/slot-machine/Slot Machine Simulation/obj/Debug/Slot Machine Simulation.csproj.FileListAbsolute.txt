@@ -28,3 +28,13 @@ C:\Users\jujy4\OneDrive\Desktop\BHC STUFF\Past Courses\spring 2019\CS-101\week 1
 C:\Users\jujy4\OneDrive\Desktop\BHC STUFF\Past Courses\spring 2019\CS-101\week 12\Problem 12\Slot Machine Simulation\obj\Debug\Slot Machine Simulation.csproj.CoreCompileInputs.cache
 C:\Users\jujy4\OneDrive\Desktop\BHC STUFF\Past Courses\spring 2019\CS-101\week 12\Problem 12\Slot Machine Simulation\obj\Debug\Slot Machine Simulation.exe
 C:\Users\jujy4\OneDrive\Desktop\BHC STUFF\Past Courses\spring 2019\CS-101\week 12\Problem 12\Slot Machine Simulation\obj\Debug\Slot Machine Simulation.pdb
+C:\Users\byron\Desktop\GIT\my-portfolio\c#\slot-machine\Slot Machine Simulation\bin\Debug\Slot Machine Simulation.exe.config
+C:\Users\byron\Desktop\GIT\my-portfolio\c#\slot-machine\Slot Machine Simulation\bin\Debug\Slot Machine Simulation.exe
+C:\Users\byron\Desktop\GIT\my-portfolio\c#\slot-machine\Slot Machine Simulation\bin\Debug\Slot Machine Simulation.pdb
+C:\Users\byron\Desktop\GIT\my-portfolio\c#\slot-machine\Slot Machine Simulation\obj\Debug\Slot Machine Simulation.csproj.AssemblyReference.cache
+C:\Users\byron\Desktop\GIT\my-portfolio\c#\slot-machine\Slot Machine Simulation\obj\Debug\Slot_Machine_Simulation.Form1.resources
+C:\Users\byron\Desktop\GIT\my-portfolio\c#\slot-machine\Slot Machine Simulation\obj\Debug\Slot_Machine_Simulation.Properties.Resources.resources
+C:\Users\byron\Desktop\GIT\my-portfolio\c#\slot-machine\Slot Machine Simulation\obj\Debug\Slot Machine Simulation.csproj.GenerateResource.cache
+C:\Users\byron\Desktop\GIT\my-portfolio\c#\slot-machine\Slot Machine Simulation\obj\Debug\Slot Machine Simulation.csproj.CoreCompileInputs.cache
+C:\Users\byron\Desktop\GIT\my-portfolio\c#\slot-machine\Slot Machine Simulation\obj\Debug\Slot Machine Simulation.exe
+C:\Users\byron\Desktop\GIT\my-portfolio\c#\slot-machine\Slot Machine Simulation\obj\Debug\Slot Machine Simulation.pdb

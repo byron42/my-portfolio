@@ -1,0 +1,40 @@
+C:\Users\Byron\source\repos\Word Counter and Average Letters per Word\Word Counter and Average Letters per Word\bin\Debug\Word Counter and Average Letters per Word.exe.config
+C:\Users\Byron\source\repos\Word Counter and Average Letters per Word\Word Counter and Average Letters per Word\bin\Debug\Word Counter and Average Letters per Word.exe
+C:\Users\Byron\source\repos\Word Counter and Average Letters per Word\Word Counter and Average Letters per Word\bin\Debug\Word Counter and Average Letters per Word.pdb
+C:\Users\Byron\source\repos\Word Counter and Average Letters per Word\Word Counter and Average Letters per Word\obj\Debug\Word Counter and Average Letters per Word.csprojAssemblyReference.cache
+C:\Users\Byron\source\repos\Word Counter and Average Letters per Word\Word Counter and Average Letters per Word\obj\Debug\Word_Counter_and_Average_Letters_per_Word.Form1.resources
+C:\Users\Byron\source\repos\Word Counter and Average Letters per Word\Word Counter and Average Letters per Word\obj\Debug\Word_Counter_and_Average_Letters_per_Word.Properties.Resources.resources
+C:\Users\Byron\source\repos\Word Counter and Average Letters per Word\Word Counter and Average Letters per Word\obj\Debug\Word Counter and Average Letters per Word.csproj.GenerateResource.cache
+C:\Users\Byron\source\repos\Word Counter and Average Letters per Word\Word Counter and Average Letters per Word\obj\Debug\Word Counter and Average Letters per Word.csproj.CoreCompileInputs.cache
+C:\Users\Byron\source\repos\Word Counter and Average Letters per Word\Word Counter and Average Letters per Word\obj\Debug\Word Counter and Average Letters per Word.exe
+C:\Users\Byron\source\repos\Word Counter and Average Letters per Word\Word Counter and Average Letters per Word\obj\Debug\Word Counter and Average Letters per Word.pdb
+C:\Users\Byron\source\repos\chapter 8\Word Counter and Average Letters per Word\Word Counter and Average Letters per Word\bin\Debug\Word Counter and Average Letters per Word.exe.config
+C:\Users\Byron\source\repos\chapter 8\Word Counter and Average Letters per Word\Word Counter and Average Letters per Word\bin\Debug\Word Counter and Average Letters per Word.exe
+C:\Users\Byron\source\repos\chapter 8\Word Counter and Average Letters per Word\Word Counter and Average Letters per Word\bin\Debug\Word Counter and Average Letters per Word.pdb
+C:\Users\Byron\source\repos\chapter 8\Word Counter and Average Letters per Word\Word Counter and Average Letters per Word\obj\Debug\Word Counter and Average Letters per Word.csprojAssemblyReference.cache
+C:\Users\Byron\source\repos\chapter 8\Word Counter and Average Letters per Word\Word Counter and Average Letters per Word\obj\Debug\Word_Counter_and_Average_Letters_per_Word.Form1.resources
+C:\Users\Byron\source\repos\chapter 8\Word Counter and Average Letters per Word\Word Counter and Average Letters per Word\obj\Debug\Word_Counter_and_Average_Letters_per_Word.Properties.Resources.resources
+C:\Users\Byron\source\repos\chapter 8\Word Counter and Average Letters per Word\Word Counter and Average Letters per Word\obj\Debug\Word Counter and Average Letters per Word.csproj.GenerateResource.cache
+C:\Users\Byron\source\repos\chapter 8\Word Counter and Average Letters per Word\Word Counter and Average Letters per Word\obj\Debug\Word Counter and Average Letters per Word.csproj.CoreCompileInputs.cache
+C:\Users\Byron\source\repos\chapter 8\Word Counter and Average Letters per Word\Word Counter and Average Letters per Word\obj\Debug\Word Counter and Average Letters per Word.exe
+C:\Users\Byron\source\repos\chapter 8\Word Counter and Average Letters per Word\Word Counter and Average Letters per Word\obj\Debug\Word Counter and Average Letters per Word.pdb
+C:\Users\Byron\Desktop\BHC STUFF\spring 2019\CS-101\week 12\Problem 2\Word Counter and Average Letters per Word\bin\Debug\Word Counter and Average Letters per Word.exe.config
+C:\Users\Byron\Desktop\BHC STUFF\spring 2019\CS-101\week 12\Problem 2\Word Counter and Average Letters per Word\bin\Debug\Word Counter and Average Letters per Word.exe
+C:\Users\Byron\Desktop\BHC STUFF\spring 2019\CS-101\week 12\Problem 2\Word Counter and Average Letters per Word\bin\Debug\Word Counter and Average Letters per Word.pdb
+C:\Users\Byron\Desktop\BHC STUFF\spring 2019\CS-101\week 12\Problem 2\Word Counter and Average Letters per Word\obj\Debug\Word Counter and Average Letters per Word.csprojAssemblyReference.cache
+C:\Users\Byron\Desktop\BHC STUFF\spring 2019\CS-101\week 12\Problem 2\Word Counter and Average Letters per Word\obj\Debug\Word_Counter_and_Average_Letters_per_Word.Form1.resources
+C:\Users\Byron\Desktop\BHC STUFF\spring 2019\CS-101\week 12\Problem 2\Word Counter and Average Letters per Word\obj\Debug\Word_Counter_and_Average_Letters_per_Word.Properties.Resources.resources
+C:\Users\Byron\Desktop\BHC STUFF\spring 2019\CS-101\week 12\Problem 2\Word Counter and Average Letters per Word\obj\Debug\Word Counter and Average Letters per Word.csproj.GenerateResource.cache
+C:\Users\Byron\Desktop\BHC STUFF\spring 2019\CS-101\week 12\Problem 2\Word Counter and Average Letters per Word\obj\Debug\Word Counter and Average Letters per Word.csproj.CoreCompileInputs.cache
+C:\Users\Byron\Desktop\BHC STUFF\spring 2019\CS-101\week 12\Problem 2\Word Counter and Average Letters per Word\obj\Debug\Word Counter and Average Letters per Word.exe
+C:\Users\Byron\Desktop\BHC STUFF\spring 2019\CS-101\week 12\Problem 2\Word Counter and Average Letters per Word\obj\Debug\Word Counter and Average Letters per Word.pdb
+C:\Users\byron\Desktop\GIT\my-portfolio\c#\Problem 2\Word Counter and Average Letters per Word\bin\Debug\Word Counter and Average Letters per Word.exe.config
+C:\Users\byron\Desktop\GIT\my-portfolio\c#\Problem 2\Word Counter and Average Letters per Word\bin\Debug\Word Counter and Average Letters per Word.exe
+C:\Users\byron\Desktop\GIT\my-portfolio\c#\Problem 2\Word Counter and Average Letters per Word\bin\Debug\Word Counter and Average Letters per Word.pdb
+C:\Users\byron\Desktop\GIT\my-portfolio\c#\Problem 2\Word Counter and Average Letters per Word\obj\Debug\Word Counter and Average Letters per Word.csproj.AssemblyReference.cache
+C:\Users\byron\Desktop\GIT\my-portfolio\c#\Problem 2\Word Counter and Average Letters per Word\obj\Debug\Word_Counter_and_Average_Letters_per_Word.Form1.resources
+C:\Users\byron\Desktop\GIT\my-portfolio\c#\Problem 2\Word Counter and Average Letters per Word\obj\Debug\Word_Counter_and_Average_Letters_per_Word.Properties.Resources.resources
+C:\Users\byron\Desktop\GIT\my-portfolio\c#\Problem 2\Word Counter and Average Letters per Word\obj\Debug\Word Counter and Average Letters per Word.csproj.GenerateResource.cache
+C:\Users\byron\Desktop\GIT\my-portfolio\c#\Problem 2\Word Counter and Average Letters per Word\obj\Debug\Word Counter and Average Letters per Word.csproj.CoreCompileInputs.cache
+C:\Users\byron\Desktop\GIT\my-portfolio\c#\Problem 2\Word Counter and Average Letters per Word\obj\Debug\Word Counter and Average Letters per Word.exe
+C:\Users\byron\Desktop\GIT\my-portfolio\c#\Problem 2\Word Counter and Average Letters per Word\obj\Debug\Word Counter and Average Letters per Word.pdb

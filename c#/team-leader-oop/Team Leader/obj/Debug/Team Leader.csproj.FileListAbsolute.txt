@@ -1,0 +1,40 @@
+C:\Users\Byron\source\repos\Team Leader\Team Leader\bin\Debug\Team Leader.exe.config
+C:\Users\Byron\source\repos\Team Leader\Team Leader\bin\Debug\Team Leader.exe
+C:\Users\Byron\source\repos\Team Leader\Team Leader\bin\Debug\Team Leader.pdb
+C:\Users\Byron\source\repos\Team Leader\Team Leader\obj\Debug\Team Leader.csprojAssemblyReference.cache
+C:\Users\Byron\source\repos\Team Leader\Team Leader\obj\Debug\Team_Leader.Form1.resources
+C:\Users\Byron\source\repos\Team Leader\Team Leader\obj\Debug\Team_Leader.Properties.Resources.resources
+C:\Users\Byron\source\repos\Team Leader\Team Leader\obj\Debug\Team Leader.csproj.GenerateResource.cache
+C:\Users\Byron\source\repos\Team Leader\Team Leader\obj\Debug\Team Leader.csproj.CoreCompileInputs.cache
+C:\Users\Byron\source\repos\Team Leader\Team Leader\obj\Debug\Team Leader.exe
+C:\Users\Byron\source\repos\Team Leader\Team Leader\obj\Debug\Team Leader.pdb
+C:\Users\Byron\Desktop\BHC STUFF\spring 2019\CS-101\week 15\Team Leader\Team Leader\bin\Debug\Team Leader.exe.config
+C:\Users\Byron\Desktop\BHC STUFF\spring 2019\CS-101\week 15\Team Leader\Team Leader\bin\Debug\Team Leader.exe
+C:\Users\Byron\Desktop\BHC STUFF\spring 2019\CS-101\week 15\Team Leader\Team Leader\bin\Debug\Team Leader.pdb
+C:\Users\Byron\Desktop\BHC STUFF\spring 2019\CS-101\week 15\Team Leader\Team Leader\obj\Debug\Team Leader.csprojAssemblyReference.cache
+C:\Users\Byron\Desktop\BHC STUFF\spring 2019\CS-101\week 15\Team Leader\Team Leader\obj\Debug\Team_Leader.Form1.resources
+C:\Users\Byron\Desktop\BHC STUFF\spring 2019\CS-101\week 15\Team Leader\Team Leader\obj\Debug\Team_Leader.Properties.Resources.resources
+C:\Users\Byron\Desktop\BHC STUFF\spring 2019\CS-101\week 15\Team Leader\Team Leader\obj\Debug\Team Leader.csproj.GenerateResource.cache
+C:\Users\Byron\Desktop\BHC STUFF\spring 2019\CS-101\week 15\Team Leader\Team Leader\obj\Debug\Team Leader.csproj.CoreCompileInputs.cache
+C:\Users\Byron\Desktop\BHC STUFF\spring 2019\CS-101\week 15\Team Leader\Team Leader\obj\Debug\Team Leader.exe
+C:\Users\Byron\Desktop\BHC STUFF\spring 2019\CS-101\week 15\Team Leader\Team Leader\obj\Debug\Team Leader.pdb
+C:\Users\jujy4\OneDrive\Desktop\BHC STUFF\Past Courses\spring 2019\CS-101\week 15 (inheritance polymorphism)\unit 11 project\PP3 (Team Leader)\Team Leader\bin\Debug\Team Leader.exe.config
+C:\Users\jujy4\OneDrive\Desktop\BHC STUFF\Past Courses\spring 2019\CS-101\week 15 (inheritance polymorphism)\unit 11 project\PP3 (Team Leader)\Team Leader\bin\Debug\Team Leader.exe
+C:\Users\jujy4\OneDrive\Desktop\BHC STUFF\Past Courses\spring 2019\CS-101\week 15 (inheritance polymorphism)\unit 11 project\PP3 (Team Leader)\Team Leader\bin\Debug\Team Leader.pdb
+C:\Users\jujy4\OneDrive\Desktop\BHC STUFF\Past Courses\spring 2019\CS-101\week 15 (inheritance polymorphism)\unit 11 project\PP3 (Team Leader)\Team Leader\obj\Debug\Team Leader.csproj.AssemblyReference.cache
+C:\Users\jujy4\OneDrive\Desktop\BHC STUFF\Past Courses\spring 2019\CS-101\week 15 (inheritance polymorphism)\unit 11 project\PP3 (Team Leader)\Team Leader\obj\Debug\Team_Leader.Form1.resources
+C:\Users\jujy4\OneDrive\Desktop\BHC STUFF\Past Courses\spring 2019\CS-101\week 15 (inheritance polymorphism)\unit 11 project\PP3 (Team Leader)\Team Leader\obj\Debug\Team_Leader.Properties.Resources.resources
+C:\Users\jujy4\OneDrive\Desktop\BHC STUFF\Past Courses\spring 2019\CS-101\week 15 (inheritance polymorphism)\unit 11 project\PP3 (Team Leader)\Team Leader\obj\Debug\Team Leader.csproj.GenerateResource.cache
+C:\Users\jujy4\OneDrive\Desktop\BHC STUFF\Past Courses\spring 2019\CS-101\week 15 (inheritance polymorphism)\unit 11 project\PP3 (Team Leader)\Team Leader\obj\Debug\Team Leader.csproj.CoreCompileInputs.cache
+C:\Users\jujy4\OneDrive\Desktop\BHC STUFF\Past Courses\spring 2019\CS-101\week 15 (inheritance polymorphism)\unit 11 project\PP3 (Team Leader)\Team Leader\obj\Debug\Team Leader.exe
+C:\Users\jujy4\OneDrive\Desktop\BHC STUFF\Past Courses\spring 2019\CS-101\week 15 (inheritance polymorphism)\unit 11 project\PP3 (Team Leader)\Team Leader\obj\Debug\Team Leader.pdb
+C:\Users\byron\Desktop\BHC STUFF\Past Courses\spring 2019\CS-101 (intro into structured prog)\week 15 (inheritance polymorphism)\unit 11 project\PP3 (Team Leader)\Team Leader\bin\Debug\Team Leader.exe.config
+C:\Users\byron\Desktop\BHC STUFF\Past Courses\spring 2019\CS-101 (intro into structured prog)\week 15 (inheritance polymorphism)\unit 11 project\PP3 (Team Leader)\Team Leader\bin\Debug\Team Leader.exe
+C:\Users\byron\Desktop\BHC STUFF\Past Courses\spring 2019\CS-101 (intro into structured prog)\week 15 (inheritance polymorphism)\unit 11 project\PP3 (Team Leader)\Team Leader\bin\Debug\Team Leader.pdb
+C:\Users\byron\Desktop\BHC STUFF\Past Courses\spring 2019\CS-101 (intro into structured prog)\week 15 (inheritance polymorphism)\unit 11 project\PP3 (Team Leader)\Team Leader\obj\Debug\Team Leader.csproj.AssemblyReference.cache
+C:\Users\byron\Desktop\BHC STUFF\Past Courses\spring 2019\CS-101 (intro into structured prog)\week 15 (inheritance polymorphism)\unit 11 project\PP3 (Team Leader)\Team Leader\obj\Debug\Team_Leader.Form1.resources
+C:\Users\byron\Desktop\BHC STUFF\Past Courses\spring 2019\CS-101 (intro into structured prog)\week 15 (inheritance polymorphism)\unit 11 project\PP3 (Team Leader)\Team Leader\obj\Debug\Team_Leader.Properties.Resources.resources
+C:\Users\byron\Desktop\BHC STUFF\Past Courses\spring 2019\CS-101 (intro into structured prog)\week 15 (inheritance polymorphism)\unit 11 project\PP3 (Team Leader)\Team Leader\obj\Debug\Team Leader.csproj.GenerateResource.cache
+C:\Users\byron\Desktop\BHC STUFF\Past Courses\spring 2019\CS-101 (intro into structured prog)\week 15 (inheritance polymorphism)\unit 11 project\PP3 (Team Leader)\Team Leader\obj\Debug\Team Leader.csproj.CoreCompileInputs.cache
+C:\Users\byron\Desktop\BHC STUFF\Past Courses\spring 2019\CS-101 (intro into structured prog)\week 15 (inheritance polymorphism)\unit 11 project\PP3 (Team Leader)\Team Leader\obj\Debug\Team Leader.exe
+C:\Users\byron\Desktop\BHC STUFF\Past Courses\spring 2019\CS-101 (intro into structured prog)\week 15 (inheritance polymorphism)\unit 11 project\PP3 (Team Leader)\Team Leader\obj\Debug\Team Leader.pdb
