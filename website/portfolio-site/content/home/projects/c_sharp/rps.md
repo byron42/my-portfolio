@@ -3,11 +3,11 @@ title = "Rock, Paper, Scissors"
 image = "rps.jpg"
 weight = "1"
 
-code_url = "https://github.com/byron42/my-portfolio/blob/master/website/MEP/index.html"
-repo_url = "https://github.com/byron42/my-portfolio/tree/master/website/MEP"
+code_url = "https://github.com/byron42/my-portfolio/blob/master/c%23/rock-paper-scissor/Rock%2C%20Paper%2C%20Scissors/Form1.cs"
+repo_url = "https://github.com/byron42/my-portfolio/tree/master/c%23/rock-paper-scissor"
 
 [[resources]]
--src = "/rps.jpg"
+src = "rps.jpg"
 +++
 <!-- 
 * this is something else trying to figure all of this out
