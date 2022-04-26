@@ -373,6 +373,9 @@ img {
 .btn-action:focus,
 .btn-action:active,
 .btn-action.active {
+
+  /* color: #bd1550; */
+  /* border-color: #bd1550; */
   color: #bd1550;
   border-color: #bd1550;
   transform: scale(1.07) !important;                                                               /* maybe I like it? */
@@ -619,6 +622,13 @@ media@ only screen and (max-width: 768px) {
 .flex3 {
   justify-content: space-between;
 }
+.flex4 {
+  justify-content: center;
+}
+.button-buffer{
+  margin-right: 10px !important;
+  margin-left: 10px !important;
+}
 
 /* ------------------------------------------------------------------------ */
 
@@ -647,35 +657,55 @@ media@ only screen and (max-width: 768px) {
   height: auto !important;
   margin: 40px 20px 80px 20px ;
   text-align: center;
-  border-radius: 8px;
+  /* border-radius: 8px; */
+  border-radius: 6px;
   border-style: solid;
-  /* border-color: rgb(143, 143, 143); */
-  border-color: rgb(183, 183, 183);
+
+  /* border-color: rgb(183, 183, 183); */
+  border-color: rgb(199, 199, 199);
+  /* border-color: rgb(222, 222, 222); */
 }
 .content-button {
-  margin-top: -80px;
+  /* margin-top: -80px; */
+  margin-top: -110px;
   border-radius: 8px !important;
   border-style: solid;
-  color: rgba(86, 85, 85, 0.7);
-  border-color: rgba(86, 85, 85, 0.7);
+
+  /* color: rgba(86, 85, 85, 0.7); */
+  /* border-color: rgba(86, 85, 85, 0.7); */
+  color: rgba(95, 95, 97, 0.6);
+  border-color: rgba(95, 95, 97, 0.6);
+
+
   border-width: 1.4px;
 }
 
 .content-title {
   width: auto;
   height: auto;
-  margin: 25px 0 -20px;
+
+  /* margin: 25px 0 -20px; */
+  margin: 25px 0 -30px;
+
   text-align: center;
-  font-weight: 300;
+  font-weight: 300 !important;
   text-transform: uppercase;
   font-size: 30px;
-  font-size: 1.5rem;
-  letter-spacing: 1px;
+  font-size: 1.3rem;
+  
+  /* color: rgba(95, 95, 97, 1); */
+  color: rgba(95, 95, 97, 0.7) !important;
+
+  /* letter-spacing: 1px; */
+  letter-spacing: 0.3px;
+
   flex-wrap: wrap;
+  font-weight: 400;
+  color: rgba(95, 95, 97, 0.5);
 }
 
 .shadow {
-  box-shadow: 0 6px 6px -1px rgba(0,0,0,0.7); 
+  box-shadow: 0 3px 9px -3px rgba(0,0,0,0.5); 
   }
 .container-content {
   /* max-width: 1080px; */
@@ -686,8 +716,12 @@ media@ only screen and (max-width: 768px) {
 }
 .content-image {
   width: 600px;
-  border-radius: 8px;
-  border-style: solid;
+
+  /* border-radius: 8px; */
+  border-radius: 4px;
+
+  /* border-width: 1px; */
+  /* border-style: solid ; */
   border-color: rgb(86, 85, 85, 0.5);
 }
 
@@ -712,11 +746,13 @@ media@ only screen and (max-width: 768px) {
   overflow: hidden;
   margin: 0px 0 25px;
   text-align: center;
-  font-weight: 300;
+  font-weight: 300 !important;
   text-transform: uppercase;
   font-size: 36px;
   font-size: 2.25rem;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
+  color: rgba(95, 95, 97, 0.7);
+  font-weight: 300;
 }
 .section-title a,
 .entry-title a {
