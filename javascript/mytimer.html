@@ -1,0 +1,69 @@
+<html>
+
+<style>
+
+.center {
+	position: absolute;
+    width: 100%;
+    height: 50px;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: -65px;
+	font-size: 40px;
+	text-align: center;
+}
+
+</style>
+
+	<script>
+	
+		// name the timer
+		var myTimer;
+
+		/********************************************************************************************
+			This function allows a user to enter a message into a prompt and then puts the first
+			letter of the message behind the last every second by using the repeatTimer() function.
+		********************************************************************************************/
+		function myMarquee() {
+			  var message = prompt("Please enter a sentence and I will show you a trick", "Hello");
+			  
+			  if (message != null) {
+				
+				// setting the output
+				document.getElementById("output").innerHTML = message;
+				
+				// setting the timer
+				myTimer = window.setInterval(repeatTimer, 1000);
+			  }
+		}
+		
+		// takes front index and puts it behind the rest every second
+		function repeatTimer(){
+			
+			// get output
+			var message = document.getElementById("output").innerHTML; 
+			
+			// get the first, then "the rest"
+			var front = message.slice(0,1);
+			var back = message.slice(1);
+			
+			// put the first behind "the rest"
+			document.getElementById("output").innerHTML = back + front;
+		}
+		
+		// STOP TIMER!
+		function stopTimer(){
+			clearInterval(myTimer);
+		}
+		
+	</script>
+
+<body onload="myMarquee()">
+
+	<div class="center">
+		<p  id="output"></p>
+		<button onclick="stopTimer()">Stop Scrolling</button>
+	</div>
+	
+</body>
+</html>

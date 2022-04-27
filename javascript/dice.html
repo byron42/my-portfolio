@@ -1,0 +1,71 @@
+<html>
+<head>
+	<script>
+	
+	/*************************************************************************
+		This function will get a number from the user to simulate a game of  
+		craps (loses on 2, 3, and 12) then calculates the number of wins
+		and losses along with the win percentage for the number of games 
+		the user entered.
+	**************************************************************************/
+
+	function roll_dice() {
+
+		var rolls = document.getElementById("rolls").value;
+		var dice;
+		var total = "";
+		var loss = 0;
+		var win = 0;
+		var winPercent;
+		var r;
+		
+		// loop for playing the rolls
+		for (r = 1; r <= rolls; r++){
+			
+			dice = Math.floor(Math.random() * 12) + 1;
+			
+			// get the number of wins and losses
+			if (dice == 2) {
+				total += dice + "  -  lose" + "<br>";
+				loss += 1;
+			} else if (dice == 3){
+				total += dice + "  -  lose" + "<br>";
+				loss += 1;
+			} else if (dice == 12){
+				total += dice + "  -  lose" + "<br>";
+				loss += 1;
+			} else {
+				total += dice + "  -  win" + "<br>";
+				win += 1;
+			}
+		}
+		
+		// calculate the winning percent
+		winPercent = ((rolls - loss) / rolls) * 100;
+		
+		document.getElementById("runningTotal").innerHTML = "<h3><hr>Running Total:</h3><hr>" + total;
+		document.getElementById("win").innerHTML = "<h3><hr>Wins: " + win + "<hr></h3>";
+		document.getElementById("loss").innerHTML = "<h3><hr>Losses: " + loss + "<hr></h3>";
+		document.getElementById("wPercent").innerHTML = "<h3><hr>Win  " + winPercent + "% <hr></h3>";
+	}
+	
+	</script>
+</head>
+
+
+<body>
+<h1>Play Craps</h1>
+<h3>Enter a number of rolls to play:</h3>
+
+<input id="rolls" type="number" size="5">
+<input type="button" value="Roll Dice" onclick="roll_dice('input','output');"><br><br>
+
+<p id="diceOutput"></p>
+<p id="diceTotal"></p>
+<p id="runningTotal"></p>
+<p id="win"></p>
+<p id="loss"></p>
+<p id="wPercent"></p>
+
+
+</html>

@@ -1,0 +1,105 @@
+<html>
+<style>
+h3 {
+	padding-bottom: 0px;
+	height: 5px;
+}
+</style>
+<head>
+	<script>
+	
+		var nameArr = [];
+		var gradeArr = [];
+		
+		/********************************************************************************************
+			This function gets a name and grade of a student and adds the info into two
+			parallel arrays.  The function shows the min, max, and avg of all grades entered,
+			and shows the number of corresponding letter grades based on grade percentages entered.
+		********************************************************************************************/
+		function appendArray ( name, grade ) {
+			var name = document.getElementById("name").value;
+			var grade = document.getElementById("grade").value;
+			
+			// add to the lists
+			nameArr.push( name );
+			gradeArr.push( grade );
+			
+			// clear values and show 
+			clearFields();
+		}
+
+		// sets up all output and clears fields "onclick"
+		function clearFields() {
+		
+			var avgGrade = gradeArr.reduce(arrSum)/gradeArr.length;
+			
+			document.getElementById("name").value = "";
+			document.getElementById("grade").value = "";
+			
+			// stops outputs from stacking
+			clearOutput();
+			
+			output.innerHTML += "==========================================================================================<br/>";
+			output.innerHTML += "-----------------------------------------------------------------------------------------<br/>";
+			// arrays
+			output.innerHTML += "Student Array: " + "[ " + nameArr.join(", ") + " ]" + "<br/>";
+			output.innerHTML += "Grades Array: " + "[ " + gradeArr.join(", ") + " ]" + "<br/>";
+			output.innerHTML += "-----------------------------------------------------------------------------------------<br/>";
+			
+			// min, max, avg
+			output.innerHTML += "Max Grade: " + Math.max.apply(Math, gradeArr) + "<br>";
+			output.innerHTML += "Min Grade: " + Math.min.apply(Math, gradeArr) + "<br>";
+			output.innerHTML += "Avg Grade: " + avgGrade.toFixed(2) + "<br>";
+			output.innerHTML += "-----------------------------------------------------------------------------------------<br/>";
+			
+			//number of a,b,c,d,f
+			output.innerHTML += "A's: " + arrFindCount(gradeArr,90,1000) +"<br>";
+			output.innerHTML += "B's: " + arrFindCount(gradeArr,80,89) +"<br>";
+			output.innerHTML += "C's: " + arrFindCount(gradeArr,70,79) +"<br>";
+			output.innerHTML += "D's: " + arrFindCount(gradeArr,60,69) +"<br>";
+			output.innerHTML += "F's: " + arrFindCount(gradeArr,0,59) +"<br>";
+			output.innerHTML += "-----------------------------------------------------------------------------------------<br/>";
+			output.innerHTML += "==========================================================================================<br/>";
+		}
+		
+		// finds the sum of the array for calculating average grade
+		function arrSum(total,num){
+			return parseInt(total) + parseInt(num);
+		}
+		
+		// finds the count of values in the specified range
+		function arrFindCount(arr,min,max) {
+			var count=0;
+			
+			for( i=0; i<arr.length; i++) {
+				if (arr[i] >= min && arr[i] <= max) count++;
+			}    
+			return count;
+		}
+		
+		// stops output from repetitively stacking on itself
+		function clearOutput(){
+			 if ( document.getElementById("output").value != "" ){
+				return document.getElementById("output").innerHTML = "";
+			}
+		}
+
+	</script>
+</head>
+<body>
+
+	<form>
+		<h1>Parallel Arrays...</h1>
+
+		<h3>Enter Student's Name:</h3>
+		<input id="name" type="text"/><br>
+
+		<h3>Enter Student's Grade Percent:</h3>
+		<input id="grade" type="text"/><br><br>
+
+		<input type="button" value="Add To Arrays" onclick="appendArray();">
+		<p id="output"></p>
+	</form>
+
+</body>
+</html>

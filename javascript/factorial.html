@@ -1,0 +1,123 @@
+<html>
+
+<style>
+
+.inline  {
+	border: 3px rgb(86, 10, 10) solid;
+	padding-top: 0px;
+	padding-left: 9px;
+	padding-right: 9px;
+	padding-bottom: 9px;
+	display: block; 
+	width: 300px;
+	margin-bottom: 10px;
+	margin-left: 3px;
+	height: 125px;
+ }  
+
+h3 {
+	width:100%;
+	border-bottom: solid 1px #666;
+}
+
+</style>
+
+
+<head>
+<script>
+
+	/************************************************************
+		These two functions use RECURSION to find the factorial
+		of a number that a user enters into an input box
+	************************************************************/ 
+	function recurseIt(inid,outid) {
+
+		var num = parseInt(document.getElementById(inid).value);
+
+		var result = factR(num);
+
+		document.getElementById(outid).innerHTML = "Factorial of " + num + " is " + result;
+	}
+	
+	function factR(n) {
+	
+		var result = 1;
+			if (n > 1) return n * factR(n-1);
+		return 1;
+	}
+	
+	/******************************************************^********
+		These two functions use an EXPRESSION to find the factorial 
+		of a number that a user enters into an input box
+	***************************************************************/ 
+	function expressIt(inid,outid) {
+
+		var num = parseInt(document.getElementById(inid).value);
+
+		var result = calculate(num);
+
+		document.getElementById(outid).innerHTML = "Factorial of " + num + " is " + result;
+	}
+	
+	var calculate = function factE(n){
+	
+		if (n <= 1) {
+			return 1;
+		}
+		 return n * factE (n-1);
+	}
+	
+	/******************************************************^********
+		These two functions use an WHILE LOOP to find the factorial 
+		of a number that a user enters into an input box
+	***************************************************************/ 
+	function loopIt(inid,outid) {
+
+		var num = parseInt(document.getElementById(inid).value);
+
+		var result = factWL(num);
+
+		document.getElementById(outid).innerHTML = "Factorial of " + num + " is " + result;
+	}
+	
+	function factWL(n) {
+		
+		var result = n;
+		
+		if (n === 0 || n === 1)
+			return 1;
+		while (n > 1){
+			n--;
+			result = result * n;
+			console.log(result * n);
+		}
+		return result;
+	}
+	
+</script>
+</head>
+
+<body>
+
+	<h1>   Calculate a factorial:</h1>
+
+	<div class="inline">
+		<h3>Use <span style="color:green">recursion</span> for factorial</h3>
+		number: <input id="inputR" type="text" size="6">
+		<input type="button" value="Calculate" onclick="recurseIt('inputR','outputR');">
+		<p id="outputR">---</p>
+	</div>
+	<div class="inline">
+		<h3>Use an <span style="color:green">expression</span> for factorial</h3>
+		number: <input id="inputE" type="text" size="6">
+		<input type="button" value="Calculate" onclick="expressIt('inputE','outputE');">
+		<p id="outputE">---</p>
+	</div>
+	<div class="inline">
+		<h3>Use a <span style="color:green">while loop</span> for factorial</h3>
+		number: <input id="inputL" type="text" size="6">
+		<input type="button" value="Calculate" onclick="loopIt('inputL','outputL');">
+		<p id="outputL">---</p>
+	</div>
+	
+</html>

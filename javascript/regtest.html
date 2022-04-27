@@ -1,0 +1,74 @@
+ <html>
+<head>
+	<script>
+
+		/************************************************************
+			this function parses the user"s input to tell what type
+			of string the user entered (eg ssn, zip, longZip, etc..)
+			by using regular expressions to test against.
+		**************************************************************/
+		function inputType(str){
+			
+			var shortPhone 	= /^([0-9]{3})[-]([0-9]{4})$/;
+			var longPhone 	= /^(([(][0-9]{3}[)])?|([0-9]{3})?)[-]?([0-9]{3})[-]([0-9]{4})$/;
+			var ssn 		= /^([0-9]{3})[-]([0-9]{2})[-]([0-9]{4})$/;
+			var shortZip 	= /^([0-9]{5})$/;
+			var longZip 	= /^([0-9]{5})[-]([0-9]{4})$/;
+			
+			if (str.match(shortPhone)){
+			
+				return "This is a short phone number";
+			
+			} else if (str.match(longPhone)) {
+			
+				return "This is a long phone number";
+				
+			} else if (str.match(ssn)) {
+			
+				return "This is a SSN";
+				
+			} else if (str.match(shortZip)) {
+			
+				return "This is a short zip code"; 
+				
+			} else if (str.match(longZip)) {
+			
+				return "This is a long zip code";
+				
+			} else 
+			
+			return "The input format is incorrect, try again!";
+		}
+
+		/**********************************************************
+			This parses a user string against regular expressions
+			passed in from the inputType function and tells the	
+			user what type format of a number they put in
+		**********************************************************/
+		function regIt(inid,outid) {
+
+			var str = document.getElementById(inid).value;
+
+			var output = "";
+			
+			output += inputType(str);
+			
+			document.getElementById(outid).innerHTML = output;
+		}
+		
+	</script>
+</head>
+
+
+<body>
+<h1>String Test</h1>
+<h3>Enter a formatted type number and I'll tell you what type it is (eg. phone, zip, ssn):</h3>
+
+<input id="input" type="text">
+<input type="button" value="Try it" onclick="regIt('input','output');"><br><br>
+
+
+<p id="output"></p>
+
+
+</html>
