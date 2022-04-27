@@ -24,77 +24,77 @@ h3 {
 
 
 <head>
-<script>
+	<script>
 
-	/************************************************************
-		These two functions use RECURSION to find the factorial
-		of a number that a user enters into an input box
-	************************************************************/ 
-	function recurseIt(inid,outid) {
+		/************************************************************
+			These two functions use RECURSION to find the factorial
+			of a number that a user enters into an input box
+		************************************************************/ 
+		function recurseIt(inid,outid) {
 
-		var num = parseInt(document.getElementById(inid).value);
+			var num = parseInt(document.getElementById(inid).value);
 
-		var result = factR(num);
+			var result = factR(num);
 
-		document.getElementById(outid).innerHTML = "Factorial of " + num + " is " + result;
-	}
-	
-	function factR(n) {
-	
-		var result = 1;
-			if (n > 1) return n * factR(n-1);
-		return 1;
-	}
-	
-	/******************************************************^********
-		These two functions use an EXPRESSION to find the factorial 
-		of a number that a user enters into an input box
-	***************************************************************/ 
-	function expressIt(inid,outid) {
-
-		var num = parseInt(document.getElementById(inid).value);
-
-		var result = calculate(num);
-
-		document.getElementById(outid).innerHTML = "Factorial of " + num + " is " + result;
-	}
-	
-	var calculate = function factE(n){
-	
-		if (n <= 1) {
+			document.getElementById(outid).innerHTML = "Factorial of " + num + " is " + result;
+		}
+		
+		function factR(n) {
+		
+			var result = 1;
+				if (n > 1) return n * factR(n-1);
 			return 1;
 		}
-		 return n * factE (n-1);
-	}
-	
-	/******************************************************^********
-		These two functions use an WHILE LOOP to find the factorial 
-		of a number that a user enters into an input box
-	***************************************************************/ 
-	function loopIt(inid,outid) {
-
-		var num = parseInt(document.getElementById(inid).value);
-
-		var result = factWL(num);
-
-		document.getElementById(outid).innerHTML = "Factorial of " + num + " is " + result;
-	}
-	
-	function factWL(n) {
 		
-		var result = n;
-		
-		if (n === 0 || n === 1)
-			return 1;
-		while (n > 1){
-			n--;
-			result = result * n;
-			console.log(result * n);
+		/******************************************************^********
+			These two functions use an EXPRESSION to find the factorial 
+			of a number that a user enters into an input box
+		***************************************************************/ 
+		function expressIt(inid,outid) {
+
+			var num = parseInt(document.getElementById(inid).value);
+
+			var result = calculate(num);
+
+			document.getElementById(outid).innerHTML = "Factorial of " + num + " is " + result;
 		}
-		return result;
-	}
-	
-</script>
+		
+		var calculate = function factE(n){
+		
+			if (n <= 1) {
+				return 1;
+			}
+			return n * factE (n-1);
+		}
+		
+		/******************************************************^********
+			These two functions use an WHILE LOOP to find the factorial 
+			of a number that a user enters into an input box
+		***************************************************************/ 
+		function loopIt(inid,outid) {
+
+			var num = parseInt(document.getElementById(inid).value);
+
+			var result = factWL(num);
+
+			document.getElementById(outid).innerHTML = "Factorial of " + num + " is " + result;
+		}
+		
+		function factWL(n) {
+			
+			var result = n;
+			
+			if (n === 0 || n === 1)
+				return 1;
+			while (n > 1){
+				n--;
+				result = result * n;
+				console.log(result * n);
+			}
+			return result;
+		}
+		
+	</script>
 </head>
 
 <body>
