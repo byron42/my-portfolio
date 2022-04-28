@@ -649,6 +649,7 @@ media@ only screen and (max-width: 768px) {
   /* font-weight: bold; */
   flex-wrap: wrap;
   margin-bottom: 30px;
+  /* width: 300px; */
 }
 .flex-items {
   background-color: rgba(149, 147, 147, 0.248);
@@ -657,7 +658,6 @@ media@ only screen and (max-width: 768px) {
   height: auto !important;
   margin: 40px 20px 80px 20px ;
   text-align: center;
-  /* border-radius: 8px; */
   border-radius: 6px;
   border-style: solid;
 
@@ -666,27 +666,17 @@ media@ only screen and (max-width: 768px) {
   /* border-color: rgb(222, 222, 222); */
 }
 .content-button {
-  /* margin-top: -80px; */
   margin-top: -110px;
   border-radius: 8px !important;
   border-style: solid;
-
-  /* color: rgba(86, 85, 85, 0.7); */
-  /* border-color: rgba(86, 85, 85, 0.7); */
   color: rgba(95, 95, 97, 0.6);
   border-color: rgba(95, 95, 97, 0.6);
-
-
   border-width: 1.4px;
 }
-
 .content-title {
   width: auto;
   height: auto;
-
-  /* margin: 25px 0 -20px; */
   margin: 25px 0 -30px;
-
   text-align: center;
   font-weight: 300 !important;
   text-transform: uppercase;
@@ -703,28 +693,41 @@ media@ only screen and (max-width: 768px) {
   font-weight: 400;
   color: rgba(95, 95, 97, 0.5);
 }
-
 .shadow {
   box-shadow: 0 3px 9px -3px rgba(0,0,0,0.5); 
   }
 .container-content {
-  /* max-width: 1080px; */
   width: 90%;
   margin-left: 5%;
   height: 100%;
   align-content: center;
 }
 .content-image {
-  width: 600px;
-
-  /* border-radius: 8px; */
+  width: 550px;
   border-radius: 4px;
-
-  /* border-width: 1px; */
-  /* border-style: solid ; */
   border-color: rgb(86, 85, 85, 0.5);
 }
 
+/*************************************** FOR NO IMAGE (ICON) */
+.content-image-sm {
+  width: 320px !important;
+  border-radius: 4px;
+  border-color: rgb(86, 85, 85, 0.5);
+}
+.flex-items-sm {
+  background-color: rgba(149, 147, 147, 0.248);
+  width: 320px !important;
+  height: auto !important;
+  margin: 40px 20px 80px 20px ;
+  text-align: center;
+  border-radius: 6px;
+  border-style: solid;
+
+  /* border-color: rgb(183, 183, 183); */
+  border-color: rgb(199, 199, 199);
+  /* border-color: rgb(222, 222, 222); */
+}
+/*************************************** FOR NO IMAGE (ICON) */
 
 /* ******************************************************************************************************* */
 /* ********************************************************************** CONTENT COMPONENTS ***************/

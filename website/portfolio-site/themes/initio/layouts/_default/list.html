@@ -12,18 +12,33 @@
 		<div class="flex-content flex2 " >
 			{{ range .Paginator.Pages }}
 			<div >
+
 				<!-- title -->
 				<h1 class="content-title">
 					{{ .Title }}
 				</h1>
 				
-				<!-- img/desc -->
+				<!-- img/desc (conditional icon/image)-->
+				{{ $image := .Params.image }}
+		   		{{ $png := "icon.png" }}
+
+				{{ if eq $image $png }}
+				<div class="flex-items-sm">  
+					<img class="content-image-sm shadow" src="{{ .Params.image }}">  
+					<div class="entry-content-new" >
+						{{ .Content }}
+														<!-- true -->
+					</div>
+				</div>
+				{{ else }}
 				<div class="flex-items">  
 					<img class="content-image shadow" src="{{ .Params.image }}">  
 					<div class="entry-content-new" >
 						{{ .Content }}
+														<!-- false -->
 					</div>
 				</div>
+				{{ end }}
 
 				<!-- buttons -->
 				<div class="flex flex2" >
