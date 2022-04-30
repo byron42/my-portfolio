@@ -17,25 +17,42 @@
 				<h1 class="content-title">
 					{{ .Title }}
 				</h1>
-				
+
 				<!-- img/desc (conditional icon/image)-->
 				{{ $image := .Params.image }}
 		   		{{ $png := "icon.png" }}
 
 				{{ if eq $image $png }}
+				<!-- true -->
 				<div class="flex-items-sm">  
 					<img class="content-image-sm shadow" src="{{ .Params.image }}">  
-					<div class="entry-content-new" >
-						{{ .Content }}
-														<!-- true -->
+					
+					<!-- info icon -->
+					<div id="image">
+						<div class="icon-position">
+							<div {{if eq (len .Content) 0}} class="hidden" {{end}}> <!-- only if content -->
+								<img class="info-icon" src="{{ .Site.BaseURL }}{{ .Site.Params.info }}"> 
+							</div>
+						</div> 
+						<!-- conditional content -->
+						<div id="content" class="entry-content-new">{{ .Content }}</div>
 					</div>
 				</div>
+
 				{{ else }}
+				<!-- false -->
 				<div class="flex-items">  
-					<img class="content-image shadow" src="{{ .Params.image }}">  
-					<div class="entry-content-new" >
-						{{ .Content }}
-														<!-- false -->
+					<img class="content-image shadow " src="{{ .Params.image }}"> 
+					
+					<!-- info icon -->
+					<div id="image">
+						<div class="icon-position">
+							<div {{if eq (len .Content) 0}} class="hidden" {{end}}> <!-- only if content -->
+								<img class="info-icon" src="{{ .Site.BaseURL }}{{ .Site.Params.info }}"> 
+							</div>
+						</div> 
+						<!-- conditional content -->
+						<div id="content" class="entry-content-new">{{ .Content }}</div>
 					</div>
 				</div>
 				{{ end }}

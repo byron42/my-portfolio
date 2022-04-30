@@ -640,12 +640,93 @@ media@ only screen and (max-width: 768px) {
 /* *********************************************************************************************************/
 /* ********************************************************************** CONTENT COMPONENTS ***************/
 /* *********************************************************************************************************/
+
+/* #image:hover .info-icon {
+  display:none;
+} */
+
+.icon-position {
+   position: relative;
+   float: right;
+   bottom: 25px;
+   right: -15px;
+   display: flex;
+  /* top: 340px; */
+  /* margin-right: 25px; */
+  /* left:250px; */
+  /* width:auto; */
+  /* height: auto; */
+  
+  /* border-radius: 50%; */
+  /* border-style: solid; */
+  /* border-width: 2px; */
+  border-color: rgb(162, 162, 162);
+}
+.info-icon {
+  display: flex;
+  /* display:inline-block; */
+  right:0;
+  width: 40px;
+  height: auto;
+  padding: 0 !important;
+  margin: 0 !important;
+  /* position: relative; */
+  /* bottom: 30px; */
+  /* left:250px; */
+  /* align-items: right !important; */
+
+  /* border-radius: 50%; */
+  /* border-style: solid; */
+  /* border-width: 2px; */
+  border-color: rgb(162, 162, 162);
+}
+
+
+
+
+.hidden {
+  display: none;
+}
+#image #content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.15s ease-out !important;  
+}
+#image:hover  #content {
+  vertical-align: center;
+  position:relative;  top: 15px;
+  text-align: left;
+  margin-right: 20px;
+  margin-left: 20px;
+  display: flex;
+  max-height: 800px;
+  transition: max-height 0.25s ease-in !important ;
+}
+
+
+
+.entry-content-new {
+  /* display: flex; */
+  flex-wrap: wrap;
+  vertical-align: center;
+  position: relative;
+  top: 15px;
+  left: 12px;
+  text-align: left !important;
+  margin-right: 20px !important;
+  margin-left: 20px !important;
+  padding: 0;
+  width: auto !important;
+  max-width: 550px !important;
+  /* height: auto; */
+  
+}
 .flex-content {
   display: flex;
   text-align: center;
   /* height: 600px; */
   /* background-color: #7d7d7d; */
-  /* color: #000000; */
+  /* color: #000000; */   
   /* font-weight: bold; */
   flex-wrap: wrap;
   margin-bottom: 30px;
@@ -660,6 +741,7 @@ media@ only screen and (max-width: 768px) {
   text-align: center;
   border-radius: 6px;
   border-style: solid;
+  padding: 0;
 
   /* border-color: rgb(183, 183, 183); */
   border-color: rgb(199, 199, 199);
@@ -804,13 +886,17 @@ media@ only screen and (max-width: 768px) {
 .entry-content {
   margin: 0 0 60px 0;
 }
-.entry-content-new {
-  vertical-align: center;
-  position:relative;  top: 15px;
-  text-align: left;
-  margin-right: 20px;
-  margin-left: 20px;
-}
+
+
+
+
+
+
+
+
+
+
+
 .entry-content h2 {
   line-height: 1.2;
   font-size: 30px;

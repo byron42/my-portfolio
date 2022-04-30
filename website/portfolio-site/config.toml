@@ -7,6 +7,8 @@ theme = "initio"
     logo = "images/head-icon.png"
     logoclass = "LOGO"
 
+    info = "images/info/info2.png"
+
     name = "Brian Efflandt"
     description = "Application Developer"
     email = "efflandt.brian@gmail.com"
