@@ -1,4 +1,4 @@
 +++
-title = "WEBSITES"
+title = "Website Examples"
 type = "websites"
 +++

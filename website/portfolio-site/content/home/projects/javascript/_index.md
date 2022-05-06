@@ -1,5 +1,4 @@
 +++
-title = "{ JS }"
+title = "Javascript Examples"
 type = "javascript"
-weight = "3"
 +++

@@ -718,9 +718,20 @@ media@ only screen and (max-width: 768px) {
   padding: 0;
   width: auto !important;
   max-width: 550px !important;
+  color: rgba(137, 136, 136, 1);
   /* height: auto; */
-  
 }
+.entry-content-new > h3 {
+  margin-right: 20px !important;
+  /* margin-left: 0px !important; */
+  font-weight: 600;
+  color: rgba(135, 135, 135, 1);
+  font-size: 25px;
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+
 .flex-content {
   display: flex;
   text-align: center;
@@ -856,7 +867,7 @@ media@ only screen and (max-width: 768px) {
   position: absolute;
   height: 4px;
   top: 0.53em;
-  width: 400%;
+  width: 1000%;
   border-bottom: 1px solid #ccc;
   border-top: 1px solid #ccc;
 }

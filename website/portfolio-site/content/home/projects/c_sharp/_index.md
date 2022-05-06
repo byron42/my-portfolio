@@ -1,5 +1,5 @@
 +++
-title = "C# (winforms)"
+title = "C# Winform Examples"
 type = "C# (winforms)"
 # weight = "4"
 
