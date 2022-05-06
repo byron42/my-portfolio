@@ -703,8 +703,6 @@ media@ only screen and (max-width: 768px) {
   transition: max-height 0.25s ease-in !important ;
 }
 
-
-
 .entry-content-new {
   /* display: flex; */
   flex-wrap: wrap;

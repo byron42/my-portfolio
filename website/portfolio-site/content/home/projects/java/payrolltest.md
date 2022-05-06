@@ -10,6 +10,5 @@ repo_url = "https://github.com/byron42/my-portfolio/tree/master/java/PayrollTest
 <!-- ### Description: -->
 Focusing on exception handling, this program asks for input for various worker types, allows a user to enter the correspoinding input to calculate a weekly paycheck for each type then displays the formatted information for each type.
 
-### Notes:
-
+**Notes:**  
 Interfaces, Abstract Methods, Downcasting, instanceof, and final Methods

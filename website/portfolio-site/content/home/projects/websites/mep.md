@@ -9,8 +9,9 @@ repo_url = "https://github.com/byron42/my-portfolio/tree/master/website/MEP"
 [[resources]]
  src = "mep.jpg"
 +++
+Advanced web-dev semester long final project which included wire frames, marketing concepts, color schemeing, search engine optimization, software development life cycle, and time management concepts.  The whole project involved sharing ideas with other classmates throughout the semester, and sharing constructive criticism about other people's ideas and workflows.
 
-* this is something else trying to figure all of this out
-* some days I enjoy, others are awful
-* eventually I'll end up happy with what I'm doing
-* until then I'll keep trying to get better
+**Notes:**  
+Bootstrap, javascript, SDLC, SEO, wire framing
+
+<hr>

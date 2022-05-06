@@ -9,3 +9,4 @@ repo_url = "https://github.com/byron42/my-portfolio/tree/master/javascript"
 # [[resources]]
 #   src = "icon.png"
 +++
+Javascript program that writes three versions of the factorial function. One recursive, one that uses a function expression, and one that does not use recursion.
