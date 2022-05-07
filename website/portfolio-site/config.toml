@@ -71,15 +71,15 @@ theme = "initio"
 
 
 [[menu.projects]]
-    name = "GO"
-    url = "/"
+    name = "PHP"
+    url = "home/projects/php/"
     weight = 5
 [[menu.projects]]
     name = "ACCESS"
     url = "/"
     weight = 6
 [[menu.projects]]
-    name = "PHP"
+    name = "SOME"
     url = "/"
     weight = 7
 [[menu.projects]]
