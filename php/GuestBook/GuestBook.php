@@ -58,7 +58,7 @@ if((!file_exists("Visitors/visitors.txt")) || (filesize("Visitors/visitors.txt")
 
 else{
 	$VisitorArray = file("Visitors/visitors.txt");
-	echo "<table style=\"background-color:lightgray\" border=\"1\" width=\"50%\">\n";
+	echo "<table style=\"background-color:#F2F2F2;\" border=\"1\" width=\"50%\">\n";
 	
 	$count = count($VisitorArray);
 	for($i=0; $i<$count; ++$i){
@@ -76,14 +76,10 @@ else{
 ?>
 
 <p>
-<a href="AddGuest.php">Add Guest</a>
-<br />
-<a href="GuestBook.php?action=Sort%20Ascending">Sort Guests A-Z</a>
-<br/>
-<a href="GuestBook.php?action=Sort%20Descending">Sort Guests Z-A</a>
-<br/>
-<a href="GuestBook.php?action=Delete%20First">Delete First Guest</a>
-<br />
+<a href="AddGuest.php">Add Guest</a> •
+<a href="GuestBook.php?action=Sort%20Ascending">Sort Guests A-Z</a> •
+<a href="GuestBook.php?action=Sort%20Descending">Sort Guests Z-A</a> •
+<a href="GuestBook.php?action=Delete%20First">Delete First Guest</a> •
 <a href="GuestBook.php?action=Delete%20Last">Delete Last Guest</a>
 </p>
 
