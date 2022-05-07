@@ -1,0 +1,7 @@
+5 units of pencils were ordered  ($1/unit)
+6 units of pens were ordered     ($2/unit)
+10 units of markers were ordered  ($3/unit)
+0 units crayons were ordered     ($3/unit)
+3 units reams were ordered       ($5/unit)
+
+Order Total: $62
