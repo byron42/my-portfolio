@@ -54,29 +54,29 @@ theme = "initio"
 
 [[menu.projects]]
     name = "WEBSITES"
-    url = "home/projects/websites/"
+    url = "repos/websites/"
     weight = 2
 [[menu.projects]]
     name = "{ JS }"
-    url = "home/projects/javascript/"
+    url = "repos/javascript/"
     weight = 1
 [[menu.projects]]
     name = "JAVA"
-    url = "home/projects/java/"
+    url = "repos/java/"
     weight = 3
 [[menu.projects]]
     name = "C#"
-    url = "home/projects/c_sharp/"
+    url = "repos/c_sharp/"
     weight = 4
 
 
 [[menu.projects]]
     name = "PHP"
-    url = "home/projects/php/"
+    url = "repos/php/"
     weight = 5
 [[menu.projects]]
     name = "ACCESS"
-    url = "/"
+    url = "repos/access/"
     weight = 6
 [[menu.projects]]
     name = "SOME"

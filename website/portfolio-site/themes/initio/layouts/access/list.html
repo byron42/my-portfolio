@@ -10,6 +10,7 @@
 		</div>
 
 		<div class="flex-content flex2 " >
+			
 			{{ range .Paginator.Pages }}
 			<div >
 
@@ -60,7 +61,7 @@
 				<!-- buttons -->
 				<div class="flex flex2" >
 					<p class="text-center"><a href="{{ .Params.code_url }}" target="blank" class="btn btn-action content-button">VEIW CODE</a></p>
-					<p class="text-center"><a href="{{ .Params.repo_url }}" target="blank" class="btn btn-action content-button">VEIW REPO</a></p>
+					<!-- <p class="text-center"><a href="{{ .Params.repo_url }}" target="blank" class="btn btn-action content-button">VEIW PIC</a></p> -->
 				</div>
 			</div>
 			{{ end }}

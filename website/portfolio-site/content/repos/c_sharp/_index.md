@@ -1,6 +1,7 @@
 +++
 title = "C# Winform Examples"
-type = "C# (winforms)"
+type = "c_sharp"
+description = "C# (winforms)"
 # weight = "4"
 
 # [[resources]]
