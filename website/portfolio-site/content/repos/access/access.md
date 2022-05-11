@@ -10,9 +10,9 @@ image3 = "billing.jpg"
 image4 = "clientinfo.jpg"
 image5 = "mileage.jpg"
 image6 = "sales_report.jpg"
-# layout = "list"
 
-code_url = "https://github.com/byron42/my-portfolio/blob/master/c%23/rock-paper-scissor/Rock%2C%20Paper%2C%20Scissors/Form1.cs"
-repo_url = "https://github.com/byron42/my-portfolio/tree/master/c%23/rock-paper-scissor"
+sow_url = "https://github.com/byron42/my-portfolio/blob/master/access/StatementOfWork.pdf"
+repo_url = "https://github.com/byron42/my-portfolio/tree/master/access"
+erd_url = "https://github.com/byron42/my-portfolio/blob/master/access/ERD.pdf"
 +++
-A semester long project requiring a statement of work **(SOW)**, an entity relationship diagram **(ERD)**, and the creation of a Microsoft Access DB based on these things (framed with my wife's photography business).  
+A semester long project requiring a statement of work (SOW), a continuously refined entity relationship diagram (ERD), the creation of a Microsoft Access DB revolving around them, all framed by my wife's photography business needs.  
