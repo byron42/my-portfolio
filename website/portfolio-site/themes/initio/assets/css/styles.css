@@ -818,7 +818,47 @@ media@ only screen and (max-width: 768px) {
   border-color: rgb(199, 199, 199);
   /* border-color: rgb(222, 222, 222); */
 }
-/*************************************** FOR NO IMAGE (ICON) */
+/*************************************************************/
+
+/************************************* CONTENT UL FOR IMAGES */
+hr {
+  position: relative;
+  height: 2px;
+  top: -2em;
+  width: 100%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+#ul-flex {
+  list-style-type: none;
+  padding: 0;
+  /* margin: 0 !important; */
+  /* width:auto; */
+  /* height: auto; */
+}
+#ul-flex > li {
+  display: inline;
+  max-width: 410px;
+  margin: 20px 20px 50px 20px;
+  border-radius: 6px;
+  border-style: solid;
+  border-color: rgb(199, 199, 199);
+  background-color: rgb(212, 210, 221);
+  /* box-shadow: 0 3px 9px -3px rgba(0,0,0,0.5);  */
+}
+.disclaimer {
+  color: #ccc;
+  text-align: center;
+  display: flex;
+  margin-bottom: 5px;
+  margin-top: -35px;
+  font-style: italic;
+  font-size: medium;
+  /* font-weight:500; */
+}
+/*************************************************************/
+
+
 
 /* ******************************************************************************************************* */
 /* ********************************************************************** CONTENT COMPONENTS ***************/
