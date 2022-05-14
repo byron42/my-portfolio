@@ -1,7 +1,13 @@
+# baseURL = "https://byron42.github.io/Brian_Efflandt_Portfolio/"
 baseURL = "https://example.com/"
+
 languageCode = "en"
-title = "Initio - Free, multipurpose html5 template by GetTemplate"
+title = "Brian Efflandt Coding Portfolio"
 theme = "initio"
+
+# not sure?
+canonifyURLs = true
+
 
 [params]
     logo = "images/head-icon.png"

@@ -64,14 +64,25 @@
 -->
 <footer id="footer">
 	<div class="container-fluid">
-		<div class="row footer-padding">
+		<div>
 
-			<div class="col-xs-6 text-right">
+			<div class="flex flex4">
 				<p class="name">© Brian Efflandt</p>
+				{{ if .Site.Params.showFooterFollowMe }}
+				<div class="footer-padding">
+					<p class="follow-me-icons name">
+						{{ range .Site.Params.social }}
+									{{ if .footer }}
+										<a href="{{ .url }}" target="_blank"><i class="{{ .icon }} fa-1x"></i></a>
+									{{ end }}
+						{{ end }}
+					</p>
+				</div>
+				{{ end }}
 			</div>
 
-			{{ if .Site.Params.showFooterFollowMe }}
-			<div class="col-xs-6 text-left">
+			<!-- {{ if .Site.Params.showFooterFollowMe }}
+			
 					<p class="follow-me-icons name">
 						{{ range .Site.Params.social }}
 										{{ if .footer }}
@@ -79,8 +90,8 @@
 										{{ end }}
 						{{ end }}
 					</p>
-			</div>
-			{{ end }}
+			
+			{{ end }} -->
 			
 		</div> <!-- /row of widgets -->
 	</div>
