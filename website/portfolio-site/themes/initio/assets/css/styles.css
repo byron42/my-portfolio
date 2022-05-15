@@ -135,9 +135,10 @@ body {
   width: 50px;
   float: left;
   opacity: 0.85;
+  margin-top: 16px;
 }
 .toggle-fix {
-  margin-top: 17px;
+  margin-top: 18px;
   margin-bottom: 20px;
   width: 45px;
   height: 45px;
@@ -569,41 +570,59 @@ img {
 /* **************************************** PROJECT BUTTON *********************************************** */
 /* ******************************************************************************************************* */
 .project-container{
-  width: 94%;
-  margin-left: 3%;
+  width: 96%;
+  margin-left: 2%;
   height: 100%;
   align-content: center;
 }
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
   .project-container{
     width: 80%;
     margin-left: 10%;
     height: 100%;
     align-content: center;
   }
-}
+} */
 
 .project-button {
   border-radius: 50%;
   border-width: 2px;
   border-style: solid;
   border-color: rgb(126, 126, 126);
-  
   background-color: rgba(149, 147, 147, 0.248);
-
-  float: left;
   opacity: 0.85;
   width: 140px;
   height: 140px;
-  margin: 20px;
+  
+  margin: 40px;
 
   font-size: 30px;
   font-size: 1.375rem;
   color: rgba(95, 95, 97, 1);
- 
   font-weight: 300;
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5); /* 50% black coming from the top */
 }
+
+@media only screen and (max-width: 460px){
+  .project-button {
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(126, 126, 126);
+    background-color: rgba(149, 147, 147, 0.248);
+    float: left;
+    opacity: 0.85;
+    width: 140px;
+    height: 140px;
+    margin: 18px;
+    font-size: 30px;
+    font-size: 1.375rem;
+    color: rgba(95, 95, 97, 1);
+    font-weight: 300;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
+  }
+}
+
 .col-centered {
   float: none;
   /* margin-left: 5; */
