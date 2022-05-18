@@ -1,12 +1,12 @@
-<div class="project-container flex">
+  <div class="container flex no-padding">
 
-  <div class="project-flex flex2 ">
-    {{ range .Site.Menus.projects }}     
-    <button class="project-button zoom"  onclick="window.location.href='{{ .URL }}'">
-       {{ .Name }}
-        <!-- <a href="{{ .URL }}">{{ .Name }}</a> -->
-    </button>
-    {{ end}}
-  </div>
+    <div class="project-flex flex2 ">
+      {{ range .Site.Menus.projects }}     
+      <button class="project-button zoom"  onclick="window.location.href='{{ .URL }}'">
+        {{ .Name }}
+          <!-- <a href="{{ .URL }}">{{ .Name }}</a> -->
+      </button>
+      {{ end}}
+    </div>
 
 </div>

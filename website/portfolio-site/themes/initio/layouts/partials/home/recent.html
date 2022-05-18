@@ -1,0 +1,35 @@
+<div class="container-content" >
+
+	<div class="flex-content flex2 " >
+		{{ range .Paginator.Pages }}
+		<div >
+
+			<!-- title -->
+			<h1 class="content-title">
+				{{ .Title }}
+			</h1>
+
+			<div class="flex-items shrink-full" >  
+				<img class="content-image shadow "  src="{{ .Params.image }}"> 
+				
+				<!-- info icon -->
+				<div id="image">
+					<div class="icon-position">
+						<div {{if eq (len .Content) 0}} class="hidden" {{end}}> <!-- only if content -->
+							<img class="info-icon" src="{{ .Site.BaseURL }}{{ .Site.Params.info }}"> 
+						</div>
+					</div> 
+					<!-- conditional content -->
+					<div id="content" class="entry-content-recent">{{ .Content }}</div>
+				</div>
+			</div>
+		
+			<!-- buttons -->
+			<div class="flex flex2" >
+				<p class="text-center"><a href="{{ .Params.code_url }}" target="blank" class="btn btn-action content-button">VEIW CODE</a></p>
+				<p class="text-center"><a href="{{ .Params.repo_url }}" target="blank" class="btn btn-action content-button">VEIW REPO</a></p>
+			</div>
+		</div>
+		{{ end }}
+	</div>
+</div>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C# Winform Examples on Brian Efflandt Coding Portfolio</title>
+    <link>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/c_sharp/</link>
+    <description>Recent content in C# Winform Examples on Brian Efflandt Coding Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://byron42.github.io/Brian_Efflandt_Portfolio/repos/c_sharp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rock, Paper, Scissors</title>
+      <link>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/c_sharp/rps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/c_sharp/rps/</guid>
+      <description>Eum, quasi, est, vitae, ipsam nobis consectetur ea aspernatur ad eos voluptatibus fugiat nisi perferendis impedit. Quam, nulla, excepturi, voluptate minus illo tenetur sint ab in culpa cumque impedit quibusdam. Saepe, molestias quia voluptatem natus velit fugiat omnis rem eos sapiente quasi quaerat aspernatur quisquam deleniti accusantium laboriosam odio id?</description>
+    </item>
+    
+    <item>
+      <title>Slot machine Simulater</title>
+      <link>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/c_sharp/slots/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/c_sharp/slots/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Team Leader (OOP)</title>
+      <link>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/c_sharp/teamlead/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/c_sharp/teamlead/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Word Counter &amp; Average Letter</title>
+      <link>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/c_sharp/wordcount/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/c_sharp/wordcount/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
