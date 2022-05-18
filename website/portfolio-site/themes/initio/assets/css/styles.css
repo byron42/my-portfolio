@@ -829,8 +829,8 @@ img {
 @media only screen and (min-width: 1000px) {
   .shrink-full {
     max-width:390px;
-    margin-right: 15px;
-    margin-left: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
     /* justify-content: space-around; */
   }
 }
