@@ -1,3 +1,7 @@
+<!-- for opening info links in new tab -->
+<base  target="_blank">
+
+
 <div class="container-content" >
 
 	<div class="flex-content flex2 " >
@@ -23,12 +27,26 @@
 					<div id="content" class="entry-content-recent">{{ .Content }}</div>
 				</div>
 			</div>
-		
+
+			{{ $url := .Params.demo_url }}
+			{{ $string := "" }}
+
+			{{ if eq $url $string }}
 			<!-- buttons -->
 			<div class="flex flex2" >
-				<p class="text-center"><a href="{{ .Params.code_url }}" target="blank" class="btn btn-action content-button">VEIW CODE</a></p>
-				<p class="text-center"><a href="{{ .Params.repo_url }}" target="blank" class="btn btn-action content-button">VEIW REPO</a></p>
+				<p class="text-center"><a href="{{ .Params.code_url }}" target="blank" class="btn btn-action content-button">CODE</a></p>
+				<p class="text-center"><a href="{{ .Params.repo_url }}" target="blank" class="btn btn-action content-button">REPO</a></p>
 			</div>
+			
+			{{ else }}
+			<!-- buttons -->
+			<div class="flex flex2" >
+				<p class="text-center"><a href="{{ .Params.demo_url }}" target="blank" class="btn btn-action content-button">DEMO</a></p>
+				<p class="text-center"><a href="{{ .Params.code_url }}" target="blank" class="btn btn-action content-button">CODE</a></p>
+				<p class="text-center"><a href="{{ .Params.repo_url }}" target="blank" class="btn btn-action content-button">REPO</a></p>
+			</div>
+			{{ end }}
+
 		</div>
 		{{ end }}
 	</div>

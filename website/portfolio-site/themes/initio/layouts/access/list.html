@@ -12,13 +12,13 @@
 		<div class="flex-content flex2">
 			
 			{{ range .Paginator.Pages }}
-			<div >
+			<div class="section-buffer">
 
 				<!-- title -->
-				<h1 class="content-title">{{ .Title }}</h1>
+				<h1 class="content-title ">{{ .Title }}</h1>
 
 				<div class="flex-items">  
-					<img class="content-image shadow" src="{{ .Params.image }}"> 
+					<img class="content-image shadow " src="{{ .Params.image }}"> 
 					
 					<!-- info icon -->
 					<div id="image">
@@ -33,7 +33,7 @@
 				</div>
 			
 				<!-- buttons -->
-				<div class="flex flex2" >
+				<div class="flex flex2">
 					<p class="text-center"><a href="{{ .Params.sow_url }}" target="blank" class="btn btn-action content-button">SOW</a></p>
 					<p class="text-center"><a href="{{ .Params.repo_url }}" target="blank" class="btn btn-action content-button">REPO</a></p>
 					<p class="text-center"><a href="{{ .Params.erd_url }}" target="blank" class="btn btn-action content-button">ERD</a></p>
@@ -44,7 +44,7 @@
 			<hr>
 			
 			<!-- screenshots -->
-			<div class="flex flex2">
+			<div class="flex flex2 access-padding-bot">
 				<div class="flex flex2">
 					<ul  id="ul-flex" class="flex flex2">
 						<li class="shadow"><img class="content-image" src="{{ .Params.image1 }}"></li>
