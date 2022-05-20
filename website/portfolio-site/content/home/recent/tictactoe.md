@@ -5,7 +5,7 @@ type = "recent"
 
 image ="home/recent/tictactoe.jpg"
 
-demo_url = ";alkjfskldfj;"
+demo_url = ";alkjf"
 code_url = "https://github.com/byron42/my-portfolio/blob/master/react/tic-tac-toe/src/index.js"
 repo_url = "https://github.com/byron42/my-portfolio/tree/master/react/tic-tac-toe"
 +++
