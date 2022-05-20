@@ -3,7 +3,7 @@ title = "Tic Tac Toe (React)"
 weight = "1"
 type = "recent"
 
-image ="home/recent/tictactoe.jpg"
+image ="tictactoe.jpg"
 
 demo_url = ";alkjfskldfj;"
 code_url = "https://github.com/byron42/my-portfolio/blob/master/react/tic-tac-toe/src/index.js"
