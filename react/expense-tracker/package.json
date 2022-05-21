@@ -1,6 +1,7 @@
 {
   "name": "expense-tracker",
   "version": "0.1.0",
+  "homepage": "https://byron42.github.io/react-demo__expense-tracker",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
