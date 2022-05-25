@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+    <script src="https://kit.fontawesome.com/4b9ba14b0f.js" crossorigin="anonymous"></script>
+</head>
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(193, 192, 192);
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgb(216, 216, 216);
+    margin: auto;
+    max-width: 900px;
+    min-width: 300px;
+    position: relative;
+    align-content: center;
+	border-radius: 10px;
+     /* height: 600px; */
+}
+
+.normal {
+    color: #ffffff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 11rem;
+    /* padding-left: 7px; */
+}
+
+.far {
+    font-size: 9rem;
+    color: #ffffff;
+}
+
+.msg {
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.6rem;
+    color: rgb(156, 156, 156);
+    padding:30px;
+}
+
+    a {
+    text-decoration: none;
+    color: white;
+    }
+
+    a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    /* font-size: 1.6rem; */
+    /* color: rgb(248, 245, 245); */
+    }
+
+    .flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width:100%;
+    }
+
+    .fix {
+    position: relative;
+    display: flex;
+    width: 600px;
+    justify-content: center;
+    max-width: 100%;
+    min-width: 600px;
+    }
+
+ul {
+    display: inline-block;
+    align-items: center;
+    padding-left: 0px;
+    height:200px;
+    margin-right: 16px !important;
+}
+
+li {
+    display: inline-block;
+    margin: 0;
+}
+
+hr {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-width: 2px;
+    /* color: red; */
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 94%;
+}
+</style>
+
+<body>
+    <div class="container">
+        <ul class="flex" style="margin-left: 0px !important">
+            <li class="normal">
+                <p>4</p>
+            </li>
+            <li>
+                <i class="far fa-question-circle fa-spin"></i>
+            </li>
+            <li class="normal">
+                <p>4</p>
+            </li>
+        </ul>
+        <hr>
+        <div class="msg">
+            Maybe this page moved or was possibly deleted? &#160;Maybe it never existed in the first place...
+            <p>Let's go <a href="/">home</a> and figure it out.</p>
+        </div>
+    </div>
+</body>
+
+</html>

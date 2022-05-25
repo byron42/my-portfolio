@@ -4,15 +4,13 @@ title = "About"
 type = "about"
 weight = 10
 +++
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, consequuntur eius repellendus eos aliquid molestiae ea laborum ex quibusdam laudantium voluptates placeat consectetur quam aliquam beatae soluta accusantium iusto nihil nesciunt unde veniam magnam repudiandae sapiente.
+##### **Where I am**
+I'm an aspiring application developer who is looking for a place to start a career.  I know that what I've learned so far will benefit any employer who decides to take me under thier wing.  Not only am I looking forward to it, I honestly can't wait to prove it.
 
 ![about](../images/mac.jpg)
 
-### Necessitatibus
+##### **What I need**
+A chance to be molded into what someone is looking for.  I've learned all of these things, I want to put them to use for a purpose.  Otherwise, this seems to end up in an ever-expanding reality of becoming a jack-of-all-trades, which isn't exactly what I'm seeking.  I'm aware that there's value in knowing much about many things, but I really want to hone in my skills at this point.
 
-Velit, odit, eius, libero unde impedit quaerat dolorem assumenda alias consequuntur optio quae maiores ratione tempore sit aliquid architecto eligendi pariatur ab soluta doloremque dicta aspernatur labore quibusdam dolore corrupti quod inventore. Maiores, repellat, consequuntur eius repellendus eos aliquid molestiae ea laborum ex quibusdam laudantium voluptates placeat consectetur quam aliquam!
-
-### Fugit, laboriosam
-
-Eum, quasi, est, vitae, ipsam nobis consectetur ea aspernatur ad eos voluptatibus fugiat nisi perferendis impedit. Quam, nulla, excepturi, voluptate minus illo tenetur sint ab in culpa cumque impedit quibusdam. Saepe, molestias quia voluptatem natus velit fugiat omnis rem eos sapiente quasi quaerat aspernatur quisquam deleniti accusantium laboriosam odio id?
+##### **What I'm looking for**
+I truly hope to find a place where I can anchor what I've learned from my classes, and what I've accomplished in my free time.  Ideally, I want to be around people who like to challenge themselves, and are willing to challenge others. As far as I can tell, there's no better environment for creating new ideas, or improving upon others...

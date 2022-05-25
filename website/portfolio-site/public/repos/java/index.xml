@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Java Examples on Brian Efflandt Coding Portfolio</title>
-    <link>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/java/</link>
+    <link>https://example.com/repos/java/</link>
     <description>Recent content in Java Examples on Brian Efflandt Coding Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://byron42.github.io/Brian_Efflandt_Portfolio/repos/java/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://example.com/repos/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Payroll Test (OOP)</title>
-      <link>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/java/payrolltest/</link>
+      <link>https://example.com/repos/java/payrolltest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/java/payrolltest/</guid>
+      <guid>https://example.com/repos/java/payrolltest/</guid>
       <description>Focusing on exception handling, this program asks for input for various worker types, allows a user to enter the correspoinding input to calculate a weekly paycheck for each type then displays the formatted information for each type.
 Notes:
 Interfaces, Abstract Methods, Downcasting, instanceof, and final Methods</description>
@@ -19,46 +19,46 @@ Interfaces, Abstract Methods, Downcasting, instanceof, and final Methods</descri
     
     <item>
       <title>File Creator</title>
-      <link>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/java/filecreator/</link>
+      <link>https://example.com/repos/java/filecreator/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/java/filecreator/</guid>
+      <guid>https://example.com/repos/java/filecreator/</guid>
       <description>Java program that allows the user to create, write to, and read from a sequential-access file using the Formatter and Scanner classes.</description>
     </item>
     
     <item>
       <title>Part-Time Employee (OOP)</title>
-      <link>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/java/part_time/</link>
+      <link>https://example.com/repos/java/part_time/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/java/part_time/</guid>
+      <guid>https://example.com/repos/java/part_time/</guid>
       <description>Java program that outputs static content for each worker type by utilizing interfaces, abstract methods, downcasting, instanceof, and final methods.</description>
     </item>
     
     <item>
       <title>Regular Expressions</title>
-      <link>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/java/regex/</link>
+      <link>https://example.com/repos/java/regex/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/java/regex/</guid>
+      <guid>https://example.com/repos/java/regex/</guid>
       <description>Java program that allows a user to enter some information, it is verified/validated using regular expressions, and is output with a variety of StringBuilder and String methods.</description>
     </item>
     
     <item>
       <title>Weekly Payroll</title>
-      <link>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/java/weekelypayroll/</link>
+      <link>https://example.com/repos/java/weekelypayroll/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/java/weekelypayroll/</guid>
+      <guid>https://example.com/repos/java/weekelypayroll/</guid>
       <description>Java program that utilizes JOptionPane to allow a user to choose a worker type, fill in details about the worker, and then print out a weekly paycheck amount based on the information entered for all workers during runtime.</description>
     </item>
     
     <item>
       <title>Miles Per Gallon</title>
-      <link>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/java/milespergallon/</link>
+      <link>https://example.com/repos/java/milespergallon/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/java/milespergallon/</guid>
+      <guid>https://example.com/repos/java/milespergallon/</guid>
       <description>Java program that allows a user to enter a positive number of miles and gallons of gas used on a trip to calculate MPG for a/multiple trips. It outputs the average MPG for all trips entered on exit.</description>
     </item>
     

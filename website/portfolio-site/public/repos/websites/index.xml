@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Website Examples on Brian Efflandt Coding Portfolio</title>
-    <link>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/websites/</link>
+    <link>https://example.com/repos/websites/</link>
     <description>Recent content in Website Examples on Brian Efflandt Coding Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://byron42.github.io/Brian_Efflandt_Portfolio/repos/websites/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://example.com/repos/websites/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mary Efflandt Photography</title>
-      <link>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/websites/mep/</link>
+      <link>https://example.com/repos/websites/mep/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/websites/mep/</guid>
+      <guid>https://example.com/repos/websites/mep/</guid>
       <description>Advanced web-dev semester long final project which included wire frames, marketing concepts, color schemeing, search engine optimization, software development life cycle, and time management concepts. The whole project involved sharing ideas with other classmates throughout the semester, and sharing constructive criticism about other people&amp;rsquo;s ideas and workflows.
 Notes:
 Bootstrap, javascript, SDLC, SEO, wire framing</description>
@@ -19,10 +19,10 @@ Bootstrap, javascript, SDLC, SEO, wire framing</description>
     
     <item>
       <title>Portfolio Site</title>
-      <link>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/websites/portfolio/</link>
+      <link>https://example.com/repos/websites/portfolio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/websites/portfolio/</guid>
+      <guid>https://example.com/repos/websites/portfolio/</guid>
       <description></description>
     </item>
     

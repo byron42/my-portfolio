@@ -2,79 +2,79 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Javascript Examples on Brian Efflandt Coding Portfolio</title>
-    <link>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/javascript/</link>
+    <link>https://example.com/repos/javascript/</link>
     <description>Recent content in Javascript Examples on Brian Efflandt Coding Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://byron42.github.io/Brian_Efflandt_Portfolio/repos/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://example.com/repos/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Probabilities With Dice</title>
-      <link>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/javascript/probabilities/</link>
+      <link>https://example.com/repos/javascript/probabilities/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/javascript/probabilities/</guid>
+      <guid>https://example.com/repos/javascript/probabilities/</guid>
       <description>Javascript dice probability histogram program. It randomizes the roll of a pair of dice and tabulates the number of occurrences of 2-12. It then displays a histogram with the percentage probabilities and asterisks which relatively match the percentages. The user enters the number of roles to generate.</description>
     </item>
     
     <item>
       <title>Parallel Arrays</title>
-      <link>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/javascript/parallel/</link>
+      <link>https://example.com/repos/javascript/parallel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/javascript/parallel/</guid>
+      <guid>https://example.com/repos/javascript/parallel/</guid>
       <description>Javascript program that lets the user enter a list of students and their test scores (storing the data in parallel arrays). When the summary button is pressed the program displays the average, min, max grade and a count of the number of A, B, C, D, and F grades scored.</description>
     </item>
     
     <item>
       <title>Calculating Factorials</title>
-      <link>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/javascript/factorial/</link>
+      <link>https://example.com/repos/javascript/factorial/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/javascript/factorial/</guid>
+      <guid>https://example.com/repos/javascript/factorial/</guid>
       <description>Javascript program that writes three versions of the factorial function. One recursive, one that uses a function expression, and one that does not use recursion.</description>
     </item>
     
     <item>
       <title>jquery</title>
-      <link>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/javascript/jquery/</link>
+      <link>https://example.com/repos/javascript/jquery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/javascript/jquery/</guid>
+      <guid>https://example.com/repos/javascript/jquery/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Array of Objects (OOP)</title>
-      <link>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/javascript/objectarray/</link>
+      <link>https://example.com/repos/javascript/objectarray/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/javascript/objectarray/</guid>
+      <guid>https://example.com/repos/javascript/objectarray/</guid>
       <description>Javascript program that lets the user enter a list of students and their test scores (creating an object for each student). When the summary button is pressed the program displays the average, min, max grade and a count of the number of A, B, C, D, and F grades scored.</description>
     </item>
     
     <item>
       <title>Timer</title>
-      <link>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/javascript/timer/</link>
+      <link>https://example.com/repos/javascript/timer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/javascript/timer/</guid>
+      <guid>https://example.com/repos/javascript/timer/</guid>
       <description>Javascript program that displays a scrolling message (user enters a message when at pages load). Every second a letter is removed from the front of the message and added to the end (scrolling continues until the stop button is pressed).</description>
     </item>
     
     <item>
       <title>Regular Expressions</title>
-      <link>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/javascript/regex/</link>
+      <link>https://example.com/repos/javascript/regex/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/javascript/regex/</guid>
+      <guid>https://example.com/repos/javascript/regex/</guid>
       <description>Javascript program that lets the user enter a string for each field in the form. The program will display a message indicating if the string represents a short phone number, a long phone number, a social security number, a short zip code or a long zip code.</description>
     </item>
     
     <item>
       <title>Dice (craps simulation)</title>
-      <link>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/javascript/dice/</link>
+      <link>https://example.com/repos/javascript/dice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/javascript/dice/</guid>
+      <guid>https://example.com/repos/javascript/dice/</guid>
       <description>Javascript program that simulates a pseudo-game of craps. The user can enter a number, the output will show the randomized role for each game and a message indicating a win or loss. The program totals the number of wins, and displays the total and percentage of wins in the final output.</description>
     </item>
     

@@ -1,0 +1,10 @@
+{{ define "main" }}
+<main id="main">
+	<!-- <p class="under-construction">	THIS SECTION IS CURRENTLY UNDER CONSTRUCTION</p> -->
+	{{ range .Paginator.Pages }}
+	<img class="image-fs-constuction" src="{{ .Params.temp }}"> 
+	<div class="license"> <a href="https://www.flaticon.com/free-icon/under-construction_7529934?term=under%20construction&page=1&position=94&page=1&position=94&related_id=7529934&origin=search" target="_blank" title="under construction icons">original icon created by Freepik - Flaticon</a></div> 
+	{{end}}
+	
+</main>
+{{ end }}

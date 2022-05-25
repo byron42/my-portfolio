@@ -113,5 +113,11 @@
 {{ if .Site.Params.google.analytics -}}
 {{ partial "footer/analyticstracking.html" . }}
 {{ end -}}
+
+<!-- custom js (static/js/name.js) -->
+{{ range .Site.Params.custom_js -}}
+<script type="text/javascript" src="{{ . | absURL }}"></script>
+{{- end }}
+
 </body>
 </html>

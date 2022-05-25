@@ -2,70 +2,70 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PHP Examples on Brian Efflandt Coding Portfolio</title>
-    <link>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/php/</link>
+    <link>https://example.com/repos/php/</link>
     <description>Recent content in PHP Examples on Brian Efflandt Coding Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://byron42.github.io/Brian_Efflandt_Portfolio/repos/php/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://example.com/repos/php/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Web Orders</title>
-      <link>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/php/weborders/</link>
+      <link>https://example.com/repos/php/weborders/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/php/weborders/</guid>
+      <guid>https://example.com/repos/php/weborders/</guid>
       <description>This is an &amp;ldquo;online order&amp;rdquo; web-form where visitors select a quantity of items for sale. Each item has a name, description, and price. The form has buttons to update the totals for the quantities entered, and to submit the order.</description>
     </item>
     
     <item>
       <title>Bug Report (SQL)</title>
-      <link>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/php/bugreport/</link>
+      <link>https://example.com/repos/php/bugreport/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/php/bugreport/</guid>
+      <guid>https://example.com/repos/php/bugreport/</guid>
       <description>Web page that is used for storing software development bug reports in a MySQL database. Includes fields for product name and version, type of hardware, operating system, frequency of occurrence, and proposed solutions. Main page that allows a new bug report and updates to existing bug report.</description>
     </item>
     
     <item>
       <title>Guessing Game</title>
-      <link>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/php/guessing_game/</link>
+      <link>https://example.com/repos/php/guessing_game/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/php/guessing_game/</guid>
+      <guid>https://example.com/repos/php/guessing_game/</guid>
       <description>Script that uses sessions to store a random number between 0 and 100, along with the number of guesses the user has attempted. Each time the user guesses wrong, the number of guesses are displayed.</description>
     </item>
     
     <item>
       <title>Change Calculator</title>
-      <link>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/php/changecalc/</link>
+      <link>https://example.com/repos/php/changecalc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/php/changecalc/</guid>
+      <guid>https://example.com/repos/php/changecalc/</guid>
       <description>All-in-One Web form that calculates the correct amount of change to return when performing a cash transaction. Allows the user (a cashier) to enter the cost of a transaction and the exact amount of money that the customer hands over to pay for the transaction (up to $100). The correct number of bills and coins are displayed appropriately.</description>
     </item>
     
     <item>
       <title>Guest Book</title>
-      <link>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/php/guestbook/</link>
+      <link>https://example.com/repos/php/guestbook/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/php/guestbook/</guid>
+      <guid>https://example.com/repos/php/guestbook/</guid>
       <description>Script that stores visitor names and e-mail addresses in a text file. Allows users to view the guest book and prevents the same user name from being entered twice. Also, includes a sort method to sort the guest book by name and deletes duplicate entries.</description>
     </item>
     
     <item>
       <title>Two Trains</title>
-      <link>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/php/twotrains/</link>
+      <link>https://example.com/repos/php/twotrains/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/php/twotrains/</guid>
+      <guid>https://example.com/repos/php/twotrains/</guid>
       <description>All-in-One sticky form that solves the “two trains moving toward each other” word problem. Has three inputs, all numbers greater than 0: the speed of Train A, the speed of Train B, and the distance between the two trains.</description>
     </item>
     
     <item>
       <title>Paycheck</title>
-      <link>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/php/paycheck/</link>
+      <link>https://example.com/repos/php/paycheck/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/php/paycheck/</guid>
+      <guid>https://example.com/repos/php/paycheck/</guid>
       <description>Two-part form that calculates an employee’s weekly gross salary, based on the number of hours worked and an hourly wage that a user chooses. The program computes any hours over 40 as time-and-a-half, the input is verified and validated to the submitted form data and provides appropriate error messages for invalid values.</description>
     </item>
     

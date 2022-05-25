@@ -9,9 +9,13 @@ theme = "initio"
 canonifyURLs = true
 
 
+
 [params]
     logo = "images/head-icon.png"
     logoclass = "LOGO"
+
+    button_bg = "images/button_bg.png"
+    button_bgclass = "BUTTON"
 
     info = "images/info/info2.png"
 
@@ -30,8 +34,9 @@ canonifyURLs = true
     DateForm = "January 2, 2006"
     author = "Sergey Pozhilov (GetTemplate.com)"
 
-    button_bg = "images/button_bg.png"
-    button_bgclass = "BUTTON"
+    # contact files
+    custom_css = ["/css/contact.css"]
+    custom_js = ["/js/contact.js"]
 
     showSubheader = true
     showProjects = true
@@ -48,13 +53,16 @@ canonifyURLs = true
     name = "home"
     url = "/"
     weight = 1
-[[menu.main]]
-    name = "contact"
-    url = "/post/"
-    weight = 5
 
 
-
+# [[menu.main]]
+#     name = "contact"
+#     url = "/post/"
+#     weight = 5
+# [[menu.main]]
+#     name = "contact"
+#     url = "/js/contact.js"
+#     weight = 5
 
 
 
@@ -85,13 +93,14 @@ canonifyURLs = true
     url = "repos/access/"
     weight = 6
 [[menu.projects]]
-    name = "SOME"
-    url = "/"
-    weight = 7
-[[menu.projects]]
     name = "REACT"
     url = "repos/react/"
+    weight = 7
+[[menu.projects]]
+    name = "MISC"
+    url = "repos/misc/"
     weight = 8
+
 
 
 
@@ -160,5 +169,5 @@ canonifyURLs = true
 	url = "mailto:efflandt.brian@gmail.com"
     icon = "fas fa-envelope-square"
     footer = true
-    sharethis = true
+    sharethis = false
     network = "email"

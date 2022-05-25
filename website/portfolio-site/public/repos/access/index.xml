@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MS Access Examples on Brian Efflandt Coding Portfolio</title>
-    <link>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/access/</link>
+    <link>https://example.com/repos/access/</link>
     <description>Recent content in MS Access Examples on Brian Efflandt Coding Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://byron42.github.io/Brian_Efflandt_Portfolio/repos/access/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://example.com/repos/access/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mary Efflandt Photography</title>
-      <link>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/access/access/</link>
+      <link>https://example.com/repos/access/access/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://byron42.github.io/Brian_Efflandt_Portfolio/repos/access/access/</guid>
+      <guid>https://example.com/repos/access/access/</guid>
       <description>A semester long project requiring a statement of work (SOW), a continuously refined entity relationship diagram (ERD), the creation of a Microsoft Access DB revolving around them, all framed by my wife&amp;rsquo;s photography business needs.</description>
     </item>
     
