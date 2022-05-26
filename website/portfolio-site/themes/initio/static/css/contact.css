@@ -23,6 +23,37 @@
   /* width: 100%; */
 }
 
+@media only screen and (max-width: 768px) {
+  .dropdown {
+    /* float: right; */
+    justify-content: center;
+    position: relative;
+    display: flex;
+    top: 0 !important;
+    /* right: 0; */
+    /* left: 87%;  */
+    min-width: auto;
+    width: 100%;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255, 0.8);
+    min-width: 50px;
+    /* width: 100%; */
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 100;
+    margin-top: 1px;
+  }
+}
+
+/*******************************************************************
+this sets the width and position of the icons that are displayed
+in space...display needs to be set to none in order for it to 
+disappear.  JS needs to be used to find a class that replaces these
+things onclick !!!(also needs to be duplicated in @media)!!!
+********************************************************************/
 .dropdown-content {
   display: none;
   position: absolute;
@@ -32,23 +63,26 @@
   overflow: auto;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 100;
-  
+  margin-top: 1px;
 }
 
 .icon-tweak {
-
   color: gray;
   border-radius: 50% !important;
   border-style: solid;
   border-width: 3px;
-  border-color: gray;  
+  border-color: gray;
   min-height: 50px !important;
   min-width:50px !important;
   padding:3px;
   overflow: hidden;
   background-color: rgb(203, 201, 201);
-
 }
+
+.icon-color {
+  color: rgb(124, 124, 124);
+}
+
 .no_pad{
   padding: 0;
 }
@@ -60,16 +94,23 @@
   display: inline-block;
 }
 
-
 .dropdown a:hover {background-color: #ddd;}
 
 .show {
   display: block;
+  opacity: 1;
+  -webkit-transition: opacity 2.3s ease-in-out;
+  transition: opacity 2.3s ease-in-out;
 }
 
-
-
-
-
+/* button ID */
+/* #myDropdown {
+  opacity: 1;
+  -webkit-transition: opacity 1.3s ease-in-out;
+  transition: opacity 1.3s ease-in-out;
+}
+#myDropdown.fade {
+  opacity: 0;
+} */
 
 /* ////////////////////////////////////////////////////////////////////////////// */

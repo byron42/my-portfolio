@@ -36,7 +36,7 @@ canonifyURLs = true
 
     # contact files
     custom_css = ["/css/contact.css"]
-    custom_js = ["/js/contact.js"]
+    custom_js = ["/js/contact.js","/js/content.js"]
 
     showSubheader = true
     showProjects = true

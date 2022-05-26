@@ -333,6 +333,11 @@ a:hover {
 
 
 **********************************************************************/
+#subheader {
+  margin-bottom: -10px;
+  margin-top: 20px;
+}
+
 img {
   max-width: 100%;
 }
@@ -1287,6 +1292,7 @@ footer.entry-meta .meta-in {
   font-size: 12px;
   color: #999;
   width: 100%;
+  /* height: auto; */
   /* margin-top: 20px; */
 }
 #footer a {

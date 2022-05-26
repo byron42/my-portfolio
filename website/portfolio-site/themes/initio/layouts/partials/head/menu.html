@@ -36,38 +36,27 @@
                 </li>
                 {{ end }}
             {{ end}}
+
+                <!-- ----------------------------------------------- -->
+                <!-- function for calling js for contact icons -->
                 <li>
-                    
-                    
-                    <!-- <div class="dropdown">
-                    <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-                    <div id="myDropdown" class="dropdown-content">
-                        <a href="#home">Home</a>
-                        <a href="#about">About</a>
-                        <a href="#contact">Contact</a>
-                    </div>
-                    </div> -->
-                    <a onclick="myFunction()" class="dropbtn" style="margin-right: -25px;">Contact</a>
-                    
-
-                    <!-- <a onclick="myFunction()">contact</a> -->
+                    <a id="handleDrop" onclick="contactIcons()" class="dropbtn" style="margin-right: -25px;">Contact</a>
+                    <!-- <a id="handleDrop" class="dropbtn" style="margin-right: -25px;">Contact</a> -->
                 </li>
+                <!-- ----------------------------------------------- -->
             </ul>
-           
-
         </div> 
-        <!--/.nav-collapse -->
     </div>
+
+    <!-- popup contact icons -->
     <div class="dropdown">
-        <!-- <button onclick="myFunction()" class="dropbtn">Dropdown</button> -->
         <div id="myDropdown" class="dropdown-content">
-          
           {{ range .Site.Params.social }}
-                  {{ if .footer }}
-                    <a class="" href="{{ .url }}" target="_blank"><i class="{{ .icon }} fa-2x no_pad"></i></a>
-                  {{ end }}
-                  {{ end }}
+                {{ if .footer }}
+                <a class="" href="{{ .url }}" target="blank"><i class="{{ .icon }} fa-2x no_pad icon-color"></i></a>
+                {{ end }}
+          {{ end }}
           
         </div>
-      </div>
+    </div>
 </nav>
