@@ -6,10 +6,7 @@ weight = "2"
 
 code_url = "https://github.com/byron42/my-portfolio/blob/master/website/portfolio-site/themes/initio/layouts/index.html"
 repo_url = "https://github.com/byron42/my-portfolio/tree/master/website/portfolio-site"
-
-[[resources]]
- src = "portfolio.jpg"
-
 +++
-<!-- ![Image alt](mep.jpg) -->
+Creating this site has been a big challenge, but I've learned volumes in the process.  It's given me more experience in all areas of SDLC, especially in the deployment and bug tracking area (organizing repositories and subdirectories with git, github, and gh-pages).
 
+I found a theme that fit my eye for displaying my content the way I saw it in my mind and then went to work.  All of the content menus and items were custom built by me, and honestly the only thing that remains of the original theme is the layout design to some extent...

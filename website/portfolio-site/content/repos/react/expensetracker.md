@@ -6,7 +6,7 @@ type = "recent"
 
 image ="expensetracker.jpg"
 
-demo_url = "s;dlkgjdsflkj"
+demo_url = "https://byron42.github.io/react-demo__expense-tracker/"
 code_url = "https://github.com/byron42/my-portfolio/blob/master/react/expense-tracker/src/App.js"
 repo_url = "https://github.com/byron42/my-portfolio/tree/master/react/expense-tracker"
 +++

@@ -770,8 +770,14 @@ img {
   margin-left: 20px;
   display: flex;
   max-height: 800px;
+  transition-property: height !important;
+  
   transition: max-height 0.25s ease-in !important ;
+  
+  transition-delay: .2s !important;
 }
+
+
 
 .entry-content-new {
   /* display: flex; */
