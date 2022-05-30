@@ -7,4 +7,4 @@ code_url = "https://github.com/byron42/my-portfolio/blob/master/c%23/slot-machin
 repo_url = "https://github.com/byron42/my-portfolio/tree/master/c%23/slot-machine"
 
 +++
-Application where a user plays as many simulated slot spins as they like.  Double winnings when two items match - on exit the application shows the winnings against the amount wagered.
+Application where a user plays as many simulated slot spins as they like.  Double winnings when two items match - on exit the application shows winnings against the amount wagered.
