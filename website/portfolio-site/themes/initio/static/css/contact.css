@@ -11,59 +11,65 @@
   background-color: #2980B9;
 }
 
+
+/*******************************************************************
+this sets the width and position of the icons that are displayed
+in space...display needs to be set to none (content) in order for it
+to disappear.  JS needs to be used to find a class that replaces these
+things onclick !!!(also needs to be duplicated in @media)!!!
+********************************************************************/
 .dropdown {
-  /* float: right; */
   justify-content: right;
   position: relative;
   display: flex;
   top: 0 !important;
-  /* right: 0; */
-  /* left: 87%;  */
   min-width: auto;
   /* width: 100%; */
+  /* text-align: right; */
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  
+  /* background-color: rgb(255, 255, 255, 0.8); */
+ 
+  min-width: 50px;
+
+
+  /* width: 100%; */
+  /*----------------------------- hug right side appearance */
+  /* width: 65px;
+  text-align: center; */
+  /*------------------------------------------------------ */
+
+
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 100;
+  margin-top: 1px;
 }
 
 @media only screen and (max-width: 768px) {
   .dropdown {
-    /* float: right; */
     justify-content: center;
     position: relative;
     display: flex;
     top: 0 !important;
-    /* right: 0; */
-    /* left: 87%;  */
     min-width: auto;
     width: 100%;
+    text-align: center;
   }
   .dropdown-content {
     display: none;
     position: absolute;
     background-color: rgb(255, 255, 255, 0.8);
     min-width: 50px;
-    /* width: 100%; */
+    width: 100% !important;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 100;
     margin-top: 1px;
   }
-}
-
-/*******************************************************************
-this sets the width and position of the icons that are displayed
-in space...display needs to be set to none in order for it to 
-disappear.  JS needs to be used to find a class that replaces these
-things onclick !!!(also needs to be duplicated in @media)!!!
-********************************************************************/
-.dropdown-content {
-  display: none;
-  position: absolute;
-  /* background-color: rgb(203, 201, 201); */
-  min-width: 50px;
-  /* width: 100%; */
-  overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 100;
-  margin-top: 1px;
 }
 
 .icon-tweak {
@@ -94,7 +100,10 @@ things onclick !!!(also needs to be duplicated in @media)!!!
   display: inline-block;
 }
 
-.dropdown a:hover {background-color: #ddd;}
+/* #bd1550 */
+/* .dropdown a:hover {background-color: #ddd;} */
+/* .dropdown-content a:hover > .icon-color {color: rgb(124, 22, 22);} */
+.dropdown-content a:hover > .icon-color {color: rgb(69, 68, 68);}
 
 .show {
   display: block;
