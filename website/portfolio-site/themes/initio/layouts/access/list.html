@@ -17,14 +17,15 @@
 				<!-- title -->
 				<h1 class="content-title ">{{ .Title }}</h1>
 
-				<div class="flex-items">  
+				<div class="flex-items enable-pointer">  
 					<img class="content-image shadow " src="{{ .Params.image }}"> 
 					
 					<!-- info icon -->
 					<div id="image">
 						<div class="icon-position">
-							<div {{if eq (len .Content) 0}} class="hidden" {{end}}> <!-- only if content -->
+							<div class="decoy-adjust" {{if eq (len .Content) 0}} class="hidden" {{end}}> <!-- only if content -->
 								<img class="info-icon" src="{{ .Site.BaseURL }}{{ .Site.Params.info }}"> 
+								<img class="decoy-icon decoy-position disable-pointer" src="{{ .Site.BaseURL }}{{ .Site.Params.info }}"> <!-- DECOY -->
 							</div>
 						</div> 
 						<!-- conditional content -->

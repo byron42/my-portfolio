@@ -24,31 +24,32 @@
 
 				{{ if eq $image $png }}
 				<!-- true -->
-				<div class="flex-items-sm">  
-					<img class="content-image-sm shadow" src="{{ .Params.image }}">  
-					
+				<div class="flex-items-sm enable-pointer">  
+					<img class="content-image-sm shadow" src="{{ .Params.image }}">
+
 					<!-- info icon -->
 					<div id="image">
 						<div class="icon-position">
-							<div {{if eq (len .Content) 0}} class="hidden" {{end}}> <!-- only if content -->
-								<img class="info-icon" src="{{ .Site.BaseURL }}{{ .Site.Params.info }}"> 
+							<div class="decoy-adjust" {{if eq (len .Content) 0}} class="hidden" {{end}}> <!-- only if content -->
+								<img class="enable-pointer info-icon" src="{{ .Site.BaseURL }}{{ .Site.Params.info }}"> 
+								<img class="decoy-icon decoy-position disable-pointer" src="{{ .Site.BaseURL }}{{ .Site.Params.info }}"> <!-- DECOY -->
 							</div>
 						</div> 
 						<!-- conditional content -->
 						<div id="content" class="entry-content-new">{{ .Content }}</div>
 					</div>
 				</div>
-
 				{{ else }}
 				<!-- false -->
-				<div class="flex-items">  
-					<img class="content-image shadow " src="{{ .Params.image }}"> 
-					
+				<div class="flex-items enable-pointer"> 
+					<img class="content-image shadow " src="{{ .Params.image }}">
+
 					<!-- info icon -->
 					<div id="image">
 						<div class="icon-position">
-							<div {{if eq (len .Content) 0}} class="hidden" {{end}}> <!-- only if content -->
+							<div class="decoy-adjust" {{if eq (len .Content) 0}} class="hidden" {{end}}> <!-- only if content -->
 								<img class="info-icon" src="{{ .Site.BaseURL }}{{ .Site.Params.info }}"> 
+								<img class="decoy-icon decoy-position disable-pointer" src="{{ .Site.BaseURL }}{{ .Site.Params.info }}"> <!-- DECOY -->
 							</div>
 						</div> 
 						<!-- conditional content -->
