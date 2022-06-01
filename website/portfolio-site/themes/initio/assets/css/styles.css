@@ -85,14 +85,24 @@ body {
   background-color: #ffffff;
   border-color: #cccccc;
 }
+
+
 .navbar-default .navbar-nav > li > a {
-  color: #333333;
-  font-weight: 300;
-}
-.navbar-default .navbar-nav > li > a:hover {
-  color: #333333;
+  /* color: #333333; */
+  color: rgb(137, 137, 138);
   font-weight: 500;
 }
+
+/* theme-color */
+/*----------------------------------------------------- main nav hover color */
+.navbar-default .navbar-nav > li > a:hover {
+ /* color: #333333; */
+   color:  rgb(140, 163, 179);
+  font-weight: 500;
+  -webkit-text-stroke: 0.5px rgb(140, 163, 179);
+}
+/*-------------------------------------------------------------------------- */
+
 
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > .active > a,
@@ -136,6 +146,16 @@ body {
   float: left;
   opacity: 0.85;
   margin-top: 16px;
+  transition: transform .1s; /* Animation */
+}
+
+ /* theme-color */
+.logo-nav:hover {
+  border-color: rgba(68, 117, 152, 0.53);
+  color: rgba(68, 117, 152, 1) !important;
+  /* transform: scale(1.07);  */
+  border-width: 3px;
+  background-color:  rgba(21, 34, 43, 0.4);
 }
 .toggle-fix {
   margin-top: 18px;
@@ -290,10 +310,13 @@ a:hover {
   border-radius: none;
 }
 
+
+/* NAME */
 #head .title {
   font-family: Alice, Georgia, serif;
   font-size: 49px;
   font-size: 3.0625rem;
+  color: #626262;
 }
 #head .title a {
   text-decoration: none;
@@ -393,6 +416,8 @@ img {
   text-shadow: none;
 }
 
+
+/* theme-color */
 .btn-action:hover,
 .btn-action:focus,
 .btn-action:active,
@@ -400,9 +425,13 @@ img {
 
   /* color: #bd1550; */
   /* border-color: #bd1550; */
-  color: #bd1550;
-  border-color: #bd1550;
-  transform: scale(1.07) !important;                                                               /* maybe I like it? */
+  /* color: rgba(68, 117, 152, .53); */
+  color: rgba(95, 95, 97, 0.6);
+  border-color:  rgba(68, 117, 152, .53);
+  /* background-color:  rgba(133, 150, 162, 0.17); */
+  transition: transform .1s; /* Animation */
+  transform: scale(1.07) !important;
+  border-width: 2px;                                                            /* maybe I like it? */
 }
 
 
@@ -603,6 +632,15 @@ img {
     align-content: center;
   }
 } */
+
+ /* theme-color */
+.project-button:hover {
+  border-color: rgba(68, 117, 152, 0.53);
+  /* color: rgba(68, 117, 152, 1) !important; */
+  /* font-weight: 400; */
+  border-width: 3px;
+  /* background-color:  rgba(35, 40, 44, 0.1); */
+}
  
 .project-button {
   border-radius: 50%;
@@ -728,7 +766,7 @@ img {
 /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: icon pulse animation */
 .pulse {
 	/* background-color: rgba(50, 115, 61, 0.7); */
-	background-color: rgba(128, 128, 128, 0.552);
+	background-color: rgba(40, 39, 39, 0.552);
   border-radius: 50%;
 	animation: pulse-color 2s infinite;
 	height: 40px;
@@ -738,25 +776,29 @@ img {
 }
 @keyframes pulse-color {
 	0% {
-		transform: scale(0.9);
+		transform: scale(1);
 		/* box-shadow: 0 0 0 0 rgba(50, 115, 61, 0.7); */
-		box-shadow: 0 0 0 0 gray;
+		box-shadow: 0 0 0 1 red;
+    background-color: rgba(40, 39, 39, 0.3);
 	}
 	
 	70% {
 		transform: scale(1);
-		box-shadow: 0 0 0 10px rgba(255, 82, 82, 0);
+		/* box-shadow: 0 0 0 2px rgba(255, 82, 82, .5); */
+    background-color: rgba(40, 39, 39, 0.72);
 	}
 	
 	100% {
-		transform: scale(0.9);
-		box-shadow: 0 0 0 0 rgba(255, 82, 82, 0);
+		transform: scale(1);
+		/* box-shadow: 0 0 0 0 rgba(255, 82, 82, 0); */
+    background-color: rgba(40, 39, 39, 0.3);
 	}
 }
 
+ /* theme-color */
 #image:hover .decoy-icon {
-  animation: none;
-  background-color: rgba(68, 117, 152, 0.53);
+  /* animation: pulse-color 2s infinite; */
+  background-color: rgba(68, 117, 152, 0.53) !important; 
 }
 /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 
@@ -780,7 +822,7 @@ img {
   float: right;
 
   top: -25px !important;
-  right: -15px !important;
+  right: -12px !important;
 
   display: flex;
   z-index: 0;
@@ -809,7 +851,7 @@ img {
   display: flex;
   top: -40px;
   right:0;
-  width: 40px;
+  width: 35px;
   height: auto;
   padding: 0;
   margin: 0;
@@ -973,7 +1015,7 @@ img {
   border-color: rgba(95, 95, 97, 0.6);
   border-width: 1.4px;
   /* padding: 5px 12px; */
-  padding-top: 2px;
+  padding-top: 3px;
   padding-bottom: 2px;
 }
 @media only screen and (max-width: 550px) {
@@ -984,8 +1026,8 @@ img {
     color: rgba(95, 95, 97, 0.6);
     border-color: rgba(95, 95, 97, 0.6);
     border-width: 1.4px;
-    padding: 2px 12px 2px 12px;
-  
+    padding: 3px 12px 2px 12px;
+    
   }
 }
 

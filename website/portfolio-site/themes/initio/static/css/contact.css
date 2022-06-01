@@ -98,12 +98,18 @@ things onclick !!!(also needs to be duplicated in @media)!!!
   padding: 12px 16px;
   text-decoration: none;
   display: inline-block;
+  transition: transform .1s; /* Animation */
 }
 
+/* theme-color */
 /* #bd1550 */
 /* .dropdown a:hover {background-color: #ddd;} */
 /* .dropdown-content a:hover > .icon-color {color: rgb(124, 22, 22);} */
-.dropdown-content a:hover > .icon-color {color: rgb(69, 68, 68);}
+/* .dropdown-content a:hover > .icon-color {color: rgb(69, 68, 68);} */
+.dropdown-content a:hover > .icon-color {
+  color: rgb(140, 163, 179);
+  transform: scale(1.07); 
+}
 
 .show {
   display: block;

@@ -19,7 +19,7 @@ canonifyURLs = true
     button_bg = "images/button_bg.png"
     button_bgclass = "BUTTON"
 
-    info = "images/info/info2.png"
+    info = "images/info/info15.png"
 
     name = "Brian Efflandt"
     description = "Application Developer"
@@ -38,7 +38,7 @@ canonifyURLs = true
 
     # contact files
     custom_css = ["css/contact.css"]
-    custom_js = ["js/contact.js","/js/content.js"]
+    custom_js = ["js/contact.js","js/content.js"]
 
     showSubheader = true
     showProjects = true
