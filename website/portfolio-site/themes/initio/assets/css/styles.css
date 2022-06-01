@@ -723,6 +723,43 @@ img {
   pointer-events: auto !important;
 }
 
+
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: icon pulse animation */
+.pulse {
+	/* background-color: rgba(50, 115, 61, 0.7); */
+	background-color: rgba(128, 128, 128, 0.552);
+  border-radius: 50%;
+	animation: pulse-color 2s infinite;
+	height: 40px;
+	width: 40px;
+   /* border-style: solid; */
+  /* border-width: 2px; */
+}
+@keyframes pulse-color {
+	0% {
+		transform: scale(0.9);
+		/* box-shadow: 0 0 0 0 rgba(50, 115, 61, 0.7); */
+		box-shadow: 0 0 0 0 gray;
+	}
+	
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(255, 82, 82, 0);
+	}
+	
+	100% {
+		transform: scale(0.9);
+		box-shadow: 0 0 0 0 rgba(255, 82, 82, 0);
+	}
+}
+
+#image:hover .decoy-icon {
+  animation: none;
+  background-color: rgba(68, 117, 152, 0.53);
+}
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
 .icon-position {
    position: relative;
    float: right;
@@ -748,7 +785,7 @@ img {
   display: flex;
   z-index: 0;
   opacity:1;
- 
+  border-width: 1px !important;
   border-color: rgb(162, 162, 162);
 }
 
@@ -781,10 +818,13 @@ img {
   /* border-radius: 50%; */
   /* border-style: solid; */
   /* border-width: 2px; */
+  
 }
 .decoy-adjust {
   height: 40px !important;
 }
+
+
 
 
 #image > #content {
