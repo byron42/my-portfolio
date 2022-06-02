@@ -21,7 +21,7 @@
 					<img class="content-image shadow " src="{{ .Params.image }}"> 
 					
 					<!-- info icon -->
-					<div id="image">
+					<div tabindex="0" id="image">
 						<div class="icon-position">
 							<div class="decoy-adjust" {{if eq (len .Content) 0}} class="hidden" {{end}}> <!-- only if content -->
 								<img class="info-icon" src="{{ .Site.BaseURL }}{{ .Site.Params.info }}"> 

@@ -11,6 +11,13 @@ body {
 .topspace {
   margin-top: 40px;
 }
+div:focus-visible, div.a:focus-visible,
+button:focus-visible, img:focus-visible,
+a.btn:focus-visible, a:focus-visible,
+.btn.dropbtn:focus-visible {
+   outline: rgba(68, 117, 152, 0.53) solid 3px;
+}
+
 /*********************************************************************
 
 
@@ -766,38 +773,40 @@ img {
 /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: icon pulse animation */
 .pulse {
 	/* background-color: rgba(50, 115, 61, 0.7); */
-	background-color: rgba(40, 39, 39, 0.552);
+  /* box-shadow: 0 3px 7px -3px rgba(0,0,0,0.5);  */
+	background-color: rgba(0, 0, 0, 0.552);
   border-radius: 50%;
-	animation: pulse-color 2s infinite;
+	animation: pulse-color 5s infinite;
 	height: 40px;
 	width: 40px;
-   /* border-style: solid; */
-  /* border-width: 2px; */
 }
+
 @keyframes pulse-color {
 	0% {
 		transform: scale(1);
 		/* box-shadow: 0 0 0 0 rgba(50, 115, 61, 0.7); */
-		box-shadow: 0 0 0 1 red;
-    background-color: rgba(40, 39, 39, 0.3);
+		/* box-shadow: 0 0 0 1 red; */
+    background-color: rgba(164, 162, 162, 0.9);
 	}
 	
 	70% {
 		transform: scale(1);
-		/* box-shadow: 0 0 0 2px rgba(255, 82, 82, .5); */
-    background-color: rgba(40, 39, 39, 0.72);
+		/* box-shadow: 0 0 0 2px rgba(68, 117, 152, 0.7); */
+		box-shadow: 0 0 0 3px rgba(68, 117, 152, 0.4);
+    background-color: rgba(164, 162, 162, 0.9);
 	}
 	
 	100% {
 		transform: scale(1);
 		/* box-shadow: 0 0 0 0 rgba(255, 82, 82, 0); */
-    background-color: rgba(40, 39, 39, 0.3);
+    background-color: rgba(164, 162, 162, 0.9);
 	}
 }
 
  /* theme-color */
-#image:hover .decoy-icon {
-  /* animation: pulse-color 2s infinite; */
+#image:hover .decoy-icon, #image:focus .decoy-icon {
+  /* animation: pulse-color 2s infinite; */ 
+	box-shadow: 0 0 0 0 rgba(68, 117, 152, 0.53) !important;
   background-color: rgba(68, 117, 152, 0.53) !important; 
 }
 /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
@@ -887,6 +896,19 @@ img {
   transition-property: height !important;
   transition: max-height 0.25s ease-in !important ;
   transition-delay: .1s !important;
+}
+#image:focus #content {
+  vertical-align: center;
+  position:relative;  top: 15px;
+  text-align: left;
+  margin-right: 20px;
+  margin-left: 20px;
+  display: flex;
+  max-height: 800px;
+  transition-property: height !important;
+  transition: max-height 0.25s ease-in !important ;
+  transition-delay: .1s !important;
+  outline: none;
 }
 
 .entry-content-new {
