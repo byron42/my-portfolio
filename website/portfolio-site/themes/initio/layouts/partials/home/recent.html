@@ -17,9 +17,9 @@
 				<img class="content-image shadow "  src="{{ .Params.image }}"> 
 				
 				<!-- info icon -->
-				<div tabindex="0" id="image">
+				<div tabindex="0" id="image"  {{if eq (len .Content) 0}} class="hidden" {{end}}>
 					<div class="icon-position">
-						<div class="decoy-adjust" {{if eq (len .Content) 0}} class="hidden" {{end}}> <!-- only if content -->
+						<div class="decoy-adjust"> <!-- only if content -->
 							<img class="info-icon" src="{{ .Site.BaseURL }}{{ .Site.Params.info }}"> 
 							<img class="decoy-icon decoy-position disable-pointer pulse" src="{{ .Site.BaseURL }}{{ .Site.Params.info }}"> <!-- DECOY -->
 						</div>
