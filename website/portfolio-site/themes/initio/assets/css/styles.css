@@ -59,9 +59,16 @@ a.btn:focus-visible, a:focus-visible,
 /******************************************* menu postion */
 @media only screen and (max-width: 768px) {
   .navbar-collapse .navbar-nav {
-    float: none;
-    margin: auto;
-    text-align: center !important;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* text-align: center; */
+  }
+  .navbar-collapse .navbar-nav > li > a {
+    padding: 30px 20px;
+    min-width: 110px;
+    text-align: center;
   }
 }
 .navbar-collapse .navbar-nav {
