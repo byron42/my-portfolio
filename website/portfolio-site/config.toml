@@ -41,7 +41,7 @@ canonifyURLs = true
     author = "Sergey Pozhilov (GetTemplate.com)"
 
     # contact files
-    custom_css = ["css/contact.css","social.css"]
+    custom_css = ["css/contact.css","css/social.css"]
     custom_js = ["js/social.js","js/content.js"]
 
     showSubheader = true
