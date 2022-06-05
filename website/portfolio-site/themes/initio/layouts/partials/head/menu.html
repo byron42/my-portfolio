@@ -1,8 +1,8 @@
 <nav class="navbar navbar-default navbar-sticky">
     <div class="container-fluid">
-        
+
         <a class="" href="/"><img class='img logo-nav -{{ .Site.Params.logoclass | default "LOGO"}} ' src="{{ .Site.BaseURL }}{{ .Site.Params.logo }}" alt="" ></a>
-        
+
         <div class="navbar-header">
             <button type="button" class="navbar-toggle toggle-fix" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
                 <span class="sr-only">Toggle navigation</span>
@@ -38,25 +38,26 @@
             {{ end}}
 
                 <!-- ----------------------------------------------- -->
-                <!-- function for calling js for contact icons -->
-                <li>
-                    <!-- <a id="handleDrop" onclick="contactIcons()" class="dropbtn">Contact</a> -->
-                    <!-- <a id="handleDrop" class="dropbtn" style="margin-right: -25px;">Contact</a> -->
-                </li>
+                <!-- function for calling js for social icons -->
+                <!-- <li>
+                    <a id="handleDrop" onclick="contactIcons()" class="dropbtn">SOCIAL</a>
+                    <a id="handleDrop" class="dropbtn" style="margin-right: -25px;">Contact</a>
+                </li> -->
                 <!-- ----------------------------------------------- -->
+
             </ul>
-        </div> 
+        </div>
     </div>
 
     <!-- popup contact icons -->
-    <div class="dropdown">
+    <!-- <div class="dropdown">
         <div id="myDropdown" class="dropdown-content">
           {{ range .Site.Params.social }}
                 {{ if .footer }}
                 <a class="" href="{{ .url }}" target="blank"><i class="{{ .icon }} fa-2x no_pad icon-color"></i></a>
                 {{ end }}
           {{ end }}
-          
         </div>
-    </div>
+    </div> -->
+
 </nav>

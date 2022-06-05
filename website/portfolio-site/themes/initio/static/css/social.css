@@ -1,0 +1,136 @@
+#handleDrop > a {
+  /* min-width: 110px; */
+  /* margin-right: 20px; */
+  text-align: center;
+}
+.dropbtn {
+  /* background-color: #3498DB; */
+  color: white;
+  /* padding: 16px; */
+  /* font-size: 16px; */
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+
+/*******************************************************************
+this sets the width and position of the icons that are displayed
+in space...display needs to be set to none (content) in order for it
+to disappear.  JS needs to be used to find a class that replaces these
+things onclick !!!(also needs to be duplicated in @media)!!!
+********************************************************************/
+.dropdown {
+  justify-content: right;
+  position: relative;
+  display: flex;
+  top: 0 !important;
+  min-width: auto;
+  /* width: 100%; */
+  /* text-align: right; */
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  
+  /* background-color: rgb(255, 255, 255, 0.8); */
+ 
+  min-width: 50px;
+
+
+  /* width: 100%; */
+  /*----------------------------- hug right side appearance */
+  /* width: 65px;
+  text-align: center; */
+  /*------------------------------------------------------ */
+
+
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 100;
+  margin-top: 1px;
+}
+
+@media only screen and (max-width: 768px) {
+  .dropdown {
+    justify-content: center;
+    position: relative;
+    display: flex;
+    top: 0 !important;
+    min-width: auto;
+    width: 100%;
+    text-align: center;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255, 0.8);
+    min-width: 50px;
+    width: 100% !important;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 100;
+    margin-top: 1px;
+  }
+}
+
+.icon-tweak {
+  color: gray;
+  border-radius: 50% !important;
+  border-style: solid;
+  border-width: 3px;
+  border-color: gray;
+  min-height: 50px !important;
+  min-width:50px !important;
+  padding:3px;
+  overflow: hidden;
+  background-color: rgb(203, 201, 201);
+}
+
+.icon-color {
+  color: rgb(124, 124, 124);
+}
+
+.no_pad{
+  padding: 0;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: inline-block;
+  transition: transform .1s; /* Animation */
+}
+
+/* theme-color */
+/* #bd1550 */
+/* .dropdown a:hover {background-color: #ddd;} */
+/* .dropdown-content a:hover > .icon-color {color: rgb(124, 22, 22);} */
+/* .dropdown-content a:hover > .icon-color {color: rgb(69, 68, 68);} */
+.dropdown-content a:hover > .icon-color {
+  color: rgb(140, 163, 179);
+  transform: scale(1.07); 
+}
+
+.show {
+  display: block;
+  opacity: 1;
+  -webkit-transition: opacity 2.3s ease-in-out;
+  transition: opacity 2.3s ease-in-out;
+}
+
+/* button ID */
+/* #myDropdown {
+  opacity: 1;
+  -webkit-transition: opacity 1.3s ease-in-out;
+  transition: opacity 1.3s ease-in-out;
+}
+#myDropdown.fade {
+  opacity: 0;
+} */
+
+/* ////////////////////////////////////////////////////////////////////////////// */

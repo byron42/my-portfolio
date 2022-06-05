@@ -32,7 +32,7 @@ canonifyURLs = true
 
     # avatartop = "images/profile_header6.jpg"
     avatar = "images/head-icon.png"
-    
+
     avatarclass = "circle"
     background = ""
     banner = "images/coding-bg.jpg"
@@ -41,8 +41,8 @@ canonifyURLs = true
     author = "Sergey Pozhilov (GetTemplate.com)"
 
     # contact files
-    custom_css = ["css/contact.css"]
-    custom_js = ["js/contact.js","js/content.js"]
+    custom_css = ["css/contact.css","social.css"]
+    custom_js = ["js/social.js","js/content.js"]
 
     showSubheader = true
     showProjects = true

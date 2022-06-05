@@ -63,7 +63,7 @@ a.btn:focus-visible, a:focus-visible,
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    /* text-align: center; */
+    margin: auto !important;
   }
   .navbar-collapse .navbar-nav > li > a {
     padding: 30px 20px;
@@ -75,7 +75,7 @@ a.btn:focus-visible, a:focus-visible,
   float: none;
   margin: auto;
   text-align: right;
-  /* padding-right: 60px; */
+  margin-right: -15px;
 }
 /**********************************************************/
 
