@@ -1,7 +1,7 @@
 {{ define "main" }}
 <main id="main">
 <style>
-	
+
 
 
 	/*---------------------------------------------------------- CONTAINERS */
@@ -54,17 +54,17 @@
 		padding: 0;
 	}
 	.contact-div:hover a {
-		color: rgba(68, 117, 152, 1);
+		color: rgba(91, 152, 195, 1);
 		font-weight: 500;
 		text-decoration: none;
 		/* zoom: 110%; */
 	}
 	.contact-div a:hover {
-		color: rgba(68, 117, 152, 1) !important;
+		color: rgb(91, 152, 195) !important;
 		font-weight: 500;
 		text-decoration: underline;
 	}
-	
+
 
 
 
@@ -81,10 +81,12 @@
 		}
 	.ico-bg {
 		position: relative;
+		/* border: 3px solid rgba(111, 111, 111, 0.4); */
+		border: 3px solid rgba(156, 156, 156, 0.4);
 		background-color: rgba(128, 128, 128, 0.242);
 		border-radius: 50%;
-		min-width: 180px;
-		min-height: 180px;
+		min-width: 170px;
+		min-height: 170px;
 		align-items: center;
 		justify-content: center;
 		display: flex;
@@ -92,7 +94,7 @@
 		margin-bottom: 5%;
 	}
 	.contact-div:hover .ico-bg {
-		/* border: 2px solid rgba(68, 117, 152, .4); */
+		border: 3px solid rgba(68, 117, 152, .4);
 		background-color: rgba(128, 128, 128, 0.342);
 	}
 
@@ -127,9 +129,9 @@
 		<div id="">
 				<div class="contact-subhead">
 					{{ .Content }}
-				</div>			
+				</div>
 			</div>
-			
+
 			{{ end }}
  -->
 
@@ -139,7 +141,7 @@
 		<div class="body">
 
 
-			
+
 
 			<!-- <hr> -->
 
@@ -148,7 +150,7 @@
 			<!-- LINKED IN -->
 			<div class="contact-div">
 				<div class="ico-bg">
-					<i class="fa-6x no_pad  fab  fa-linkedin    icon-color"></i>
+					<i class="fa-5x no_pad  fab  fa-linkedin    icon-color"></i>
 				</div>
 				<ul>
 					<li>LINKED IN</li>
@@ -161,7 +163,7 @@
 			<!-- EMAIL -->
 			<div class="contact-div">
 				<div class="ico-bg">
-					<i class="fa-6x no_pad  fas fa-envelope-square   icon-color"></i>
+					<i class="fa-5x no_pad  fas fa-envelope-square   icon-color"></i>
 				</div>
 				<ul>
 					<li>EMAIL</li>
@@ -174,7 +176,7 @@
 			<!-- PHONE -->
 			<div class="contact-div">
 				<div class="ico-bg">
-					<i class="fa-6x no_pad  fas fa-phone-square   icon-color"></i>
+					<i class="fa-5x no_pad  fas fa-phone-square   icon-color"></i>
 				</div>
 				<ul>
 					<li>PHONE</li>
@@ -187,7 +189,7 @@
 			<!-- GITHUB -->
 			<div class="contact-div">
 				<div class="ico-bg">
-					<i class="fa-6x no_pad  fab fa-github   icon-color"></i>
+					<i class="fa-5x no_pad  fab fa-github   icon-color"></i>
 				</div>
 				<ul>
 					<li>GITHUB</li>

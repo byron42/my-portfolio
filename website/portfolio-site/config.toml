@@ -22,13 +22,17 @@ canonifyURLs = true
     info = "images/info/info15.png"
 
     name = "Brian Efflandt"
+    # name = "BRIAN EFFLANDT"
+
     description = "Application Developer"
     email = "efflandt.brian@gmail.com"
     phone = "+234 23 9873237"
     address = "234 Hidden Pond Road, Ashland City, TN 37015"
     year = 2017
-    # avatar = "images/profile_header6.jpg"
+
+    # avatartop = "images/profile_header6.jpg"
     avatar = "images/head-icon.png"
+    
     avatarclass = "circle"
     background = ""
     banner = "images/coding-bg.jpg"

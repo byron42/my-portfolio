@@ -238,8 +238,7 @@ h6,
 .h6 {
   font-family: "Open sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  color: #333333;
-}
+  color: #626262;}
 h1 {
   font-size: 40px;
   font-size: 2.5rem;
@@ -309,6 +308,7 @@ a:hover {
   overflow: hidden;
   border: 8px solid rgba(95, 95, 97, 0.35);
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 #head img.img-circle {
@@ -328,9 +328,13 @@ a:hover {
 /* NAME */
 #head .title {
   font-family: Alice, Georgia, serif;
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  /* font-family: SimSum; */
   font-size: 49px;
   font-size: 3.0625rem;
   color: #626262;
+  letter-spacing: .1rem;
+  /* font-weight: bold; */
 }
 #head .title a {
   text-decoration: none;
@@ -341,14 +345,21 @@ a:hover {
   font-size: 14px;
   font-size: 0.875rem;
   line-height: 1.2em;
-  color: #7c7c7c;
+  /* color: #7c7c7c; */
+  color: #939393;
   margin: 5px 0 0;
 }
 #head .tagline b {
   font-weight: normal;
 }
 #head .tagline a {
-  color: #5e5e5e;
+  color: #939393;
+  font-size: 14px;
+
+}
+#head .tagline a:hover {
+  color: rgb(104, 143, 171) !important;
+
 }
 .home #head {
   padding: 90px 0;
@@ -357,10 +368,13 @@ a:hover {
   font-size: 49px;
   font-size: 3.0625rem;
 }
+
+/* HEAD */
 .home #head .tagline {
   font-size: 16px;
   font-size: 1rem;
-  margin: 15px 0 0;
+  /* margin: 15px 0 0; */
+  margin: 0px 0 0;
 }
 
 /*********************************************************************
@@ -1126,6 +1140,20 @@ hr {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
 }
+#header hr {
+  height: 2px !important;
+  top: -0.2em;
+  min-width: 20%;
+  max-width: 300px;
+  border-top: 2px solid #ccc;
+  border-bottom: 0px solid #ccc;
+  /* border-top: 1px solid rgb(171, 171, 171); */
+  /* border-bottom: 0px solid rgb(171, 171, 171); */
+  margin-top:10px;
+  margin-bottom: -3px;
+
+}
+
 #ul-flex {
   list-style-type: none;
   padding: 0;
