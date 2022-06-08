@@ -1,7 +1,7 @@
 # baseURL = "https://byron42.github.io/Brian_Efflandt_Portfolio/"
 baseURL = "https://example.com/"
 
-relativeURLs = "True" 
+relativeURLs = true
 
 languageCode = "en"
 title = "Brian Efflandt Coding Portfolio"
@@ -30,7 +30,7 @@ canonifyURLs = true
     address = "234 Hidden Pond Road, Ashland City, TN 37015"
     year = 2017
 
-    # avatartop = "images/profile_header6.jpg"
+    avatartop = "images/profile_header6.jpg"
     avatar = "images/head-icon.png"
 
     avatarclass = "circle"
