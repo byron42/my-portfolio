@@ -22,9 +22,8 @@ canonifyURLs = true
     info = "images/info/info15.png"
 
     name = "Brian Efflandt"
-    # name = "BRIAN EFFLANDT"
 
-    description = "Application Developer"
+    description = "Software Developer"
     email = "efflandt.brian@gmail.com"
     phone = "+234 23 9873237"
     address = "234 Hidden Pond Road, Ashland City, TN 37015"
@@ -151,7 +150,7 @@ canonifyURLs = true
     network = "googleplus"
 [[params.social]]
 	title = "linkedin"
-	url = "https://www.linkedin.com/in/nickname"
+	url = "https://www.linkedin.com/in/brian-efflandt/"
     icon = "fab fa-linkedin"
     footer = true
     sharethis = true
