@@ -2,7 +2,6 @@
 title = "Tic Tac Toe (React)"
 weight = "1"
 type = "recent"
-
 image ="home/recent/tictactoe.jpg"
 
 demo_url = "https://byron42.github.io/react-demo__tic-tac-toe/"
