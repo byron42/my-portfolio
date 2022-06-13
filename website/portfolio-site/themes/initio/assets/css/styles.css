@@ -302,47 +302,17 @@ a:hover {
 
 /********************************************************** for main circle image */
 #head img {
-  position: relative;
-  display: flex;
+  display: block;
   width: 170px;
   height: 170px;
   overflow: hidden;
   border: 8px solid rgba(95, 95, 97, 0.35);
   margin: 0 auto;
-  margin-bottom: -210px;
-  -webkit-transition: all .2s ease-in;
-  -webkit-transition-delay: .2s;
-  transition: all .2s ease-in;
-  transition-delay: .2s;
+  margin-bottom: 20px;
 }
+
 #head img.img-circle {
   border-radius: 50%;
-}
-#head .avatar-top {
-  position: relative;
-  top: 40px;
-  align-items: center;
-  display: flex;
-  width: 170px;
-  height: 170px;
-  overflow: hidden;
-  margin: 0 auto;
-  margin-bottom: 20px;
-  opacity: 0;
-}
-.brand-img{
-  -webkit-transition: all .2s ease-in;
-  -webkit-transition-delay: .2s;  
-  transition: all .2s ease-in;
-  transition-delay: .2s;
-}
-#head .text-center:hover img{
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-  opacity: 1;
-  background-color: rgba(135, 149, 159, 0.5);
-  border: 5px solid rgba(135, 149, 159, 0.5);
-  /* border: 8px solid rgba(95, 95, 97, 0.25); */
 }
 /**********************************************************************************/
 
@@ -964,8 +934,6 @@ img {
 }
 
 
-
-
 #image > #content {
   /* position:relative;  top: -15px; */
   max-height: 0;
@@ -973,7 +941,7 @@ img {
   transition: max-height 0.15s ease-out !important;  
 }
 
-#image:hover #content {
+/* #image:hover #content {
   vertical-align: center;
   position:relative;  top: 15px;
   text-align: left;
@@ -984,7 +952,7 @@ img {
   transition-property: height !important;
   transition: max-height 0.25s ease-in !important ;
   transition-delay: .1s !important;
-}
+} */
 #image:focus #content {
   vertical-align: center;
   position:relative;  top: 15px;
@@ -1007,8 +975,10 @@ img {
   top: 15px;
   left: 12px;
   text-align: left !important;
-  margin-right: 20px !important;
-  margin-left: 20px !important;
+  margin-top: -1px;
+  margin-bottom: 1px;
+  margin-right: 20px;
+  margin-left: 20px;
   padding: 0;
   width: auto !important;
   max-width: 550px !important;
@@ -1023,8 +993,10 @@ img {
   top: 15px;
   left: 12px;
   text-align: left !important;
-  margin-right: 20px !important;
-  margin-left: 20px !important;
+  margin-top: -1px;
+  margin-bottom: 1px;
+  margin-right: 20px;
+  margin-left: 20px;
   padding: 0;
   width: auto !important;
   max-width: 550px !important;
@@ -1202,7 +1174,17 @@ img {
 hr {
   position: relative;
   height: 2px;
-  top: -2em;
+  top: -0.8em;
+  width: 100%;
+  border-top: 1px solid #ccc;
+  border-bottom: 0px solid #ccc;
+  /* margin-top:5px; */
+  margin-bottom: -7px;
+}
+.accessHR {
+  position: relative;
+  height: 2px;
+  top: -3.6em;
   width: 100%;
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
@@ -1652,4 +1634,11 @@ footer.entry-meta .meta-in {
 ::::::::::::::::::::::::::::::::: FLEX TEMPLATE ::::::::::::::::::::::::::*/
 
 
-
+img[src$='#center']
+{
+    display: block;
+    margin: 0.7rem auto; /* you can replace the vertical '0.7rem' by
+                            whatever floats your boat, but keep the
+                            horizontal 'auto' for this to work */
+                          /* whatever else styles you fancy here */
+}
