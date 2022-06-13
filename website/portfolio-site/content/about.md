@@ -5,7 +5,7 @@ type = "about"
 weight = 10
 +++
 ##### **Where I am**
-I'm an aspiring entry level software developer looking for a place to start a career. I know that what I've learned so far will benefit any employer that decides to give me an opportunity. Not only am I looking forward to it, I honestly can’t wait to prove it.
+I'm an aspiring software developer looking for a place to start a career. I know that what I've learned so far will benefit any employer that decides to give me an opportunity. Not only am I looking forward to it, I honestly can’t wait to prove it.
 
 ![about](../images/mac.jpg)
 
