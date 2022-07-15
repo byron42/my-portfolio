@@ -31,4 +31,8 @@
     <link rel="stylesheet" href="{{ . | absURL }}">
 	{{- end }}
 
+	<!-- google-analytics -->
+	{{ template "_internal/google_analytics.html" . }}
+  	{{ template "_internal/google_analytics_async.html" . }}
+	
 	<!-- <script src="/js/contact.js"></script> -->

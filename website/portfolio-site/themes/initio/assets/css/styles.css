@@ -358,8 +358,15 @@ a:hover {
   }
 }
 /* --------------------------------------------------------------------- */
+.phone {
 
-
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 1.2em;
+  color: #7c7c7c;
+  /* color: #939393; */
+  margin: 5px 0 0;
+}
 #head .title a {
   text-decoration: none;
   color: #333333;

@@ -10,7 +10,7 @@ theme = "initio"
 # not sure?
 canonifyURLs = true
 
-
+googleAnalytics = "G-S1TRRJ67TF"
 
 [params]
     logo = "images/head-icon.png"
@@ -25,7 +25,7 @@ canonifyURLs = true
 
     description = "Software Developer"
     email = "efflandt.brian@gmail.com"
-    phone = "+234 23 9873237"
+    phone = "309.340.4452"
     address = "234 Hidden Pond Road, Ashland City, TN 37015"
     year = 2017
 
@@ -117,8 +117,8 @@ canonifyURLs = true
     property = "123456789012345678901234"
     custom = true
 
-[params.google.analytics]
-    trackerID = "GA-000000000-0"
+# [params.google.analytics]
+#     trackerID = "G-S1TRRJ67TF"
 
 [[params.social]]
 	title = "facebook"
