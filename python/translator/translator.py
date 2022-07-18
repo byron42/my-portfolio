@@ -2,9 +2,22 @@ from tkinter import *
 import googletrans
 import textblob
 from tkinter import ttk, messagebox
+from ttkthemes import ThemedTk, THEMES
 
+#list of themes
+# from ttkthemes import THEMES
 
-root = Tk()
+# THEMES
+def change_theme(theme,e=None):
+    try:
+        root.set_theme(theme)
+    except:
+        pass
+
+# root = Tk()
+root = ThemedTk(themebg=True)
+root.set_theme('ubuntu')
+
 root.title('Language Translator')
 root.iconbitmap('')
 root.geometry("880x300")
@@ -51,12 +64,13 @@ languages = googletrans.LANGUAGES
 
 # CONVERT TO A LIST
 language_list = list(languages.values())
+# language_list = [word.title() for word in language_list]
 
 # TEXT BOXES
 original_text = Text(root, height=10, width=40, bg="#fff")
 original_text.grid(row=0, column=0, pady=20, padx=10)
 
-translate_button = Button(root, text="Translate!", font=("Helvetica", 24), command=translate_it)
+translate_button = ttk.Button(root, text="Translate!",  command=translate_it)
 translate_button.grid(row=0, column=1, padx=10)
 
 translated_text = Text(root, height=10, width=40)
@@ -72,8 +86,13 @@ translated_combo.current(26)
 translated_combo.grid(row=1, column=2)
 
 #CLEAR BUTTON
-clear_button = Button(root, text="Clear", command=clear)
+clear_button = ttk.Button(root, text="Clear", command=clear)
 clear_button.grid(row=2, column=1)
 
-root.mainloop()
+tc = ttk.Combobox(root, values=THEMES)
+# tc.pack(anchor=SW,side=LEFT)
+tc.grid(row=3, column=1)
+tc.set("change theme")
+tc.bind("<<ComboboxSelected>>", lambda e: change_theme(tc.get()))
 
+root.mainloop()
