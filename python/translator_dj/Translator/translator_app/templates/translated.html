@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Translated</title>
+
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'Translator/site.css' %}" />
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Django Translator</h1>
+        </div>
+    </header>
+    <div class="body">
+        <div class="container content trans-pad">
+            <h4>Text Successfully Translated From
+                <font class="uppercase"> '{{ u_lang }}' </font>
+                    into
+                <font class="uppercase"> '{{ t_lang }}' </font>
+            </h4>
+            <!-- <hr /> -->
+            <div class="trans-bg">
+                <div class="translated">
+                    <h4 class="purple">{{ translated }}</h4>
+                </div>
+            </div>
+            <!-- <hr class="hr-bottom" /> -->
+            <a href="{% url 'home'%}"class="btn btn-primary btn-bg ">Back</a>
+        </div>
+    </div>
+   
+</body>
+</html>
