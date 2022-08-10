@@ -1,9 +1,11 @@
 header{
     display: flex;
     justify-content: center;
-    background:rgba(95, 95, 97, 0.6);
-    /* background-color: rgb(226, 224, 224); */
-    width:auto !important;
+    /* background:rgba(95, 95, 97, 0.6); */
+    background-color: rgb(149, 160, 207);
+    width: auto !important;
+
+    border: 1px solid rgb(145, 144, 144);
 }
 
 hr {
@@ -18,6 +20,9 @@ h1 {
     font-weight: 500;
     /* color: rgba(59, 59, 59, 0.6); */
     color: rgb(226, 224, 224);
+    text-shadow: 1.5px 1.5px #565555;
+
+
     text-align: center !important;
     text-align: left;
     padding: 15px;
@@ -56,28 +61,31 @@ select {
     font-weight: 400;
 }
 /* ------------------------------------------------- */
-
+body {
+    background-color: rgb(246, 244, 244);
+     /* overflow: hidden; */
+}
 
 .body {
     /* font-family:  "roboto", sans-serif; */
-    /* margin: 50px 0; */
     position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width:100%;
-    background-color: rgb(246, 244, 244);
+    height:100%;
     align-items: center;
 	min-height: 89.5vh;
+    max-height: 89.5vh !important;
 	margin: 0;
     text-align: center;
 }
 
 @media only screen and (max-width: 400px) {
     .content-height {
-        min-height: 68vh !important;  
-        /* max-height: 50vh !important; */
-        margin-bottom: 35vh !important;
+        min-height: 66vh !important;  
+        max-height: 66vh !important;
+        margin-bottom: 17vh !important;
         padding-top: 35px;
         padding-bottom: 30px;
         overflow: auto;
@@ -86,27 +94,22 @@ select {
 .content-height {
     min-height: 70vh;
     max-height: 70vh;
-    /* position: relative; */
 }
 
 .content {
     background-color: rgb(226, 224, 224);
-    border-radius: 10px;
+    border-radius: 5px;
     min-width: 250px;
-    /* min-height: 70vh; */
-    /* width: 80%; */
     margin: 30px;
     position: relative;
     display: flex;
     justify-content: center;
-    /* makes width of form shorter */
     align-items: center;
-    /* offsets form from top */
     flex-flow: column;
     overflow: auto;
     flex-wrap: nowrap;
-    /* max-height: 70vh; */
     padding-bottom: 30px;
+    border: 1px solid rgb(198, 198, 198);
 }
 
 .trans-pad {
@@ -120,6 +123,7 @@ select {
 
 .btn-bg {
     background-color: rgb(149, 160, 207);
+    border: 1px solid rgb(114, 113, 113);
 }
 
 /* -------------------------------------------------------------------------translated text color */
@@ -154,21 +158,13 @@ form {
 }
 
 .bottom {
-    /* position: absolute; */
-    /* right: 0; */
-    
     margin-bottom: 30px;
 }
 
 .translated {
     max-height: 30vh;
     overflow: auto;
-    /* scroll-margin-right: -30px !important; */
 }
-
-/* .translated.scrollbar {
-    padding-right: -30px;
-} */
 
 .trans-bg {
     margin-top: 10px;
@@ -178,7 +174,5 @@ form {
     padding:15px !important;
     border-radius: 4px;
     border: 1px solid rgb(198, 198, 198);
-    /* overflow: hidden; */
     margin-bottom: 40px;
 }
-

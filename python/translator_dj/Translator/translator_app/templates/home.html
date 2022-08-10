@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,58 +12,48 @@
 
     {% load static %}
     <link rel="stylesheet" type="text/css" href="{% static 'Translator/site.css' %}" />
-
-  </head>
- 
-  <body>
+</head>
+<body>
     <header>
-    <div>
-        <h1>Django Translator</h1>
-    </div>
-  </header>
+        <div>
+            <h1>Django Translator</h1>
+        </div>
+    </header>
 
-  <div class="body">
-    <div class="container content content-height">
-        <br>
-        <br>
-        <!-- <center> -->
-        <form action="{% url 'translated'%}" method="get" class="offset">
-            <div class="form-width">
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label"><h4>Type Text In Any Language</h4></label>
-                <textarea name="text" class="form-control gray" id="exampleFormControlTextarea1" rows="3" placeholder="Enter text here..." required></textarea>
-            </div>
-                <br>
-                <h4>Translate Text Into</h4>
-                <select name="lang" class="form-select gray" alt-label="Default select example" data-size="5" required> 
-                    <option value=""  hidden selected disabled>Choose Language...</option>
-                    <option value="af">Afrikaans</option>
-                    <option value="ar">Arabic</option>
-                    <option value="bn">Bengali</option>
-                    <option value="cs">Czech</option>
-                    <option value="zh-CN">Chinese</option>
-                    <option value="en">English</option>
-                    <option value="fr">French</option>
-                    <option value="de">German</option>
-                    <option value="gu">Gujarati</option>
-                    <option value="hi">Hindi</option>
-                    <option value="it">Italian</option>
-                    <option value="ja">Japanese</option>
-                    <option value="es">Spanish</option>
-                </select>
-                <br>
-                <button type="submit" class="btn btn-primary btn-bg">Translate</button>
-            </div>
+    <div class="body">
+        <div class="container content content-height">
+            <br>
+            <br>
+            <form action="{% url 'translated'%}" method="get" class="offset">
+                <div class="form-width">
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label"><h4>Type Text In Any Language</h4></label>
+                        <textarea name="text" class="form-control gray" id="exampleFormControlTextarea1" rows="3" placeholder="Enter text here..." required></textarea>
+                    </div>
+                    <br>
+                    <h4>Translate Text Into</h4>
+                    <select name="lang" class="form-select gray" alt-label="Default select example" data-size="5" required> 
+                        <option value=""  hidden selected disabled>Choose Language...</option>
+                        <option value="af">Afrikaans</option>
+                        <option value="ar">Arabic</option>
+                        <option value="bn">Bengali</option>
+                        <option value="cs">Czech</option>
+                        <option value="zh-CN">Chinese</option>
+                        <option value="en">English</option>
+                        <option value="fr">French</option>
+                        <option value="de">German</option>
+                        <option value="gu">Gujarati</option>
+                        <option value="hi">Hindi</option>
+                        <option value="it">Italian</option>
+                        <option value="ja">Japanese</option>
+                        <option value="es">Spanish</option>
+                    </select>
+                    <br>
+                    <button type="submit" class="btn btn-primary btn-bg">Translate</button>
+                </div>
             </form>
-        <!-- </center> -->
-
-        <!-- <h1>Text Successfully translated!!!</h1> -->
-    <!-- <font color="purple">
-        <h2>
-            {{ translated }}
-        </h2> -->
+        </div>
     </div>
-</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>
