@@ -1,6 +1,6 @@
 +++
 title = "Expense Tracker (React)"
-weight = "5"
+weight = "6"
 type = "recent"
 image ="home/recent/expensetracker.jpg"
 
