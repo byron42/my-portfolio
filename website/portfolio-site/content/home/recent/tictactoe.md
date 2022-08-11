@@ -1,6 +1,6 @@
 +++
 title = "Tic Tac Toe (React)"
-weight = "1"
+weight = "3"
 type = "recent"
 image ="home/recent/tictactoe.jpg"
 

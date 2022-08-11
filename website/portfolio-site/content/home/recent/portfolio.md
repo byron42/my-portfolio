@@ -1,6 +1,6 @@
 +++
 title = "Portfolio Site (HUGO)"
-weight = "2"
+weight = "4"
 type = "recent"
 image ="home/recent/portfolio.jpg"
 

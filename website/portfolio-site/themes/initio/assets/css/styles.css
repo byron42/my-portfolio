@@ -671,7 +671,14 @@ img {
 /* **************************************** PROJECT BUTTON *********************************************** */
 /* ******************************************************************************************************* */
 .section-buffer {
-  margin-bottom: 40px;
+  /* ----------projects on top */
+  /* margin-bottom: 40px; */
+
+  /* ------- pojects on bottom */
+  margin-top: 10px;
+  margin-bottom: 90px;
+
+  /* bottom padding for home sections */
 }
 .access-padding-bot {
   padding-bottom: 180px;
@@ -1013,7 +1020,10 @@ img {
   font-size: 0.9375rem;
 }
 
-
+.recent-spacing {
+  margin-bottom: -45px !important;
+  padding-top: 10px;
+}
 
 .entry-content-new > h3 {
   margin-right: 20px !important;

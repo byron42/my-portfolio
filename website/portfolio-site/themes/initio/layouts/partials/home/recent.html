@@ -2,11 +2,14 @@
 <base  target="_blank">
 
 
-<div class="container-content" >
+<!-- <div class="container-content" style="margin-bottom: -40px !important; padding-top: 15px;"> -->
+<div class="container-content recent-spacing">
 
-	<div class="flex-content flex2 " >
+<!-- <div class="container-content"> -->
+
+	<div class="flex-content flex2" >
 		{{ range .Paginator.Pages }}
-		<div >
+		<div>
 
 			<!-- title -->
 			<h1 class="content-title">
@@ -41,10 +44,10 @@
 			
 			{{ else }}
 			<!-- buttons -->
-			<div class="flex flex2" >
+			<div class="flex flex2" style="margin-bottom: -60px;">
 				<p class="text-center"><a href="{{ .Params.demo_url }}" target="blank" class="btn btn-action content-button">DEMO</a></p>
-				<p class="text-center"><a href="{{ .Params.code_url }}" target="blank" class="btn btn-action content-button">CODE</a></p>
-				<p class="text-center"><a href="{{ .Params.repo_url }}" target="blank" class="btn btn-action content-button">REPO</a></p>
+				<!-- <p class="text-center"><a href="{{ .Params.code_url }}" target="blank" class="btn btn-action content-button">CODE</a></p> -->
+				<!-- <p class="text-center"><a href="{{ .Params.repo_url }}" target="blank" class="btn btn-action content-button">REPO</a></p> -->
 			</div>
 			{{ end }}
 

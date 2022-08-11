@@ -1,5 +1,5 @@
-baseURL = "https://byron42.github.io/Brian_Efflandt_Portfolio/"
-# baseURL = "https://example.com/"
+# baseURL = "https://byron42.github.io/Brian_Efflandt_Portfolio/"
+baseURL = "https://example.com/"
 
 relativeURLs = true
 
@@ -10,7 +10,7 @@ theme = "initio"
 # not sure?
 canonifyURLs = true
 
-googleAnalytics = "G-S1TRRJ67TF"
+# googleAnalytics = "G-S1TRRJ67TF"
 
 [params]
     logo = "images/head-icon.png"
