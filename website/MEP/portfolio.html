@@ -1,79 +1,74 @@
 <!doctype html>
 <html>
+
 <head>
-	
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="This is where you can see some examples of work that I’ve done and see for yourself why you should contact me for a session.">
+  <meta name="keywords" content="weddings, families, pets, children, portfolio, samples" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>Samples of some of my work | Mary Efflandt Photo</title>
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="This is where you can see some examples of work that I’ve done and see for yourself why you should contact me for a session.">
-<meta name="keywords" content="weddings, families, pets, children, portfolio, samples" />
+  <!--bootstrap CDN-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
-<title>Samples of some of my work | Mary Efflandt Photo</title>
-
-<!--bootstrap CDN-->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">	
-
-<!--my css-->
-<link rel="stylesheet" href="css/Content.css">
-
-<!--JavaScript links-->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="js/bg.js"></script>
-
+  <!--my css-->
+  <link rel="stylesheet" href="css/Content.css">
 </head>
 
-<body class="custom-nav-pad content" id="body">
-
-<!-- FOR BACKGROUNDS -->
-<span class="bg pet hide"></span>
-<span class="bg family hide"></span>
-<span class="bg children hide"></span>
-<span class="bg wedding hide"></span>
-<span class="bg business hide"></span>
+<body id="body" class="custom-nav-pad content">
 
   <!-- Breadcrumb and logo -->
-  <ol class="breadcrumb bg-light fixed-top breadcrumb-custom " style="padding-top:21px; z-index:0;">
-	<li class="breadcrumb-li-custom" style="position: relative; top:-5px;"><a href="index.html"><img src="images/logo2.png" alt="Logo" style="width:200px;"></a></li>
-	<li class="breadcrumb-font">Portfolio</li>
+  <ol class="breadcrumb bg-light fixed-top breadcrumb-custom">
+    <li><a href="index.html"><img class="logo-pos" src="images/logo2.png" alt="Logo"></a></li>
+    <li class="breadcrumb-font">Portfolio</li>
+    <a href="about.html"><img src="images/mepHeader.jpg" class="circle-icon" alt="circle icon"></a>
   </ol>
-  <img src="images/mepHeader.jpg" class="rounded-circle" style="width:150px; position: relative; float:right; top:-113px; z-index:1; padding: 20px;" alt="circle icon">
 
- <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top fixed-top-2 right navbar-custom">
+  <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top fixed-top-2 right navbar-custom">
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-	<ul class="navbar-nav ml-auto nav-fill w-100" >
-	  <li class="nav-item pet_bg">
-        <a class="nav-link py-1"  href="pets.html">PETS</a>
-	  </li>
-	  <li class="nav-item family_bg">
-        <a class="nav-link py-1" href="families.html">FAMILIES</a>
-      </li>
-	  <li class="nav-item wedding_bg">
-        <a class="nav-link py-1 " href="weddings.html">WEDDINGS</a>
-      </li>
-	  <li class="nav-item children_bg">
-        <a class="nav-link py-1 " href="children.html">CHILDREN</a>
-      </li>
-	  <li class="nav-item business_bg">
-         <a class="nav-link py-1" href="bc.html">BUSINESS <small> & </small> COMMERCIAL</a>
-      </li>
-    </ul>
-  </div>
- </nav>
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav ml-auto nav-fill w-100">
+        <li id="pet_bg" class="nav-item">
+          <a class="nav-link py-1" href="pets.html">PETS</a>
+        </li>
+        <li id="family_bg" class="nav-item ">
+          <a class="nav-link py-1" href="families.html">FAMILIES</a>
+        </li>
+        <li id="wedding_bg" class="nav-item ">
+          <a class="nav-link py-1 " href="weddings.html">WEDDINGS</a>
+        </li>
+        <li id="children_bg" class="nav-item ">
+          <a class="nav-link py-1 " href="children.html">CHILDREN</a>
+        </li>
+        <li id="business_bg" class="nav-item ">
+          <a class="nav-link py-1" href="bc.html">BUSINESS <small> & </small> COMMERCIAL</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-<!-- MAIN CONTENT STARTS HERE -->
-<main role="main" class="container">
-  
-</main><!-- /.container -->
+  <!--JavaScript links-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="js/bg.js"></script>
+
 </body>
+
 </html>

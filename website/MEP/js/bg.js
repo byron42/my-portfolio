@@ -1,41 +1,63 @@
-jQuery(function(){
-    $('.pet_bg').hover(function(){
-        $(".pet").fadeIn();
-    }, function() {
-        // $(".pet").fadeOut("slow");
-    })
-	
-	$('.family_bg').hover(function(){
-        $(".family").fadeIn();
-    }, function() {
-        $(".family").fadeOut("slow");
-    })
-	
-	$('.children_bg').hover(function(){
-        $(".children").fadeIn();
-    }, function() {
-        $(".children").fadeOut("slow");
-    })
-	
-	$('.wedding_bg').hover(function(){
-        $(".wedding").fadeIn();
-    }, function() {
-        $(".wedding").fadeOut("slow");
-    })
-	
-	$('.business_bg').hover(function(){
-        $(".business").fadeIn();
-    }, function() {
-        $(".business").fadeOut("slow");
-    })
-    
-	$('.menu-item-2').hover(function(){
-        $(".bg2").fadeIn();
-    }, function() {
-        $(".bg2").fadeOut("slow");
-    })
-})
+jQuery(function () {
+  // Preload BG images
+  function preload(arrayOfImages) {
+    $(arrayOfImages).each(function () {
+      $("<img/>")[0].src = this;
+      // Alternatively you could use:
+      // (new Image()).src = this;
+    });
+  }
 
-$(document).ready(function(){
-    $('#wrapper').fadeIn();
+  // Usage:
+  preload([
+    "./images/backgrounds/pets.jpg",
+    "./images/backgrounds/families.jpg",
+    "./images/backgrounds/weddings.jpg",
+    "./images/backgrounds/children.jpg",
+    "./images/backgrounds/business.jpg",
+  ]);
+
+  //------------------------------------------------------------------------------------
+  // Portfolio BG images (fade into each other and stay until next nav item is hovered)
+  //------------------------------------------------------------------------------------
+
+  $("#pet_bg").hover(function () {
+    // this.focus();
+    $("#body").css({
+      background:
+        "url(./images/backgrounds/pets.jpg) no-repeat top center fixed",
+    });
+  });
+
+  $("#family_bg").hover(function () {
+    // this.focus();
+    $("#body").css({
+      background:
+        "url(./images/backgrounds/families.jpg) no-repeat top center fixed",
+    });
+  });
+
+  $("#wedding_bg").hover(function () {
+    this.focus();
+    $("#body").css({
+      background:
+        "url(./images/backgrounds/weddings.jpg) no-repeat top center fixed",
+    });
+  });
+
+  $("#children_bg").hover(function () {
+    this.focus();
+    $("#body").css({
+      background:
+        "url(./images/backgrounds/children.jpg) no-repeat top center fixed",
+    });
+  });
+
+  $("#business_bg").hover(function () {
+    this.focus();
+    $("#body").css({
+      background:
+        "url(./images/backgrounds/business.jpg) no-repeat top center fixed",
+    });
+  });
 });

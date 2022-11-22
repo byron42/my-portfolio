@@ -1,110 +1,129 @@
 <!doctype html>
-<html>
-
+<html class="bg">
 <head>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Some commonly asked questions by clients about sessions and packages.">
+	<meta name="keywords" content="questions, frequently, asked, sessions, clothes, packages" />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<title>Client FAQ | Mary Efflandt Photo</title>
 
-<style>
-html { 
-  background: url(images/background-home.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+	<!--bootstrap CDN-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-<!-- fading in onload -->
-main { 
-	animation: fadeInAnimation ease 1s; 
-	animation-iteration-count: 1; 
-	animation-fill-mode: forwards; 
-} 
-@keyframes fadeInAnimation { 
-	0% { 
-		opacity: 0; 
-	} 
-	100% { 
-		opacity: 1; 
-	} 
-} 
-</style>
-
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Some commonly asked questions by clients about sessions and packages.">
-<meta name="keywords" content="questions, frequently, asked, sessions, clothes, packages" />
-	
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
-<title>Client FAQ | Mary Efflandt Photo</title>
-
-<!--bootstrap CDN-->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">	
-
-<!--my css-->
-<link rel="stylesheet" href="css/Content_sub.css">
-
-<!--JavaScript links-->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+	<!--css-->
+	<link rel="stylesheet" href="css/Content_sub.css">
+</head>
 <body id="body">
-<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top right navbar-custom">
-	 <a href="index.html"><img src="images/logo.png" alt="Logo" style="width:150px;"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+	<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top right navbar-custom pad-correct">
+		<a href="index.html"><img class="main-logo" src="images/logo.png" alt="Logo"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+			aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
 
-  <div class="collapse navbar-collapse " id="navbarsExampleDefault">
-    <ul class="navbar-nav ml-auto nav-fill w-99" >
-      <li class="nav-item">
-        <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
-      </li>
-	  <li class="nav-item">
-        <a class="nav-link" href="about.html">ABOUT</a>
-      </li>
-	  <li class="nav-item">
-        <a class="nav-link" href="investment.html">INVESTMENT</a>
-      </li>
-	  <li class="nav-item active">
-        <a class="nav-link" id="selected"  href="#">FAQ<span class="sr-only">(current)</span></a>
-      </li>
-	  <li class="nav-item">
-        <a class="nav-link" href="contact.html">CONTACT</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+		<div class="collapse navbar-collapse " id="navbarsExampleDefault">
+			<ul class="navbar-nav ml-auto nav-fill w-99">
+				<li class="nav-item">
+					<a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about.html">ABOUT</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="investment.html">INVESTMENT</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" id="selected" href="#">FAQ<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html">CONTACT</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 
-<!-- MAIN CONTENT STARTS HERE -->
-<main class="container custom-nav-pad">
+	<!-- MAIN CONTENT STARTS HERE -->
+	<main class="container custom-nav-pad content-fade">
 
-	<div class="jumbotron-fluid" style="padding-top: 40px;" >
-	  <h1 class="display-5" style="color: #444444;">What to Wear</h1>
-	  <hr class="my-4" size="7" > 
-	  <p class="text-justify jumbotron-text-pad"><strong>INDIVIDUALS:</strong> I recommend wearing something that suits your personal style - either neutral with layers and accessories, or more bold and colorful with a lot of texture to show off personality.  This is an opportunity for you or your child to shine!  For children, I usually recommend bare feet for indoors and nice boots or shoes that complement their outfit for outside (remember to use socks that match or no socks at all).  I recommend clothing that has texture, such as knitting, embroidery, dark faded denim, buttons, and ruffles.  This type of clothing tends to photograph well and adds a lot of visual interest.  Most importantly, clothing should be comfortable and fit well!</p>
-	  <p class="text-justify jumbotron-text-pad"><strong>SIBLINGS:</strong> It can be difficult to coordinate colors and not look too matchy.  I recommend picking a few colors, but try not to put them in the same exact clothing.  The more layers, textures and colors, the better.  Just pick colors that complement each other.  I recommend bright or deep colors (jewel tones like mustard yellow, deep purple, turquoise, dark pink, etc.) and try to stay away from all white (use off-white or ivory instead) as well as neon colors.  You may also want to avoid large labels/branding as they can be distracting.</p>
-      <p class="text-justify  jumbotron-text-pad"><strong>FAMILIES:</strong> Choose a style you like and a few colors you like as well.  Try to stay in the same neutral color family to even out bolder colors - such as grays/blacks or browns/tans.  I recommend having the parents dress fashionable, yet simple and focus more of the funky, unique style on the kids.  If you have 5 people all dressing with a lot of layers and accessories it can be too much.  Dark jeans that have a grit to them is always a great choice for the parents or especially the husband.  If you are going to wear a print, stay away from small prints, as there is not a lot of visual interest (think bold!).  Continue to think about texture and color.  You may think that certain colors don’t go together, but again think outside of the box and have fun!</p>
-	  <p class="text-justify  jumbotron-text-pad"><strong>ACCESSORIZE:</strong> Jewelry, hats, ties/bowties, etc. can add a lot of interest and final touches to an outfit!</p>
-	  <p class="text-justify  jumbotron-text-pad"><strong>WHERE TO SHOP:</strong> I do recommend investing in your clothing for the session since it does make a huge difference in the final product.  Search out local boutiques, as they have one-of-a-kind style.  There are countless boutique shops online these days as well.  For budget-conscious choices, check local resale shops or online ones such as ThredUp.com.  My personal favorite clothing brands are Zara, Boden/Mini Boden, Matilda Jane Clothing, H&M, and J. Crew/Crewcuts.</p>
-	</div>
-	
-	<div class="jumbotron-fluid" style="padding-top: 40px;">
-	  <h1 class="display-5" style="color: #444444">What to Bring</h1>
-	  <hr class="my-4" size="7">
-	  <p class="text-justify jumbotron-text-pad">Please bring clothing and accessories as needed.  You can always arrive early and get your children dressed at the session if you are worried about them getting messy on the way.  Please also bring chap-stick or lip gloss for children if needed (helps with chapped lips, as they are very hard to Photoshop).  To be extra prepared, bring snacks (non-staining) & a favorite toy to comfort them if they are feeling overwhelmed at the session.  Wet wipes always come in handy as well, especially for cleaning mouths & noses!  Please clean your child’s face prior to pictures to make sure snack crumbs, boogies, etc., are all gone.</p>
-	</div>
-	
-	<div class="jumbotron-fluid" style="padding-top: 30px;">
-	  <h1 class="display-5" style="color: #444444">What to Expect</h1>
-	  <hr class="my-4" size="7">
-	  <p class="text-justify jumbotron-text-pad" style="margin-bottom: 0;">Children can be unpredictable, so it is my job to be ready for anything!  Sometimes parents get frustrated because sessions don’t seem to be going perfectly... but the wonderful thing is that those small moments in between all the tantrums & chaos are beautiful.  People often ask me how I even managed to get one great photograph of their wild child!  The answer is simple... I shoot like crazy and it’s my job to capture it all.  So... the only job I give you as the parents is to relax & enjoy it.  I will do all the hard work!  I will give a lot of direction during the session so you will know exactly what to do.  Children match your energy, so if you are having fun & showing them how much you love them they will show you the same in return.  Sounds simple, right?  Even still, once in a while there are children that for whatever reason do not want to be photographed, so often I will ask to photograph a child or children away from parents so they will just focus on me and my lame jokes.  It usually works!  They don’t know me & most often children are on their best behavior for others.  This can all be very important in making your session run smoothly.</p>
-	  <br/>
-	</div>
-	
-</main>
+		<div class="jumbotron-fluid">
+			<h1 class="display-5">What to Wear</h1>
+			<hr class="my-4" size="7">
+			<p class="text-justify jumbotron-text-pad"><strong>INDIVIDUALS:</strong> I recommend wearing something that
+				suits your personal style - either neutral with layers and accessories, or more bold and colorful with a
+				lot of texture to show off personality. This is an opportunity for you or your child to shine! For
+				children, I usually recommend bare feet for indoors and nice boots or shoes that complement their outfit
+				for outside (remember to use socks that match or no socks at all). I recommend clothing that has
+				texture, such as knitting, embroidery, dark faded denim, buttons, and ruffles. This type of clothing
+				tends to photograph well and adds a lot of visual interest. Most importantly, clothing should be
+				comfortable and fit well!</p>
+			<p class="text-justify jumbotron-text-pad"><strong>SIBLINGS:</strong> It can be difficult to coordinate
+				colors and not look too matchy. I recommend picking a few colors, but try not to put them in the same
+				exact clothing. The more layers, textures and colors, the better. Just pick colors that complement each
+				other. I recommend bright or deep colors (jewel tones like mustard yellow, deep purple, turquoise, dark
+				pink, etc.) and try to stay away from all white (use off-white or ivory instead) as well as neon colors.
+				You may also want to avoid large labels/branding as they can be distracting.</p>
+			<p class="text-justify  jumbotron-text-pad"><strong>FAMILIES:</strong> Choose a style you like and a few
+				colors you like as well. Try to stay in the same neutral color family to even out bolder colors - such
+				as grays/blacks or browns/tans. I recommend having the parents dress fashionable, yet simple and focus
+				more of the funky, unique style on the kids. If you have 5 people all dressing with a lot of layers and
+				accessories it can be too much. Dark jeans that have a grit to them is always a great choice for the
+				parents or especially the husband. If you are going to wear a print, stay away from small prints, as
+				there is not a lot of visual interest (think bold!). Continue to think about texture and color. You may
+				think that certain colors don’t go together, but again think outside of the box and have fun!</p>
+			<p class="text-justify  jumbotron-text-pad"><strong>ACCESSORIZE:</strong> Jewelry, hats, ties/bowties, etc.
+				can add a lot of interest and final touches to an outfit!</p>
+			<p class="text-justify  jumbotron-text-pad"><strong>WHERE TO SHOP:</strong> I do recommend investing in your
+				clothing for the session since it does make a huge difference in the final product. Search out local
+				boutiques, as they have one-of-a-kind style. There are countless boutique shops online these days as
+				well. For budget-conscious choices, check local resale shops or online ones such as ThredUp.com. My
+				personal favorite clothing brands are Zara, Boden/Mini Boden, Matilda Jane Clothing, H&M, and J.
+				Crew/Crewcuts.</p>
+		</div>
 
+		<div class="jumbotron-fluid">
+			<h1 class="display-5">What to Bring</h1>
+			<hr class="my-4" size="7">
+			<p class="text-justify jumbotron-text-pad">Please bring clothing and accessories as needed. You can always
+				arrive early and get your children dressed at the session if you are worried about them getting messy on
+				the way. Please also bring chap-stick or lip gloss for children if needed (helps with chapped lips, as
+				they are very hard to Photoshop). To be extra prepared, bring snacks (non-staining) & a favorite toy to
+				comfort them if they are feeling overwhelmed at the session. Wet wipes always come in handy as well,
+				especially for cleaning mouths & noses! Please clean your child’s face prior to pictures to make sure
+				snack crumbs, boogies, etc., are all gone.</p>
+		</div>
+
+		<div class="jumbotron-fluid">
+			<h1 class="display-5">What to Expect</h1>
+			<hr class="my-4" size="7">
+			<p class="text-justify jumbotron-text-pad">Children can be unpredictable, so it is
+				my job to be ready for anything! Sometimes parents get frustrated because sessions don’t seem to be
+				going perfectly... but the wonderful thing is that those small moments in between all the tantrums &
+				chaos are beautiful. People often ask me how I even managed to get one great photograph of their wild
+				child! The answer is simple... I shoot like crazy and it’s my job to capture it all. So... the only job
+				I give you as the parents is to relax & enjoy it. I will do all the hard work! I will give a lot of
+				direction during the session so you will know exactly what to do. Children match your energy, so if you
+				are having fun & showing them how much you love them they will show you the same in return. Sounds
+				simple, right? Even still, once in a while there are children that for whatever reason do not want to be
+				photographed, so often I will ask to photograph a child or children away from parents so they will just
+				focus on me and my lame jokes. It usually works! They don’t know me & most often children are on their
+				best behavior for others. This can all be very important in making your session run smoothly.</p>
+			<br />
+		</div>
+
+	</main>
+
+	<!--JavaScript links-->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,95 +1,90 @@
 <!doctype html>
-<html>
-
+<html class="bg">
 <head>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Here you will find all necessary information for getting in touch with me.">
+  <meta name="keywords" content="contact, phone, email" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>Contact | Mary Efflandt Photo</title>
 
-<style>
-html { 
-  background: url(images/background-home.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-</style>
+  <!--bootstrap CDN-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Here you will find all necessary information for getting in touch with me.">
-<meta name="keywords" content="contact, phone, email" />
-
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
-<title>Contact | Mary Efflandt Photo</title>
-
-<!--bootstrap CDN-->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">	
-
-<!--my css-->
-<link rel="stylesheet" href="css/Content_sub.css">
-<link rel="stylesheet" href="css/Form.css">
-
-<!--JavaScript links-->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!--css-->
+  <link rel="stylesheet" href="css/Content_sub.css">
+  <link rel="stylesheet" href="css/Form.css">
+</head>
 
 <body id="body">
-<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top right navbar-custom">
-	 <a href="index.html"><img src="images/logo.png" alt="Logo" style="width:150px;"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top right navbar-custom pad-correct">
+    <a href="index.html"><img class="main-logo" src="images/logo.png" alt="Logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <div class="collapse navbar-collapse " id="navbarsExampleDefault">
-    <ul class="navbar-nav ml-auto nav-fill w-99" >
-      <li class="nav-item">
-        <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
-      </li>
-	  <li class="nav-item">
-        <a class="nav-link" href="about.html">ABOUT</a>
-      </li>
-	  <li class="nav-item">
-        <a class="nav-link" href="investment.html">INVESTMENT</a>
-      </li>
-	  <li class="nav-item">
-        <a class="nav-link" href="faq.html">FAQ</a>
-      </li>
-	  <li class="nav-item active">
-        <a class="nav-link" id="selected"  href="#">CONTACT<span class="sr-only">(current)</span></a>
-      </li>
-    </ul>
-  </div>
-</nav>
+    <div class="collapse navbar-collapse " id="navbarsExampleDefault">
+      <ul class="navbar-nav ml-auto nav-fill w-99">
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="investment.html">INVESTMENT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="faq.html">FAQ</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" id="selected" href="#">CONTACT<span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-<!-- MAIN CONTENT STARTS HERE -->
-<main class="container custom-nav-pad">
+  <!-- MAIN CONTENT STARTS HERE -->
+  <main class="container custom-nav-pad content-fade">
 
-<div class="jumbotron-fluid" style="padding-top: 40px;" >
-	  <h1 class="display-5" style="color: #444444;">Let's Get in Touch!</h1>
-	  <hr class="my-4" size="7" > 
-</div>
+    <div class="jumbotron-fluid" style="padding-top: 40px;">
+      <h1 class="display-5" style="color: #444444;">Let's Get in Touch!</h1>
+      <hr class="my-4" size="7">
+    </div>
 
- <div class="form-container ">
-  <form action="contact.html">
-    <label for="name">Name</label>
-    <input type="text" id="fname" name="firstname" required="true" placeholder="Your name...">
+    <div class="form-container ">
+      <form action="contact.html">
+        <label for="name">Name</label>
+        <input type="text" id="fname" name="firstname" required="true" placeholder="Your name...">
 
-    <label for="email">Email</label>
-    <input type="text" id="lname" name="emailaddr" required="true" placeholder="Your email...">
-	
-	<label for="phone">Phone</label>
-    <input type="text" id="lname" name="phonenbr" required="true" placeholder="Your phone number...">
+        <label for="email">Email</label>
+        <input type="text" id="lname" name="emailaddr" required="true" placeholder="Your email...">
 
-    <label for="comment">Comments</label>
-    <textarea id="subject" name="subject" required="true" placeholder="Write something.." style="height:180px"></textarea>
+        <label for="phone">Phone</label>
+        <input type="text" id="lname" name="phonenbr" required="true" placeholder="Your phone number...">
 
-    <input type="submit" value="Submit">
-  </form>
-</div>
+        <label for="comment">Comments</label>
+        <textarea id="subject" name="subject" required="true" placeholder="Write something.."
+          style="height:180px"></textarea>
 
-</main>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </main>
+
+  <!--JavaScript links-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
 </body>
 </html>

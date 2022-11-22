@@ -1,39 +1,81 @@
-main{
-	
+@import url("Style.css");
+@import url("Content.css");
+
+.bg {
+	background:
+		linear-gradient(rgba(178, 178, 178, 0.89),
+			rgba(178, 178, 178, 0.89)) no-repeat center fixed,
+
+		url(../images/background-home.jpg) no-repeat center fixed;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	z-index: -1000;
 }
 
-#body {
-  overflow-y: visible; /* Hide scrollbars */
-  /* background-color: #999999; too dark? */
-  /* background-color: #C1C1C1; too light?*/
-  background-color: rgba(178,178,178,0.89);
-  height:100%;
-  padding-bottom:20px;
+body {
+	overflow-y: visible;
+	height: 100%;
+	/* padding-bottom: 20px; */
+
+	/* could be any color just has to be alpha 0 */
+	background: none;
+	background-color: rgba(125, 124, 124, 0);
+}
+
+.sub-bg {
+	overflow-y: visible;
+	background-color: rgba(178, 178, 178, 0.89);
+	height: 100%;
+	padding-bottom: 20px;
 }
 
 /* hide scrollbar */
 ::-webkit-scrollbar {
-    width: 0em;
-    height: 0em;
+	width: 0em;
+	height: 0em;
 }
 
-#wrapper{
-	display:none;
+#wrapper {
+	display: none;
 }
 
-#bg {
-	position: fixed; 
-	top: 0; 
-	left: 0; 
-
-	/* Preserve aspect ratio */
-	min-width: 100%;
-	min-height: 100%;
+/*------------------ fade in main nav content */
+.content-fade {
+	/* animation: fadeInAnimation ease 1s; */
+	animation: fadeInAnimation ease 0s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
 }
+
+@keyframes fadeInAnimation {
+	0% {
+		opacity: 1;
+		/* opacity: 0; */
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+/*--------------------------------------------*/
 
 #selected {
 	color: DodgerBlue;
 }
+
+
+
+/* .img {
+	margin-top: 0;
+} */
+/* .navbar {
+	padding: 0px 16px !important;
+} */
+
+
 
 .navbar-custom {
 	font-family: roboto, sans-serif;
@@ -42,7 +84,7 @@ main{
 	background: #E0E0E0 !important;
 }
 
-#bottom{
+#bottom {
 	position: absolute;
 	bottom: -70px;
 	left: 0;
@@ -50,7 +92,7 @@ main{
 	text-align: center;
 	height: auto;
 	padding-top: 20px;
-	opacity: 80%; 
+	opacity: 80%;
 }
 
 h1 {
@@ -66,90 +108,81 @@ p {
 	width: 100%;
 }
 
-#logo{
+#logo {
 	font-family: freestyle script, sans-serif;
-	color: DodgerBlue; 
+	color: DodgerBlue;
 	font-weight: bold;
 	font-size: 2.5em;
 }
 
 /* for 2nd nav/bcmbs */
 .fixed-top-2 {
-    margin-top: 140px;
+	margin-top: 140px;
 }
 
 .custom-nav-pad {
-    padding-top: 105px;
+	padding-top: 105px;
 }
 
-.breadcrumb-custom{
+/*-------------------------------------------------------------- breadcrumbs and logo */
+.breadcrumb {
+	background-color: rgb(250, 250, 250) !important;
+}
+
+.breadcrumb-custom {
 	font-family: Georgia, sans-serif;
-	color: #5B5B5B;
 	display: block;
-	height: 140px;
-	background-size: cover;
-	padding-top:30px;
-	z-index:3;
+	z-index: 3;
+	border-radius: 0;
 }
 
-.breadcrumb-font{
+.breadcrumb-font {
 	font-size: 2.5em;
 }
-.breadcrumb-font-small{
+
+.breadcrumb-font-small {
 	font-size: 2.4em;
 }
+/*------------------------------------------------------------------------------------*/
 
-.circle-icon{
-		width: 144px;
-		position: relative;
-		float:right;
-		top:-119px;
-		left: 20px;
-		z-index:1;
-		padding: 20px;
-		z-index:3;
-}
 
-.fill{
+.fill {
 	background-size: cover
 }
 
 img {
-    width: 100%;
+	width: 100%;
 	height: auto;
 }
 
-.react {
-	margin: 0 auto;
-	height: auto;
-	max-width: 100%;
-	border: none;
-	display: block;
-	padding: 0;
+.content-pad {
+	border-radius: 8px;
+	margin-bottom: 1.8em;
+	box-shadow: 0px 0px 20px #555;
+	/* margin-left:.01em; */
 }
 
-.content-pad{
-	 border-radius: 1em;
-	 margin-bottom: 1.8em;
-	 box-shadow: 0px 0px 20px #555;
-	 /* margin-left:.01em; */
+/*---------------------------------------------- Jumbotron (( faq, investment, faq )) */
+div.jumbotron-fluid {
+	padding-top: 40px;
 }
 
 .jumbotron-heading-box {
 	padding-left: 40px;
 	padding-right: 40px;
 	padding-bottom: 20px;
-	padding-top: 10px;
-	background-color: rgba(220,220,220,0.65);
+	padding-top: 30px;
+	background-color: rgba(220, 220, 220, 0.65);
 	font-size: 1em;
 }
+
 .jumbotron-content-box {
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 10px;
 	padding-top: 40px;
-	background-color: rgba(150,150,150,0.99);
-	border-radius: 1em;
+	background-color: rgba(150, 150, 150, 0.99);
+	border-radius: 8px;
 }
 
 .jumbotron-text-pad {
@@ -158,13 +191,16 @@ img {
 	color: #444444;
 	font-size: 1em;
 }
+
 .jumbotron-sub {
-	padding-left: 0px;
-	padding-right: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
 	color: #444444;
 	font-size: 1em;
 	font-style: italic;
+	text-align: center;
 }
+
 .jumbotron-ul {
 	padding-left: 80px;
 	padding-right: 40px;
@@ -172,19 +208,61 @@ img {
 	font-size: 1em;
 }
 
-hr {
-    border: none;
-    height: 1px;
-    /* Set the hr color */
-    color: #333; /* old IE */
-    background-color: gray; /* Modern Browsers */
-	padding: 0px;
-}
-.o{
-	font-size:0em;
+/* bullet offset */
+ul.text-justify.jumbotron-ul{
+	padding-left: 27px;
 }
 
-.solid{
+.display-5 {
+	color: #444444;
+}
+
+@media only screen and (max-width: 992px) {
+	.display-5 {
+		text-align: center;
+	}
+	.center-jt-p {
+		text-align: center !important;
+		padding: 0;
+	}
+}
+/* get rid of this for bg != gray */
+@media only screen and (max-width: 400px) {
+	.bg {
+		background: none;
+	}
+	body {
+		overflow-y: visible;
+		background-color: rgba(178, 178, 178, 1);
+		height: 100%;
+	}
+}
+/*------------------------------------------------------------------------------------*/
+
+.rnd-corner {
+	border-radius: 8px;
+}
+
+hr {
+	border: none;
+	height: 1px;
+	/* Set the hr color */
+	color: #333;
+	/* old IE */
+	background-color: gray;
+	/* Modern Browsers */
+	padding: 0px;
+}
+
+.o {
+	font-size: 0em;
+}
+
+.solid {
 	opacity: 100 !important;
 }
 
+.text-justify {
+	padding-left: 15px;
+	padding-right: 15px;
+}

@@ -1,29 +1,37 @@
-#body {
-  overflow: hidden; /* Hide scrollbars */
+.bg {
+	background: url(../images/background-home.jpg) no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	z-index: 1000;
 }
 
-#bg {
-	position: fixed; 
-	top: 0; 
-	left: 0; 
+body {
+	overflow: hidden;
+	/* Hide scrollbars */
+}
 
-	/* Preserve aspect ratio */
-	min-width: 100%;
-	min-height: 100%;
+.container {
+	/* height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0; */
 }
 
 #selected {
-	color: DodgerBlue; 
+	color: DodgerBlue;
 }
 
 .navbar-custom {
 	font-family: roboto, sans-serif;
 	font-weight: bold;
 	font-size: 1em;
-	opacity: 80%; 
+	opacity: 80%;
+	z-index: 1000;
 }
 
-#bottom{
+#bottom {
 	position: absolute;
 	bottom: -100px;
 	left: 0;
@@ -31,7 +39,7 @@
 	text-align: center;
 	height: auto;
 	padding-top: 20px;
-	opacity: 80%; 
+	opacity: 80%;
 }
 
 h1 {
@@ -48,11 +56,107 @@ p {
 	width: 100%;
 }
 
-#logo{
+#logo {
 	font-family: freestyle script, sans-serif;
 	/* font-family: segoe print, sans-serif; */
-	 color: DodgerBlue; 
+	color: DodgerBlue;
 	font-weight: bold;
 	font-size: 2.5em;
-	
+}
+
+.main-logo {
+	margin-left: -17px;
+	width:150px;
+}
+
+
+/*-------------------------------------------------------------------- welcome message modal */
+.modal.fade .modal-dialog {
+	-moz-transition: none;
+	-o-transition: none;
+	-webkit-transition: none;
+	transition: none;
+
+	-moz-transform: none;
+	-ms-transform: none;
+	-o-transform: none;
+	-webkit-transform: none;
+	transform: none;
+}
+
+#myModal .show {
+	display: flex;
+	text-decoration: none;
+	border-color: rgb(36, 36, 36);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+#myModal {
+	margin-right: 5%;
+	margin-left: 5%;
+	max-width: 90%;
+}
+
+.modal-header {
+	border: none;
+}
+
+.modal-content {
+	/* background-color: rgba(169, 167, 167, 0.8); */
+	background-color: rgb(224, 224, 224);
+	font-family: roboto, sans-serif;
+	/* padding-bottom:20px; */
+}
+
+.modal-header .close {
+	text-shadow: none;
+	background-color: none;
+	outline: none;
+}
+
+.modal p {
+	padding-left: 1%;
+	padding-right: 1%;
+	font-family: georgia, sans-serif;
+	font-size: large;
+	width: 100%;
+	text-align: center;
+	height: fit-content;
+	color: rgb(65, 65, 65);
+}
+
+.avatar-img {
+	width: 60%;
+	position: relative;
+	z-index: 3;
+	align-self: center;
+	margin-bottom: 20px !important;
+	border-radius: 50%;
+	/* border: 1px solid rgb(134, 132, 132); */
+}
+
+.modal-title {
+	text-align: center;
+	color: rgb(65, 65, 65);
+}
+
+hr {
+	border-color: rgb(173, 172, 172);
+}
+
+@media only screen and (max-width: 425px) {
+	.modal-content {
+		position: fixed;
+		top: 0;
+		left: 0;
+		margin-top: 20px;
+		margin-right: 5%;
+		margin-left: 5%;
+		max-width: 90%;
+		background-color: rgb(224, 224, 224);
+		font-family: roboto, sans-serif;
+		/* padding-bottom:20px; */
+	}
 }

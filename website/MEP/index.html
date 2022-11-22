@@ -1,78 +1,83 @@
 <!doctype html>
-<html>
-
-<!--SPECIFICALLY FOR BG-->
-
-
+<html class="bg">
 <head>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>Welcome to Mary Efflandt Photography!</title>
 
-<style>
-html { 
-  background: url(images/background-home.jpg) no-repeat center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-</style>
+  <!--bootstrap CDN-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <!--my css-->
+  <link rel="stylesheet" href="css/Style.css">
+</head>
+<body>
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
-<title>Welcome to Mary Efflandt Photography!</title>
-
-<!--bootstrap CDN-->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">	
-
-<!--my css-->
-<link rel="stylesheet" href="css/Style.css">
-
-<!--JavaScript links-->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-<body id="body">
-<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top right navbar-custom">
-	 <a href="index.html"><img src="images/logo.png" alt="Logo" style="width:150px;"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse " id="navbarsExampleDefault">
-    <ul class="navbar-nav ml-auto nav-fill w-99" >
-      <li class="nav-item">
-        <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
-      </li>
-	  <li class="nav-item">
-        <a class="nav-link" href="about.html">ABOUT</a>
-      </li>
-	  <li class="nav-item">
-        <a class="nav-link" href="investment.html">INVESTMENT</a>
-      </li>
-	  <li class="nav-item">
-        <a class="nav-link" href="faq.html">FAQ</a>
-      </li>
-	  <li class="nav-item">
-        <a class="nav-link" href="contact.html">CONTACT</a>
-      </li>
-    </ul>
+  <!-- welcome modal -->
+  <div id="myModal" class="modal fade">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <img src="images/mepModal.jpg" class="avatar-img" alt="circle icon">
+        <div class="modal-body">
+          <h4 class="modal-title">Thank you for visiting!</h4>
+          <hr>
+          <p>I have been taking photos professionally since 2008 and I think I am even more obsessed with it now than I
+            was back then.
+            There is nothing more fun for me than photographing happy people and creating memories for families to have
+            for years and years to come.</p>
+          <hr>
+        </div>
+      </div>
+    </div>
   </div>
-</nav>
 
-<!-- MAIN CONTENT STARTS HERE -->
-<main class="container">
-  <div class="jumbotron jumbotron-fluid" id="bottom">
-    <h1>Thank you for visiting!</h1>
-	<hr class="my-2">
-    <p style="color: #444444;">I have been taking photos professionally since 2008 and I think I am even more obsessed with it now than I was back then.
-    There is nothing more fun for me than photographing happy people and creating memories for families to have for years and years to come.</p>
-    <br>
-  </div>
-</main>
+  <!-- topbar area -->
+  <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top right navbar-custom">
+    <a href="index.html"><img class="main-logo" src="images/logo.png" alt="Logo" style="width:150px;"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- nav -->
+    <div class="collapse navbar-collapse " id="navbarsExampleDefault">
+      <ul class="navbar-nav ml-auto nav-fill w-99">
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="investment.html">INVESTMENT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="faq.html">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--JavaScript links-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="js/modal.js"></script>
 
 </body>
 </html>
