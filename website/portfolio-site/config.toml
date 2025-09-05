@@ -1,5 +1,5 @@
-# baseURL = "https://byron42.github.io/Brian_Efflandt_Portfolio/"
-baseURL = "https://example.com/"
+baseURL = "https://byron42.github.io/Brian_Efflandt_Portfolio/"
+# baseURL = "https://example.com/"
 
 relativeURLs = true
 
@@ -116,9 +116,6 @@ canonifyURLs = true
 [params.sharethis]
     property = "123456789012345678901234"
     custom = true
-
-# [params.google.analytics]
-#     trackerID = "G-S1TRRJ67TF"
 
 [[params.social]]
 	title = "facebook"
