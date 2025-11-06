@@ -11,7 +11,7 @@ theme = "initio"
 # not sure?
 canonifyURLs = true
 
-# googleAnalytics = "G-S1TRRJ67TF"
+googleAnalytics = "G-S1TRRJ67TF"
 
 ignoreFiles = [ "\\.ini$" ]
 
