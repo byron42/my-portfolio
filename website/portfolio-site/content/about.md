@@ -16,18 +16,16 @@ Certified Zendesk Support Administrator with specialization in UI | UX | CX, I a
 
 ##### **What I'm Bringing**
 ___
-> **Zendesk Administrator (3 years)**
+> # Zendesk Administrator (3 years)
 >* Worked with and directed teams of all levels to create workflows that significantly raised the CX bar
 >* Well versed in Talk, Messaging, Chat, Integrated apps, Automations, Zendesk API’s
 >* Deep understanding of Zendesk Support, Guide, Explore, Email, Triggers, Macros
 >* SME - Support Forms, Web Forms, Ticket Routing
 >
 
-> **UI | UX | CX** \
-> As a front-end developer, I’ve spent years refining my skills through the creation of websites, applications, and interactive programs. I possess a strong understanding of the Software Development Life Cycle (SDLC), and apply version control best practices to ensure stability, consistency, and collaboration across projects.
-\
-\
->One of my core passions lies in designing and evolving user interfaces that feel intuitive and immersive. I strive to create experiences where users can seamlessly engage with a product, regardless of platform, without needing to think about how to use it. My approach centers on thoughtful design and empathetic problem solving, with the goal of making technology feel invisible and the experience unique.
+> # UI | UX | CX
+> ## As a front-end developer, I’ve spent years refining my skills through the creation of websites, applications, and interactive programs. I possess a strong understanding of the Software Development Life Cycle (SDLC), and apply version control best practices to ensure stability, consistency, and collaboration across projects.
+> ## One of my core passions lies in designing and evolving user interfaces that feel intuitive and immersive. I strive to create experiences where users can seamlessly engage with a product, regardless of platform, without needing to think about how to use it. My approach centers on thoughtful design and empathetic problem solving, with the goal of making technology feel invisible and the experience unique.
 >
 
 <!-- ##### **What I need**
