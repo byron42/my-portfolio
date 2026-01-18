@@ -10,4 +10,4 @@ repo_url = "https://github.com/byron42/my-portfolio/tree/master/website/portfoli
 
 <!-- Creating this site has been a challenge — It’s given me an opportunity to gain experience in all areas of the **SDLC**, especially in **deployment** and **bug tracking** (organizing repositories and subdirectories with **Git, GitHub, and GitHub Pages**). -->
 
-Creating this site has been a challenging. It’s given me an opportunity to gain experience in all areas of the SDLC, especially in deployment and bug tracking (organizing repositories and subdirectories with Git, GitHub, and GitHub Pages).
+Creating this site has been challenging. It’s given me an opportunity to gain experience in all areas of the SDLC, especially in deployment and bug tracking (organizing repositories and subdirectories with Git, GitHub, and GitHub Pages).
