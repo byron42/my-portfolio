@@ -36,3 +36,91 @@ jQuery(document).ready(function ($) {
 	});
 
 });
+
+/*
+
+	// focus button click-hide
+$(document).ready(function(){
+	//alert("hello");
+//if ($("#image").is(":visible")){
+	//alert("content is visible");
+  $(".info-icon").click(function(){
+	$("#image").removeClass("hide-content-box");
+	alert("this is the info button");
+
+	$("#content").focus();
+	
+	$("#content").focus(function() {
+        $("#image").addClass("hide-content-box");
+    });
+
+
+	
+  });
+//}
+
+
+
+
+});
+
+$(document).ready(function() {
+  const $toggleButton = $('#image > div.icon-position > div > img.info-icon');
+  const $infoPanel = $('#content');
+
+  $toggleButton.on('click', function() {
+    $infoPanel.toggleClass('hide');
+  });
+});
+
+*/
+
+
+
+/*
+document.addEventListener('DOMContentLoaded', function() {
+  const toggleButton = document.getElementsByClassName('info-icon');
+  const infoPanel = document.getElementById('image');
+
+  toggleButton.addEventListener('click', function() {
+    infoPanel.classList.toggle('show');
+  });
+});
+
+
+
+
+$(document).ready(function() {
+//if($("#image").height() != 0){
+  $(".info-icon").click(function() {
+	alert('this is correct')
+    // Find the input field with the class 'my-input' and trigger the blur event
+    $('#image').removeClass('focus');
+  });
+//}
+});
+
+
+*/
+
+/*
+$(document).ready(function() {
+
+	$("#image").on('transitionend', function() {
+         //doSomething
+		 $('.info-icon').on('click', function() {
+			e.preventDefault();
+
+			const $image = $('#image');
+
+			if ($image.is(':focus')) {
+			// Collapse
+			$image.blur();
+			} 
+  });
+
+
+    });
+  
+});
+*/

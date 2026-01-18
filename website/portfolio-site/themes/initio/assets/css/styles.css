@@ -994,6 +994,13 @@ img {
   transition: max-height 0.15s ease-out !important;  
 }
 
+/**
+#content.hide {
+  max-height: 0px; 
+  padding: 10px;
+}
+**/
+
 /* #image:hover #content {
   vertical-align: center;
   position:relative;  top: 15px;
