@@ -17,11 +17,16 @@ Certified Zendesk Support Administrator with specialization in UI | UX | CX, I a
 ##### **What I'm Bringing**
 ___
 > # Zendesk Administrator (3 years)
->* Worked with and directed teams of all levels to create workflows that significantly raised the CX bar
->* Well versed in Talk, Messaging, Chat, Integrated apps, Automations, Zendesk API’s
->* Deep understanding of Zendesk Support, Guide, Explore, Email, Triggers, Macros
+>* Managed and triaged high volume Zendesk queues, ensuring accurate categorization, routing, and SLA compliance across multiple teams
+>* Designed and optimized triggers, automations, macros, and ticket routing workflows to reduce ticket handling times
+>* Collaborated with cross functional teams to resolve technical issues, improving resolution quality and reducing repeat tickets
+>* Built and maintained Support Forms, Web Forms, and ticket routing logic, to improve reporting accuracy
+>* Developed and helped maintain Zendesk Guide content, internal documentation, and client facing knowledgebase articles to increase self service usage
+>* Used Zendesk Explore dashboards and support metrics reports to identify recurring issues and operational bottlenecks
+>* Integrated third party apps and utilized Zendesk APIs to enhance system capabilities and streamline workflows
+>* Delivered training on support workflows, platform updates, and best practices for agents and new hires
 >* SME - Support Forms, Web Forms, Ticket Routing
->
+
 
 > # UI | UX | CX
 > ## As a front-end developer, I’ve spent years refining my skills through the creation of websites, applications, and interactive programs. I possess a strong understanding of the Software Development Life Cycle (SDLC), and apply version control best practices to ensure stability, consistency, and collaboration across projects.
