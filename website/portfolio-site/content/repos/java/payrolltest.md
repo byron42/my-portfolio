@@ -2,6 +2,7 @@
 title = "Payroll Test (OOP)"
 image = "icon.png"
 weight = "20"
+type = "standard"
 
 code_url = "https://github.com/byron42/my-portfolio/blob/master/java/PayrollTest/src/payrolltest/PayrollTest.java"
 repo_url = "https://github.com/byron42/my-portfolio/tree/master/java/PayrollTest"

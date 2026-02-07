@@ -2,6 +2,7 @@
 title = "Guest Book"
 image = "icon.png"
 weight = "25"
+type = "standard"
 
 code_url = "https://github.com/byron42/my-portfolio/blob/master/php/GuestBook/GuestBook.php"
 repo_url = "https://github.com/byron42/my-portfolio/blob/master/php/GuestBook"

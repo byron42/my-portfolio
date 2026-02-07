@@ -2,6 +2,7 @@
 title = "Paycheck"
 image = "icon.png"
 weight = "27"
+type = "standard"
 
 code_url = "https://github.com/byron42/my-portfolio/blob/master/php/Paycheck/Paycheck.php"
 repo_url = "https://github.com/byron42/my-portfolio/tree/master/php/Paycheck"

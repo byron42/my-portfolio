@@ -2,6 +2,7 @@
 title = "Two Trains"
 image = "icon.png"
 weight = "26"
+type = "standard"
 
 code_url = "https://github.com/byron42/my-portfolio/blob/master/php/TwoTrains/TwoTrains.php"
 repo_url = "https://github.com/byron42/my-portfolio/tree/master/php/TwoTrains"

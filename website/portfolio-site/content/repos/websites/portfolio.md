@@ -2,6 +2,7 @@
 title = "Portfolio Site"
 image = "portfolio.jpg"
 weight = "2"
+type = "standard"
 
 code_url = "https://github.com/byron42/my-portfolio/blob/master/website/portfolio-site/themes/initio/layouts/index.html"
 repo_url = "https://github.com/byron42/my-portfolio/tree/master/website/portfolio-site"

@@ -2,6 +2,7 @@
 title = "Mary Efflandt Photography"
 image = "mep.jpg"
 weight = "1"
+type = "standard"
 
 code_url = "https://github.com/byron42/my-portfolio/blob/master/website/MEP/index.html"
 repo_url = "https://github.com/byron42/my-portfolio/tree/master/website/MEP"

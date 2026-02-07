@@ -1,7 +1,7 @@
 +++
 title = "Expense Tracker (React)"
 weight = "3"
-type = "recent"
+type = "standard"
 image ="expensetracker.jpg"
 
 demo_url = "https://byron42.github.io/react-demo__expense-tracker/"

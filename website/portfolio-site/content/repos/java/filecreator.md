@@ -2,6 +2,7 @@
 title = "File Creator"
 image = "icon.png"
 weight = "21"
+type = "standard"
 
 code_url = "https://github.com/byron42/my-portfolio/blob/master/java/FileCreator/src/filecreator/FileCreator.java"
 repo_url = "https://github.com/byron42/my-portfolio/tree/master/java/FileCreator"

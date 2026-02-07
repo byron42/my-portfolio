@@ -2,6 +2,7 @@
 title = "Change Calculator"
 image = "changecalc.jpg"
 weight = "24"
+type = "standard"
 
 code_url = "https://github.com/byron42/my-portfolio/blob/master/php/ChangeCalculator/Change.php"
 repo_url = "https://github.com/byron42/my-portfolio/tree/master/php/ChangeCalculator"

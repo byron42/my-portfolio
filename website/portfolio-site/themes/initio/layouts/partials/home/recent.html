@@ -1,37 +1,69 @@
 <!-- for opening info links in new tab -->
 <base  target="_blank">
 
-
 <!-- <div class="container-content" style="margin-bottom: -40px !important; padding-top: 15px;"> -->
 <div class="container-content recent-spacing">
 
 <!-- <div class="container-content"> -->
-
 	<div class="flex-content flex2" >
 		{{ range .Paginator.Pages }}
 		<div>
+
+			<!-- RECENT MODAL -->
+			{{ range where .Site.RegularPages "Type" "recent" }}
+			<div class="modal fade" id="recentModal-{{ .File.UniqueID }}" tabindex="-1" role="dialog" aria-labelledby="recentModalTitle" aria-modal="true">
+				<div class="modal-dialog modal-dialog-centered " role="document">
+					<div id="modalContent" class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="recentModalTitle">{{ .Title }}</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<img class="content-image-modal img-fluid" src="{{ .Params.image }}" >
+							
+							<!-- <div id="" class="entry-content-recent">{{ .Content }}</div> -->
+							<div id="" class="">{{ .Content }}</div>
+						</div>
+						<div class="modal-footer">
+							<!-- <button type="button" class="bs-btn red-ol" data-dismiss="modal">Close</button> -->
+							<!-- <button type="button" class="btn-mdl-cstm cstm-gray" data-dismiss="modal">View Code</button> -->
+							<button onclick="window.open('{{ .Params.code_url }}')" class="btn-mdl-cstm cstm-gray" rel="noopener" data-dismiss="modal">View Code</button>
+							<button onclick="window.open('{{ .Params.demo_url }}')" class="btn-mdl-cstm cstm-gray" rel="noopener" data-dismiss="modal">Try it out</button>
+						
+						<!-- BUTTON TYPES (expand | add conditions if demo is available)
+							<button onclick="window.open('{{ .Params.demo_url }}')" class="btn-mdl-cstm cstm-gray" rel="noopener" data-dismiss="modal">View Demo</button>
+							<button onclick="window.open('{{ .Params.code_url }}')" class="btn-mdl-cstm cstm-gray" rel="noopener" data-dismiss="modal">View Code</button>
+							<button onclick="window.open('{{ .Params.repo_url }}')" class="btn-mdl-cstm cstm-gray" rel="noopener" data-dismiss="modal">View Repo</button> -->
+						</div>
+					</div>
+				</div>
+			</div>
+			{{ end }}
 
 			<!-- title -->
 			<h1 class="content-title">
 				{{ .Title }}
 			</h1>
 
-			<div class="flex-items shrink-full enable-pointer" >  
-				<img class="content-image shadow "  src="{{ .Params.image }}"> 
-				
-				<!-- info icon -->
-				<div tabindex="0" id="image"  {{if eq (len .Content) 0}} class="hidden" {{end}}>
-					<div class="icon-position">
-						<div class="decoy-adjust"> <!-- only if content -->
-							<img class="info-icon" src="{{ .Site.BaseURL }}{{ .Site.Params.info }}"> 
-							<img class="decoy-icon decoy-position disable-pointer pulse" src="{{ .Site.BaseURL }}{{ .Site.Params.info }}"> <!-- DECOY -->
-						</div>
-					</div> 
-					<!-- conditional content -->
-					<div id="content" class="entry-content-recent">{{ .Content }}</div>
-				</div>
-			</div>
+			<div tabindex="0" class="flex-items shrink-full enable-pointer" data-toggle="modal" data-target="#recentModal-{{ .File.UniqueID }}" > 
+					<img class="content-image shadow " src="{{ .Params.image }}">
 
+					<!-- info icon -->
+					<div id="image" {{if eq (len .Content) 0}} class="hidden" {{end}}>
+						<div class="icon-position">
+							<div class="decoy-adjust"> <!-- only if content -->
+								<img tabindex="-1" class="info-icon" src="{{ .Site.BaseURL }}{{ .Site.Params.info }}"> 
+								<img tabindex="0" class="decoy-icon decoy-position disable-pointer pulse" src="{{ .Site.BaseURL }}{{ .Site.Params.info }}"> <!-- DECOY -->
+							</div>
+						</div> 
+						<!-- conditional content -->
+						<div id="content" class="entry-content-new">{{ .Content }}</div>
+					</div>
+				</div>
+			
+			<!-- vars -->
 			{{ $url := .Params.demo_url }}
 			{{ $string := "" }}
 

@@ -916,7 +916,8 @@ img {
 } */
 
  /* theme-color */
-#image:hover .decoy-icon, #image:focus .decoy-icon, #image:active .decoy-icon {
+#image:hover .decoy-icon, #image:focus .decoy-icon, #image:active .decoy-icon,
+.flex-items:hover .decoy-icon {
 	box-shadow: 0 0 0 0 rgba(68, 117, 152, 0.53) !important;
   background-color: rgba(68, 117, 152, 0.53) !important; 
 }
@@ -935,6 +936,7 @@ img {
   /* border-style: solid; */
   /* border-width: 2px; */
   border-color: rgb(162, 162, 162);
+  transition: 0.15s ease-in-out;
 }
 
 .decoy-position {
@@ -1013,6 +1015,8 @@ img {
   transition: max-height 0.25s ease-in !important ;
   transition-delay: .1s !important;
 } */
+
+/* 
 #image:focus #content {
   vertical-align: center;
   position:relative;  top: 15px;
@@ -1025,7 +1029,7 @@ img {
   transition: max-height 0.25s ease-in !important ;
   transition-delay: .1s !important;
   outline: none;
-}
+} */
 
 .entry-content-new {
   /* display: flex; */
@@ -1104,7 +1108,47 @@ img {
   border-style: solid;
   padding: 0;
   border-color: rgb(199, 199, 199);
+
+  transition: 0.15s ease-in-out;
 }
+
+
+/* ============================================================================================= */
+/* ------------------------------------ CHANGES FOR HOVERING/FOCUSING/ACTION ON CARDS FOR MODAL  */
+.flex-items {
+  & :hover {
+    /* color: #447598 ; */
+    /* border-color:rgba(98, 156, 197, 0.53)!important; */
+    /* & .content-title { color:#004488; }  */
+  }
+  & .content-image:hover {
+      color: #447598;
+      border-color:  #447598 !important;
+      filter: brightness(95%); 
+  }
+}
+
+.content-title {
+  transition: 0.15s ease-in-out !important;
+}
+
+/* keep image dimmed when info icon hovered */
+.flex-content > div:has(.info-icon:hover) .content-image,
+.flex-content > div:has(.disable-pointer:focus) .content-image,
+ .flex-content > div:has(.enable-pointer:focus) .content-image{
+  filter: brightness(95%); 
+}
+/* keep font blue when info icon hovered */
+.flex-content > div:has(.content-image:hover) .content-title,
+.flex-content > div:has(.enable-pointer:focus) .content-title,
+.flex-content > div:has(#image:hover) .content-title,
+.flex-content > div:has(.disable-pointer:focus) .content-title {
+  color: #447598 !important;
+  font-weight: 400;
+}
+/* ============================================================================================= */
+/* ============================================================================================= */
+
 
 
 
@@ -1210,7 +1254,18 @@ img {
   width: 550px;
   border-radius: 4px;
   border-color: rgb(86, 85, 85, 0.5);
+
+  transition: 0.15s ease-in-out;
 }
+
+
+
+/* .content-image:hover{
+  color: #447598;
+  border-color:  #447598 !important;
+  filter: brightness(95%);
+} */
+
 
 /*************************************** FOR NO IMAGE (ICON) */
 .content-image-sm {
@@ -1220,7 +1275,7 @@ img {
 }
 .flex-items-sm {
   background-color: rgba(149, 147, 147, 0.248);
-  width: 320px !important;
+  max-width: 320px !important;
   height: auto !important;
   margin: 40px 20px 80px 20px ;
   text-align: center;
@@ -1704,4 +1759,354 @@ img[src$='#center']
                             whatever floats your boat, but keep the
                             horizontal 'auto' for this to work */
                           /* whatever else styles you fancy here */
+}
+
+
+
+
+/****************************** BOOTSTRAP 5 IMPORT CONTENT/INFO MODAL ******************************************/
+
+/************************************************************** IMAGE */
+.content-image-modal {
+  /* max-height: 420px; */
+  /* max-width: 700px; */ 
+  /* --------------------- this will make image full size */
+  /* max-width: 50%; */
+  width: 100%;
+  height: auto;
+  /* ----------------------------------------------------- */
+  border-radius: 4px;
+  border-color: rgba(239, 238, 238, 0.5);
+  /* padding: 3%; */
+  /* margin:auto; */
+  border-radius: 6px;
+  border-style: solid;
+  padding: 0;
+  border-color: #d3d3d3;
+  border-color: #cacaca;
+  border-color: #acc0cf;
+  border-color: #aeaeae; /* <--- i like this one */
+  border-color: #b4b4b4;
+  border-width: 1.5px;
+  /* border-width: 2px; */
+  margin-bottom:1.5rem;
+  filter: brightness(96%);
+}
+
+/************************************************************* HEADER */
+.modal-header{
+  display: flex;
+  justify-content: space-around;
+  align-items: justified;
+  height: auto;
+}
+.modal-title{
+  width: 95%;
+  text-align: left;
+  font-weight: 500;
+  
+  text-transform: uppercase;
+}
+/*************************************************************** BODY */
+.modal-body {
+  display: inline-block;
+  /* Optional: Add some styling to visualize the container */
+  border: 1px solid #ccc;
+  padding: 30px;
+
+  background-color: #f9f9f9;
+  background-color: #e8e8e8;
+  background-color: #e1e0e0;
+
+  /* background: rgb(249, 249, 249, 0.2);
+  backdrop-filter: blur(10px); */
+
+  /* CHANGE MODAL SIZE */
+  max-width: 750px !important;
+  
+  & div{
+    /* flex-wrap: wrap; */
+    vertical-align: center;
+    position: relative;
+    /* top: 15px;
+    left: 12px; */
+    text-align: left;
+    margin-top: -1px;
+    margin-bottom: 1px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 0;
+    width: auto;
+    /* max-width: 740px !important; */
+
+    /* DESCRIPTION TEXT */
+    color: rgba(137, 136, 136, 1);
+    color: rgb(100, 100, 100);
+    /* color: rgb(60, 60, 60); */
+    /* height: auto; */
+    font-size: 15px;
+    font-size: 0.9375rem;
+    font-weight: 500;
+  }
+  & p {
+    font-weight: 500;
+    /* font-size: calc(15px + (19) * ((100vw - 300px) / (1600 - 300))); */
+    font-size: calc(14px + (18) * ((50vw) / (4000 + 1000)));
+    
+    /* clamp(minimum value, preferred value, maximum value) */
+    /* font-size: clamp(14px, .875rem + 1vw, 18px); */
+    font-size: clamp(15px, 10px + .45vw, 22px);
+    margin: unset;
+  }
+}
+
+.modal-header {
+  /* border-bottom-color: rgb(202, 202, 202); */
+  background-color: rgb(243, 242, 242);
+  border-radius: 10px 10px 0 0;
+}
+/************************************************************* FOOTER */
+.modal-footer {
+  /* border-top-color: rgb(180, 180, 180); */
+  background-color: rgb(243, 242, 242);
+  border-radius: inherit;
+  border-radius: 0 0 10px 10px;
+}
+
+/**************************************** SCREEN POSITION CORRECTION */
+.modal-dialog-centered {
+  display: flex; /* Enables flexbox */
+  justify-content: center; /* Centers items horizontally */
+  align-items: center; /* Centers items vertically */
+  min-height: 100vh; /* Makes body take full viewport height */
+  margin: auto; /* Removes default body margin */
+  border-radius: 6px;
+  transition: opacity .15s linear;
+  
+  &::before {
+    display: block;
+    /* height: calc(100vh - (#{$modal-dialog-margin} * 2)); */
+    content: "";
+  }
+}
+
+.fade{
+  transition: opacity .15s linear;
+}
+/* Shell div to position the modal with bottom padding */
+.modal-dialog {
+  position: relative;
+  width: auto;
+  margin: auto 3%;
+  /* allow clicks to pass through for custom click handling to close modal */
+  pointer-events: none;
+
+  /* When fading in the modal, animate it to slide down */
+  .modal.fade & {
+    /* @include transition($modal-transition); */
+    transform: translate(0, 0);
+    /* transform: translate(0, -5%); */
+  }
+  .modal.show & {
+    /* transform: translate(0, 0); */
+    transform: translate(0, 0);
+  }
+
+    /* allow hover effects to pass through to button from this container */
+    & button {
+      pointer-events: auto;
+    }
+    a {
+      all:unset;
+
+    }
+    a:hover {
+      all: unset;
+    }
+}
+
+.close {
+  float: right;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1;
+  color: #525252;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .5;
+}
+
+/************************************************************ BUTTONS */
+
+/* ========================= REGULAR BUTTONS */
+.bs-btn{
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  border-radius: .25rem;
+  background: linear-gradient(#0000, rgb(0 0 0/20%)) top/100% 800%;
+  transition: 0.15s ease-in-out;
+}
+
+/* ACTIONS FOR BUTTONS */
+.bs-btn:hover, .bs-btn:focus {background-color: currentColor; border-color: currentColor; background-position: bottom;}
+
+/* BUTTON TYPES */
+.btn-blue.bs-btn{color:	#fff	Text color; background-color:	#007bff; border-color:	#007bff;}
+.btn-gray.bs-btn{color:	#fff	Text color; background-color:	#6c757d; border-color:	#6c757d;}
+.btn-green.bs-btn{color: #fff	Text color; background-color:	#198754; border-color:	#198754;}
+.btn-red.bs-btn{color: #fff	Text color; background-color:	#dc3545; border-color:	#dc3545;}
+.btn-yellow.bs-btn{color: #fff	Text color; background-color:	#ffc107; border-color:	#ffc107;}
+.btn-teal.bs-btn{color:	#fff	Text color; background-color:	#0dcaf0; border-color:	#0dcaf0;}
+.btn-black.bs-btn{color: #fff	Text color; background-color:	#212529; border-color:	#212529;}
+/* ========================================= */
+
+/* ========================= OUTLINE BUTTONS */
+.btn-ol {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  border-radius: .25rem;
+  /* background: linear-gradient(#0000, rgb(0 0 0/20%)) top/100% 800%; */
+  transition: 0.15s ease-in-out;
+}
+
+/* Primary color */
+.blue-ol {color: #007bff; border: 1px solid #007bff;}
+.blue-ol:hover, .blue-ol:focus {color: white; background: #007bff;}
+
+/* Success color */
+.green-ol { color: #198754; border: 1px solid #198754;}
+.green-ol:hover, .green-ol:focus { color: white; background: #198754; }
+
+/* Info color */
+.teal-ol {color: #0dcaf0; border: 1px solid #0dcaf0;}
+.teal-ol:hover, .teal-ol:focus { color: white; background: #0dcaf0; }
+
+/* Warning color */
+.yellow-ol {color: #ffc107; border: 1px solid #ffc107;}
+.yellow-ol:hover, .yellow-ol:focus { color: white; background: #ffc107; }
+
+/* Danger color */
+.red-ol {color: #d9534f; border: 1px solid #d9534f;}
+.red-ol:hover, .red-ol:focus { color: white; background: #d9534f; }
+
+/* Dark color */
+.dark-ol {color: #212529; border: 1px solid #212529;}
+.dark-ol:hover, .dark-ol:focus { color: white; background: #212529; }
+
+/* Secondary color */
+.gray-ol {color: #6c757d; border: 1px solid #6c757d;}
+.gray-ol:hover, .gray-ol:focus { color: white; background: #6c757d; }
+/* ========================================= */
+
+/* ================== CUSTOM BUTTON (IN USE) */
+.btn-mdl-cstm {
+  display: inline-block;
+  font-weight: 500;
+  line-height: 1.5;
+  line-height: 1.4;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  border-radius: .25rem;
+  transition: 0.15s ease-in-out;
+}
+
+.cstm-gray{
+    color:	#5f5f61;
+    color:	#878787;
+    background-color:	#f5f5f5;
+    background-color:	#ebe9e9;
+    background-color:	#e8e6e6;
+    
+
+    border: 1.5px solid #9c9c9c;
+}
+.cstm-gray:hover, .cstm-gray:focus{
+  color: #69696e;
+  color: #45454b; /* <--- this is nice */
+  color: #447598;
+  /* color: #3c6888; */
+  
+  border-color:  #447598;
+  background-color: rgba(128, 128, 128, 0.242);
+}
+
+/* ========================================= */
+
+
+
+
+/* FROSTED CONTENT BACKGROUND ---------------------------------*/
+/* ------------------------------------------------------------*/
+
+/* .modal-content {
+    background-color: rgba(255, 255, 255, 0.15); 
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px); 
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white !important; 
+    background-color: transparent !important;
+    border-color: none;
+}
+.modal-body{
+  background-color: rgba(255, 255, 255, 0.75); 
+  background-color: rgba(103, 133, 154, 0.75); 
+  & p {
+   color:white;
+  }
+  & img {
+    border: none;
+  }
+  border: none;
+}
+
+.modal-header,
+.modal-footer {
+  color: white !important;
+  border-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(195, 197, 198, 0.75); 
+}
+
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 1); 
+    backdrop-filter: blur(5px);
+}
+*/
+
+@media only screen and (max-width: 750px) {
+  .modal-body {
+    padding:15px;
+    & img {
+      margin-bottom:15px;
+    }
+  }
+}
+@media only screen and (max-width: 450px) {
+  .modal-body {
+    padding:10px;
+    & img {
+      margin-bottom:10px;
+    }
+  }
 }

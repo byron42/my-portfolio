@@ -2,6 +2,7 @@
 title = "Dice (craps simulation)"
 image = "icon.png"
 weight = "8"
+type = "standard"
 
 code_url = "https://github.com/byron42/my-portfolio/blob/master/javascript/dice.html"
 repo_url = "https://github.com/byron42/my-portfolio/tree/master/javascript"

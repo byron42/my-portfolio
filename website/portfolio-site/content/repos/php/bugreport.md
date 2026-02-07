@@ -2,6 +2,7 @@
 title = "Bug Report (SQL)"
 image = "bugreport.jpg"
 weight = "22"
+type = "standard"
 
 code_url = "https://github.com/byron42/my-portfolio/blob/master/php/BugReport/test.php"
 repo_url = "https://github.com/byron42/my-portfolio/tree/master/php/BugReport"

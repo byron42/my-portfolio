@@ -2,6 +2,7 @@
 title = "Timer"
 image = "icon.png"
 weight = "5"
+type = "standard"
 
 code_url = "https://github.com/byron42/my-portfolio/blob/master/javascript/mytimer.html"
 repo_url = "https://github.com/byron42/my-portfolio/tree/master/javascript"
