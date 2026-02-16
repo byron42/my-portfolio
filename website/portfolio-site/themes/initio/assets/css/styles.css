@@ -308,6 +308,7 @@ a:hover {
   font-weight: 300;
   font-size: 21px;
   font-size: 1.3125rem;
+  font-size: calc(17px + (21) * ((50vw) / (4000 + 1000)));
 }
 .text-msg {
   line-height: 1.7em;
@@ -1878,7 +1879,7 @@ img[src$='#center']
   display: flex; /* Enables flexbox */
   justify-content: center; /* Centers items horizontally */
   align-items: center; /* Centers items vertically */
-  min-height: 100vh; /* Makes body take full viewport height */
+  min-height: 100dvh; /* Makes body take full viewport height */
   margin: auto; /* Removes default body margin */
   border-radius: 6px;
   transition: opacity .15s linear;
@@ -2108,5 +2109,19 @@ img[src$='#center']
     & img {
       margin-bottom:10px;
     }
+  }
+  #subheader p {
+    font-weight: 500;
+    /* text-align: justify; */
+  }
+}
+#footer {
+  transition: 0.3s ease-in-out;
+  /* transition-delay: 90ms; */
+}
+body.modal-open {
+  & #footer {
+    background-color: #ababab;
+    color: rgb(202, 202, 202);
   }
 }
