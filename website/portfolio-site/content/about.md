@@ -29,9 +29,14 @@ ___
 
 
 > # UI | UX | CX
-> ## As a front-end developer, I’ve spent years refining my skills through the creation of websites, applications, and interactive programs. I possess a strong understanding of the Software Development Life Cycle (SDLC), and apply version control best practices to ensure stability, consistency, and collaboration across projects.
+> ## As a web developer, I’ve spent years refining my skills through the creation of websites, applications, and interactive programs. I possess a strong understanding of the Software Development Life Cycle (SDLC), and apply version control best practices to ensure stability, consistency, and collaboration across projects.
 > ## One of my core passions lies in designing and evolving user interfaces that feel intuitive and immersive. I strive to create experiences where users can seamlessly engage with a product, regardless of platform, without needing to think about how to use it. My approach centers on thoughtful design and empathetic problem solving, with the goal of making technology feel invisible and the experience unique.
 >
+
+> # Soft Skills
+>* Excellent verbal and written communicator, skilled in team collaboration and working independently 
+>* Ability to deliver clear and actionable technical insights for improving workflows and resolution times 
+>* Strong problem-solver with the ambition and flexibility to learn new technologies quickly 
 
 <!-- ##### **What I need**
 A chance to be molded into what someone is looking for.  I've learned all of these things, I want to put them to use for a purpose.  Otherwise, this seems to end up in an ever-expanding reality of becoming a jack-of-all-trades, which isn't exactly what I'm seeking.  I'm aware that there's value in knowing much about many things, but I really want to hone in my skills at this point. -->
