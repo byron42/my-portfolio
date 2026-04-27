@@ -1,6 +1,6 @@
 +++
 title = "Full Stack Weather App (MERN)"
-weight = "1"
+weight = "2"
 type = "recent"
 image ="home/recent/mernweather.jpg"
 
