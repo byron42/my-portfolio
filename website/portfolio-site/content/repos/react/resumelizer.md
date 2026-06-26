@@ -1,8 +1,8 @@
 +++
 title = "Resume Analizer (Full Stack, AI)"
 weight = "-1"
-type = "recent"
-image ="home/recent/resumelizer.jpg"
+type = "standard"
+image ="resumelizer.jpg"
 
 demo_url = "https://puter.com/app/resumelizer-1kny"
 code_url = "https://github.com/byron42/resume-analyzer/tree/main/app/components"

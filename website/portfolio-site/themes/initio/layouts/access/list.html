@@ -11,67 +11,64 @@
 
 		<div class="flex-content flex2">
 			
-			{{ range .Paginator.Pages }}
-			<div class="section-buffer">
+			<div class="card-grid li-margin list-items access">
+				{{ range .Paginator.Pages }}
+				<div class="card-col">
+					<div class="section-buffer">
 
-				<!-- ACCESS MODAL -->
-				{{ range where .Site.RegularPages "Type" "access" }}
-				<div class="modal fade" id="accessModal-{{ .File.UniqueID }}" tabindex="-1" role="dialog" aria-labelledby="accessModalTitle" aria-modal="true">
-					<div class="modal-dialog modal-dialog-centered " role="document">
-						<div id="modalContent" class="modal-content">
-							<div class="modal-header">
-								<h5 class="modal-title" id="accessModalTitle">{{ .Title }}</h5>
-								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-									<span aria-hidden="true">&times;</span>
-								</button>
-							</div>
-							<div class="modal-body">
-								<img class="content-image-modal img-fluid" src="{{ .Params.image }}" >
-								
-								<!-- <div id="" class="entry-content-recent">{{ .Content }}</div> -->
-								<div id="" class="">{{ .Content }}</div>
-							</div>
-							<div class="modal-footer">
-								<!-- <button type="button" class="bs-btn red-ol" data-dismiss="modal">Close</button> -->
-								<!-- <button type="button" class="btn-mdl-cstm cstm-gray" data-dismiss="modal">View Code</button> -->
-								<button onclick="window.open('{{ .Params.sow_url }}')" class="btn-mdl-cstm cstm-gray" rel="noopener" data-dismiss="modal">View SOW</button>
-								<button onclick="window.open('{{ .Params.repo_url }}')" class="btn-mdl-cstm cstm-gray" rel="noopener" data-dismiss="modal">View Repo</button>
-								<button onclick="window.open('{{ .Params.erd_url }}')" class="btn-mdl-cstm cstm-gray" rel="noopener" data-dismiss="modal">View ERD</button>
-							
-							<!-- BUTTON TYPES (expand | add conditions if demo is available)
-								<button onclick="window.open('{{ .Params.demo_url }}')" class="btn-mdl-cstm cstm-gray" rel="noopener" data-dismiss="modal">View Demo</button>
-								<button onclick="window.open('{{ .Params.code_url }}')" class="btn-mdl-cstm cstm-gray" rel="noopener" data-dismiss="modal">View Code</button>
-								<button onclick="window.open('{{ .Params.repo_url }}')" class="btn-mdl-cstm cstm-gray" rel="noopener" data-dismiss="modal">View Repo</button> -->
+						<!-- ACCESS MODAL -->
+						{{ range where .Site.RegularPages "Type" "access" }}
+						<div class="modal fade" id="accessModal-{{ .File.UniqueID }}" tabindex="-1" role="dialog" aria-labelledby="accessModalTitle" aria-modal="true">
+							<div class="modal-dialog modal-dialog-centered " role="document">
+								<div id="modalContent" class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="accessModalTitle">{{ .Title }}</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<img class="content-image-modal img-fluid" src="{{ .Params.image }}" >
+										
+										<div id="" class="">{{ .Content }}</div>
+									</div>
+									<div class="modal-footer">
+										<button onclick="window.open('{{ .Params.sow_url }}')" class="btn-mdl-cstm cstm-gray" rel="noopener" data-dismiss="modal">View SOW</button>
+										<button onclick="window.open('{{ .Params.repo_url }}')" class="btn-mdl-cstm cstm-gray" rel="noopener" data-dismiss="modal">View Repo</button>
+										<button onclick="window.open('{{ .Params.erd_url }}')" class="btn-mdl-cstm cstm-gray" rel="noopener" data-dismiss="modal">View ERD</button>
+									</div>
+								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-				{{ end }}
+						{{ end }}
+						<div class="card">
 
-				<!-- title -->
-				<h1 class="content-title ">{{ .Title }}</h1>
+							<!-- title -->
+							<h1 class="content-title ">{{ .Title }}</h1>
 
-				<div tabindex="0" class="flex-items enable-pointer" data-toggle="modal" data-target="#accessModal-{{ .File.UniqueID }}" > 
-					<img class="content-image shadow " src="{{ .Params.image }}">
+							<div tabindex="0" class="flex-items enable-pointer" data-toggle="modal" data-target="#accessModal-{{ .File.UniqueID }}" > 
+								<img class="content-image shadow " src="{{ .Params.image }}">
 
-					<!-- info icon -->
-					<div id="image" {{if eq (len .Content) 0}} class="hidden" {{end}}>
-						<div class="icon-position">
-							<div class="decoy-adjust"> <!-- only if content -->
-								<img tabindex="-1" class="info-icon" src="{{ .Site.BaseURL }}{{ .Site.Params.info }}"> 
-								<img tabindex="0" class="decoy-icon decoy-position disable-pointer pulse" src="{{ .Site.BaseURL }}{{ .Site.Params.info }}"> <!-- DECOY -->
+								<!-- info icon -->
+								<div id="image" {{ if eq (len .Content) 0 }}class="hidden" {{ end }}>
+									<div class="icon-position">
+										<div class="decoy-adjust">
+											<img tabindex="-1" class="info-icon disable-pointer pulse" src="{{ .Site.BaseURL }}{{ .Site.Params.info }}">
+										</div>
+									</div>
+									<div id="content" class="entry-content-new">{{ .Content }}</div>
+								</div>
 							</div>
-						</div> 
-						<!-- conditional content -->
-						<div id="content" class="entry-content-new">{{ .Content }}</div>
+
+							<!-- buttons -->
+							<div class="button-row">
+								<p class="text-center"><a href="{{ .Params.sow_url }}" target="blank" class="btn btn-action content-button">SOW</a></p>
+								<p class="text-center"><a href="{{ .Params.repo_url }}" target="blank" class="btn btn-action content-button">REPO</a></p>
+								<p class="text-center"><a href="{{ .Params.erd_url }}" target="blank" class="btn btn-action content-button">ERD</a></p>
+							</div>
+
+						</div>
 					</div>
-				</div>
-			
-				<!-- buttons -->
-				<div class="flex flex2">
-					<p class="text-center"><a href="{{ .Params.sow_url }}" target="blank" class="btn btn-action content-button">SOW</a></p>
-					<p class="text-center"><a href="{{ .Params.repo_url }}" target="blank" class="btn btn-action content-button">REPO</a></p>
-					<p class="text-center"><a href="{{ .Params.erd_url }}" target="blank" class="btn btn-action content-button">ERD</a></p>
 				</div>
 			</div>
 			<!-- END TEMPLATE -->
@@ -96,7 +93,7 @@
 			<div>
 				<h5 class="disclaimer">
 					* All contact information, names, figures, and locations were fabricated specifically for example purposes while creating this project
-				<h5>
+				</h5>
 			</div>
 			<!-- screenshots -->
 

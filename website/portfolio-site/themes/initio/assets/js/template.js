@@ -34,93 +34,29 @@ jQuery(document).ready(function ($) {
 		sticky_navigation();
 		initio_parallax_animation();
 	});
-
 });
 
-/*
 
-	// focus button click-hide
-$(document).ready(function(){
-	//alert("hello");
-//if ($("#image").is(":visible")){
-	//alert("content is visible");
-  $(".info-icon").click(function(){
-	$("#image").removeClass("hide-content-box");
-	alert("this is the info button");
-
-	$("#content").focus();
-	
-	$("#content").focus(function() {
-        $("#image").addClass("hide-content-box");
+// MAKES TITLE CLICKABLE IN CARD COMPONENT (TRIGGERS MODAL)
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.card .content-title').forEach(title => {
+    title.addEventListener('click', e => {
+      const card = e.target.closest('.card');
+      const trigger = card.querySelector('.flex-items[data-toggle="modal"]');
+      if (trigger) {
+        trigger.click();
+      }
     });
-
-
-	
-  });
-//}
-
-
-
-
-});
-
-$(document).ready(function() {
-  const $toggleButton = $('#image > div.icon-position > div > img.info-icon');
-  const $infoPanel = $('#content');
-
-  $toggleButton.on('click', function() {
-    $infoPanel.toggleClass('hide');
   });
 });
 
-*/
-
-
-
-/*
-document.addEventListener('DOMContentLoaded', function() {
-  const toggleButton = document.getElementsByClassName('info-icon');
-  const infoPanel = document.getElementById('image');
-
-  toggleButton.addEventListener('click', function() {
-    infoPanel.classList.toggle('show');
-  });
-});
-
-
-
-
-$(document).ready(function() {
-//if($("#image").height() != 0){
-  $(".info-icon").click(function() {
-	alert('this is correct')
-    // Find the input field with the class 'my-input' and trigger the blur event
-    $('#image').removeClass('focus');
-  });
-//}
-});
-
-
-*/
-
-/*
-$(document).ready(function() {
-
-	$("#image").on('transitionend', function() {
-         //doSomething
-		 $('.info-icon').on('click', function() {
-			e.preventDefault();
-
-			const $image = $('#image');
-
-			if ($image.is(':focus')) {
-			// Collapse
-			$image.blur();
-			} 
-  });
-
-
+// MAKES CARD LAUNCH MODAL ON ENTER PRESS WHEN FOCUSED
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.flex-items').forEach(item => {
+    item.addEventListener('keydown', e => {
+      if (e.key === 'Enter') {
+        item.click();
+      }
     });
-  
+  });
 });
-*/

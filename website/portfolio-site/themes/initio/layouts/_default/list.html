@@ -1,10 +1,11 @@
 {{ define "main" }}
 <main id="main">
-	<div class="container-content" >
+	<div class="container-content">
 
 		<!-- STANDARD MODAL -->
 		{{ range where .Pages "Type" "standard" }}
-		<div class="modal fade" id="normalModal-{{ .File.UniqueID }}" tabindex="-1" role="dialog" aria-labelledby="normalModalCenterTitle" aria-modal="true">
+		<div class="modal fade" id="normalModal-{{ .File.UniqueID }}" tabindex="-1" role="dialog"
+			aria-labelledby="normalModalCenterTitle" aria-modal="true">
 			<div class="modal-dialog modal-dialog-centered " role="document">
 				<div id="modalContent" class="modal-content">
 					<div class="modal-header">
@@ -15,20 +16,13 @@
 					</div>
 					<div class="modal-body">
 						<img class="content-image-modal img-fluid" src="{{ .Params.image }}">
-
-						<!-- <div id="" class="entry-content-recent">{{ .Content }}</div> -->
 						<div id="" class="">{{ .Content }}</div>
 					</div>
 					<div class="modal-footer">
-						<!-- <button type="button" class="bs-btn red-ol" data-dismiss="modal">Close</button> -->
-						<!-- <button type="button" class="btn-mdl-cstm cstm-gray" data-dismiss="modal">View Code</button> -->
-						<button onclick="window.open('{{ .Params.code_url }}')" class="btn-mdl-cstm cstm-gray" rel="noopener" data-dismiss="modal">View Code</button>
-						<button onclick="window.open('{{ .Params.repo_url }}')" class="btn-mdl-cstm cstm-gray" rel="noopener" data-dismiss="modal">View Repo</button>
-					
-					<!-- BUTTON TYPES (expand | add conditions if demo is available)
-						<button onclick="window.open('{{ .Params.demo_url }}')" class="btn-mdl-cstm cstm-gray" rel="noopener" data-dismiss="modal">View Demo</button>
-						<button onclick="window.open('{{ .Params.code_url }}')" class="btn-mdl-cstm cstm-gray" rel="noopener" data-dismiss="modal">View Code</button>
-						<button onclick="window.open('{{ .Params.repo_url }}')" class="btn-mdl-cstm cstm-gray" rel="noopener" data-dismiss="modal">View Repo</button> -->
+						<button onclick="window.open('{{ .Params.code_url }}')" class="btn-mdl-cstm cstm-gray"
+							rel="noopener" data-dismiss="modal">View Code</button>
+						<button onclick="window.open('{{ .Params.repo_url }}')" class="btn-mdl-cstm cstm-gray"
+							rel="noopener" data-dismiss="modal">View Repo</button>
 					</div>
 				</div>
 			</div>
@@ -38,61 +32,73 @@
 		<!-- section title -->
 		<div class="row section featured topspace">
 			<h2 class="section-title">
-			  <span>{{.Description}}</span>
+				<span>{{.Description}}</span>
 			</h2>
 		</div>
 
-		<div class="flex-content flex2 " >
-			{{ range .Paginator.Pages }}
-			<div >
+		<!-- <div class="flex-content flex2 " > -->
+		<div class="">
+			<div class="card-grid li-margin 
+			{{ if or (lt (len .Paginator.Pages) 3) (eq (len .Paginator.Pages) 4) }}
+				list-items
+			{{ else }}
+				normal-grid
+			{{ end }} ">
+				{{ range .Paginator.Pages }}
+				<div class="card-col">
+					<div class="card">
 
-				<!-- title -->
-				<h1 class="content-title">
-					{{ .Title }}
-				</h1>
+						<!-- title -->
+						<h1 class="content-title">
+							{{ .Title }}
+						</h1>
 
-		   		<!-- VARS -->
-				{{ $image := .Params.image }} <!-- vars from png being different size thumb -->
-		   		{{ $png := "icon.png" }}
-				{{ $cards := (where .CurrentSection.Pages "Type" "standard") }}
+						<!-- VARS -->
+						{{ $image := .Params.image }} <!-- vars from png being different size thumb -->
+						{{ $png := "icon.png" }}
+						{{ $cards := (where .CurrentSection.Pages "Type" "standard") }}
 
-				<!-- GREATER THAN/EQUAL TO 2 CARDS SIZING -->
-				{{ if lt $cards 3 }}
-				<div tabindex="0" class="flex-items enable-pointer" data-toggle="modal" data-target="#normalModal-{{ .File.UniqueID }}" > 
-				{{ else }}
-				<div tabindex="0" class="flex-items shrink-full enable-pointer" data-toggle="modal" data-target="#normalModal-{{ .File.UniqueID }}" > 
-				{{ end }}
+						<!-- GREATER THAN/EQUAL TO 2 CARDS SIZING -->
+						{{ if lt $cards 3 }}
+						<div tabindex="0" class="flex-items enable-pointer" data-toggle="modal"
+							data-target="#normalModal-{{ .File.UniqueID }}">
+							{{ else }}
+							<div tabindex="0" class="flex-items shrink-full enable-pointer" data-toggle="modal"
+								data-target="#normalModal-{{ .File.UniqueID }}">
+								{{ end }}
 
-					<img class="content-image shadow " src="{{ .Params.image }}">
+								<img class="content-image shadow " src="{{ .Params.image }}">
 
-					<!-- info icon -->
-					<div id="image" {{if eq (len .Content) 0}} class="hidden" {{end}}>
-						<div class="icon-position">
-							<div class="decoy-adjust"> <!-- only if content -->
-								<img tabindex="-1" class="info-icon" src="{{ .Site.BaseURL }}{{ .Site.Params.info }}"> 
-								<img tabindex="0" class="decoy-icon decoy-position disable-pointer pulse" src="{{ .Site.BaseURL }}{{ .Site.Params.info }}"> <!-- DECOY -->
+								<!-- info icon -->
+								<div id="image" {{ if eq (len .Content) 0 }}class="hidden" {{ end }}>
+									<div class="icon-position">
+										<div class="decoy-adjust">
+											<img tabindex="-1" class="info-icon disable-pointer pulse" src="{{ .Site.BaseURL }}{{ .Site.Params.info }}">
+										</div>
+									</div>
+									<div id="content" class="entry-content-new">{{ .Content }}</div>
+								</div>
 							</div>
-						</div> 
-						<!-- conditional content -->
-						<div id="content" class="entry-content-new">{{ .Content }}</div>
-					</div>
-				</div>
 
-				<!-- buttons -->
-				<div class="flex flex2" >
-					<p class="text-center"><a href="{{ .Params.code_url }}" target="blank" class="btn btn-action content-button">VIEW CODE</a></p>
-					<p class="text-center"><a href="{{ .Params.repo_url }}" target="blank" class="btn btn-action content-button">VIEW REPO</a></p>
+							<!-- buttons -->
+							<div class="button-row">
+								<p class="text-center"><a href="{{ .Params.code_url }}" target="blank"
+										class="btn btn-action content-button">VIEW CODE</a></p>
+								<p class="text-center"><a href="{{ .Params.repo_url }}" target="blank"
+										class="btn btn-action content-button">VIEW REPO</a></p>
+							</div>
+						</div>
+					</div>
+					{{ end }}
 				</div>
 			</div>
-			{{ end }}
-		</div>
 
-		<!-- <center class="">
+			<!-- <center class="">
 			<ul class="pagination">
         {{ template "_internal/pagination.html" . }}
 			</ul>
 		</center> -->
 
-	</div>	<!-- /container -->
+		</div> <!-- /container -->
 </main>
 {{ end }}
