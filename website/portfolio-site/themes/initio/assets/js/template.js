@@ -60,3 +60,86 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
+
+// ACCORDION CODE - CLOSES ACCORDION WHEN ANOTHER OPENS
+document.addEventListener("DOMContentLoaded", function () {
+  const items = document.querySelectorAll(".accordion-item");
+
+  // (No items will be open on page load)
+  items.forEach(item => {
+    const summary = item.querySelector("summary");
+    const wrapper = item.querySelector(".accordion-wrapper");
+    let animating = false;
+
+    summary.addEventListener("click", function (e) {
+      e.preventDefault();
+      if (animating) return;
+      animating = true;
+
+      const isOpen = item.hasAttribute("open");
+
+      // Close all other items (true accordion behavior)
+      items.forEach(other => {
+        if (other !== item && other.hasAttribute("open")) {
+          const otherWrapper = other.querySelector(".accordion-wrapper");
+          const height = otherWrapper.scrollHeight;
+
+          otherWrapper.style.maxHeight = height + "px";
+
+          requestAnimationFrame(() => {
+            otherWrapper.style.transition = "max-height 0.3s ease";
+            otherWrapper.style.maxHeight = "0px";
+          });
+
+          otherWrapper.addEventListener("transitionend", function cleanup() {
+            other.removeAttribute("open");
+            otherWrapper.style.maxHeight = "0px";
+            otherWrapper.style.transition = "";
+            otherWrapper.removeEventListener("transitionend", cleanup);
+          });
+        }
+      });
+
+      if (!isOpen) {
+        // OPEN animation
+        item.setAttribute("open", "");
+        const height = wrapper.scrollHeight;
+
+        wrapper.style.maxHeight = "0px";
+
+        requestAnimationFrame(() => {
+          requestAnimationFrame(() => {
+            wrapper.style.transition = "max-height 0.3s ease";
+            wrapper.style.maxHeight = height + "px";
+          });
+        });
+
+        wrapper.addEventListener("transitionend", function cleanup() {
+          wrapper.style.maxHeight = "none";
+          wrapper.style.transition = "";
+          wrapper.removeEventListener("transitionend", cleanup);
+          animating = false;
+        });
+
+      } else {
+        // CLOSE animation
+        const height = wrapper.scrollHeight;
+        wrapper.style.maxHeight = height + "px";
+
+        requestAnimationFrame(() => {
+          wrapper.style.transition = "max-height 0.3s ease";
+          wrapper.style.maxHeight = "0px";
+        });
+
+        wrapper.addEventListener("transitionend", function cleanup() {
+          item.removeAttribute("open");
+          wrapper.style.maxHeight = "0px";
+          wrapper.style.transition = "";
+          wrapper.removeEventListener("transitionend", cleanup);
+          animating = false;
+        });
+      }
+    });
+  });
+});
