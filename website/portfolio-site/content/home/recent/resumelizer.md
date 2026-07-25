@@ -4,7 +4,7 @@ weight = "-1"
 type = "recent"
 image ="home/recent/resumelizer.jpg"
 
-demo_url = "https://puter.com/app/resumelizer-1kny"
+demo_url = "https://resumelizer-1kny-8g2aw.puter.site"
 code_url = "https://github.com/byron42/resume-analyzer/tree/main/app/components"
 repo_url = "https://github.com/byron42/resume-analyzer"
 +++

@@ -1,4 +1,4 @@
-#baseURL = "https://byron42.github.io/Brian_Efflandt_Portfolio/"
+# baseURL = "https://byron42.github.io/Brian_Efflandt_Portfolio/"
 # baseURL = "https://example.com/"
 baseURL = "http://localhost:1313/Brian_Efflandt_Portfolio/"
 
@@ -11,7 +11,7 @@ theme = "initio"
 # not sure?
 canonifyURLs = true
 
-#googleAnalytics = "G-S1TRRJ67TF"
+# googleAnalytics = "G-S1TRRJ67TF"
 
 ignoreFiles = [ "\\.ini$" ]
 
