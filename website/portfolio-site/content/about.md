@@ -47,7 +47,7 @@ ___
 {{< /accordion >}}
 
 {{< accordion title="Front‑End Foundations & UI Logic">}}
-## My front end foundation helps me understand how users interact with a product and how the interface ties into underlying logic. With experience in React, JavaScript, jQuery, modern HTML and CSS, and theme templating , I can diagnose UI behavior, web form logic issues, and rendering inconsistencies with confidence. I use browser dev tools, structured testing, and an understanding of component behavior to isolate problems and identify what’s causing them. This knowledge also supports my long term growth toward software engineering, giving me a deeper appreciation for how the product works under the hood.
+## My front end foundation helps me understand how users interact with a product and how the interface ties into underlying logic. With experience in React, JavaScript, jQuery, theme templating, and modern HTML and CSS -- I can diagnose UI behavior, logic issues, and rendering inconsistencies with confidence. I use browser dev tools, structured testing, and an understanding of component behavior to isolate problems and identify what’s causing them. This knowledge also supports my long term growth toward software engineering, giving me a deeper appreciation for how the product works under the hood.
 
 * React, JavaScript, jQuery, modern HTML and CSS, and theme templating
 * Debugging UI behavior, web form logic, and rendering inconsistencies
